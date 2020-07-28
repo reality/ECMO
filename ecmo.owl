@@ -116,6 +116,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CMO_0000223 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000223">
+        <oboInOwl:hasDbXref>UKB:12686</oboInOwl:hasDbXref>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CMO_0000224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000224"/>
@@ -306,6 +314,53 @@
     <!-- http://purl.obolibrary.org/obo/CMO_0001864 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001864"/>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000540 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0002161"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595973592193</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKBB:6033</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">maximum heart rate under fitness test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000541 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000974"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595973806590</dc:date>
+        <rdfs:label xml:lang="en">arterial stiffness measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000542 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000542">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000541"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595973826259</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKBB:21021</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">pulse wave arterial stiffness index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000543 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000543">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000541"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595973866779</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKBB:4207</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">pulse wave velocity</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4595,7 +4650,7 @@
     <!-- http://reality.rehab/ECMO_507 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_507">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000951"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000223"/>
         <oboInOwl:hasDbXref>UKB:22421</oboInOwl:hasDbXref>
         <rdfs:label>lv end diastolic volume</rdfs:label>
     </owl:Class>
@@ -4605,7 +4660,7 @@
     <!-- http://reality.rehab/ECMO_508 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_508">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000951"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000223"/>
         <oboInOwl:hasDbXref>UKB:22422</oboInOwl:hasDbXref>
         <rdfs:label>lv end systolic volume</rdfs:label>
     </owl:Class>
@@ -4615,7 +4670,7 @@
     <!-- http://reality.rehab/ECMO_509 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_509">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000951"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000223"/>
         <oboInOwl:hasDbXref>UKB:22423</oboInOwl:hasDbXref>
         <rdfs:label>lv stroke volume</rdfs:label>
     </owl:Class>
@@ -5369,9 +5424,9 @@
     
 
 
-    <!-- http://reality.rehab/ecmo.owl#RBO:000121 -->
+    <!-- http://reality.rehab/ecmo_534 -->
 
-    <owl:Class rdf:about="http://reality.rehab/ecmo.owl#RBO:000121">
+    <owl:Class rdf:about="http://reality.rehab/ecmo_534">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595968052053</dc:date>
@@ -5381,9 +5436,9 @@
     
 
 
-    <!-- http://reality.rehab/ecmo.owl#RBO:000122 -->
+    <!-- http://reality.rehab/ecmo_535 -->
 
-    <owl:Class rdf:about="http://reality.rehab/ecmo.owl#RBO:000122">
+    <owl:Class rdf:about="http://reality.rehab/ecmo_535">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595968113489</dc:date>
@@ -5407,8 +5462,8 @@
         <oboInOwl:hasDbXref>UKB:5983</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000004">
-        <oboInOwl:hasDbXref>UKB:4080</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:12683</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4080</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:12684</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:12677</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:93</oboInOwl:hasDbXref>
@@ -5515,9 +5570,6 @@
         <oboInOwl:hasDbXref>UKB:3062</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:10694</oboInOwl:hasDbXref>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000223">
-        <oboInOwl:hasDbXref>UKB:12686</oboInOwl:hasDbXref>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000232">
         <oboInOwl:hasDbXref>UKB:22333</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -5617,9 +5669,9 @@
         <oboInOwl:hasDbXref>UKB:23240</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23228</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23203</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23224</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23312</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23235</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23224</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23310</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23222</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23320</oboInOwl:hasDbXref>
@@ -5705,14 +5757,14 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://reality.rehab/NONE">
         <oboInOwl:hasDbXref>UKB:3147</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4101</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4123</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:90012</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4101</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:22427</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:3143</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23318</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:3064</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3143</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23316</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3064</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4141</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23304</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23039</oboInOwl:hasDbXref>
@@ -5722,12 +5774,12 @@
         <oboInOwl:hasDbXref>UKB:4104</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:77</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4146</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:90013</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23309</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:90013</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:3144</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23307</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4100</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4144</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23307</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23317</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4120</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:22436</oboInOwl:hasDbXref>
