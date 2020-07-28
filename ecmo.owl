@@ -9,6 +9,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://reality.rehab/ecmo.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
     </owl:Ontology>
     
 
