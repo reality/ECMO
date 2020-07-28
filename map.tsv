@@ -1,0 +1,679 @@
+ukb id	ukb label	ecmo iri	ecmo label
+4194	pulse rate	http://purl.obolibrary.org/obo/CMO_0000294	pulse
+4196	pulse wave peak to peak time	http://reality.rehab/ECMO_444	pulse wave peak to peak time
+4195	pulse wave reflection index	http://reality.rehab/ECMO_445	pulse wave reflection index
+4079	diastolic blood pressure, automated reading	http://purl.obolibrary.org/obo/CMO_0000005	diastolic blood pressure
+94	diastolic blood pressure, manual reading	http://purl.obolibrary.org/obo/CMO_0000005	diastolic blood pressure
+95	pulse rate (during blood-pressure measurement)	http://purl.obolibrary.org/obo/CMO_0000294	pulse
+102	pulse rate, automated reading	http://purl.obolibrary.org/obo/CMO_0000294	pulse
+4080	systolic blood pressure, automated reading	http://purl.obolibrary.org/obo/CMO_0000004	systolic blood pressure
+93	systolic blood pressure, manual reading	http://purl.obolibrary.org/obo/CMO_0000004	systolic blood pressure
+23244	android bone mass	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23261	gynoid bone mass	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+12144	height	http://purl.obolibrary.org/obo/CMO_0000106	body height
+12143	weight (pre-imaging)	http://purl.obolibrary.org/obo/CMO_0000012	body weight
+22334	pp interval	http://purl.obolibrary.org/obo/CMO_0000278	PP interval
+12340	qrs duration	http://purl.obolibrary.org/obo/CMO_0000267	QRS duration
+22331	qt interval	http://purl.obolibrary.org/obo/CMO_0000235	QT interval
+22332	qtc interval	http://purl.obolibrary.org/obo/CMO_0000269	QTC interval
+22333	rr interval	http://purl.obolibrary.org/obo/CMO_0000232	RR interval
+5983	ecg, heart rate	http://purl.obolibrary.org/obo/CMO_0000002	heart rate
+6033	maximum heart rate during fitness test	http://purl.obolibrary.org/obo/CMO_0000023	blood chemistry measurement
+2744	birth weight of first child	http://reality.rehab/ECMO_227	birth weight of first child
+22426	average heart rate	http://purl.obolibrary.org/obo/CMO_0000002	heart rate
+22420	lv ejection fraction	http://purl.obolibrary.org/obo/CMO_0000180	ejection fraction
+22423	lv stroke volume	http://reality.rehab/ECMO_509	lv stroke volume
+12678	central pulse pressure during pwa	http://purl.obolibrary.org/obo/CMO_0000292	pulse pressure
+12677	central systolic blood pressure during pwa	http://purl.obolibrary.org/obo/CMO_0000004	systolic blood pressure
+12673	heart rate during pwa	http://purl.obolibrary.org/obo/CMO_0000002	heart rate
+12687	mean arterial pressure during pwa	http://purl.obolibrary.org/obo/CMO_0000009	mean arterial blood pressure
+12676	peripheral pulse pressure during pwa	http://purl.obolibrary.org/obo/CMO_0000292	pulse pressure
+12686	stroke volume during pwa	http://purl.obolibrary.org/obo/CMO_0000223	stroke volume
+41284	baby birth weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
+22416	total lean tissue volume	http://purl.obolibrary.org/obo/CMO_0002185	lean tissue volume
+90170	calibration coefficients - mean temperature	http://reality.rehab/ECMO_203	calibration coefficients - mean temperature
+21021	pulse wave arterial stiffness index	http://purl.obolibrary.org/obo/CMO_0000294	pulse
+4207	pulse wave velocity (manual entry)	http://purl.obolibrary.org/obo/CMO_0000294	pulse
+30600	albumin	http://purl.obolibrary.org/obo/CMO_0000549	blood albumin level
+30630	apolipoprotein a	http://purl.obolibrary.org/obo/CMO_0000519	blood apolipoprotein A level
+30640	apolipoprotein b	http://purl.obolibrary.org/obo/CMO_0000518	blood apolipoprotein level
+30680	calcium	http://purl.obolibrary.org/obo/CMO_0000502	blood calcium level
+30690	cholesterol	http://purl.obolibrary.org/obo/CMO_0000363	serum total cholesterol level
+30700	creatinine	http://purl.obolibrary.org/obo/CMO_0000057	serum creatinine level
+30720	cystatin c	http://purl.obolibrary.org/obo/CMO_0002777	blood cystatin C level
+30660	direct bilirubin	http://purl.obolibrary.org/obo/CMO_0000123	blood bilirubin level
+30740	glucose	http://purl.obolibrary.org/obo/CMO_0000046	blood glucose level
+30750	glycated haemoglobin (hba1c)	http://purl.obolibrary.org/obo/CMO_0002786	blood hemoglobin A1c level
+30760	hdl cholesterol	http://purl.obolibrary.org/obo/CMO_0000363	serum total cholesterol level
+30790	lipoprotein a	http://purl.obolibrary.org/obo/CMO_0000119	blood lipoprotein level
+30810	phosphate	http://purl.obolibrary.org/obo/CMO_0000504	blood phosphate level
+30850	testosterone	http://purl.obolibrary.org/obo/CMO_0000512	blood testosterone level
+30840	total bilirubin	http://purl.obolibrary.org/obo/CMO_0000123	blood bilirubin level
+30160	basophill count	http://purl.obolibrary.org/obo/CMO_0000034	blood basophil count
+30150	eosinophill count	http://purl.obolibrary.org/obo/CMO_0000033	blood eosinophil count
+30020	haemoglobin concentration	http://purl.obolibrary.org/obo/CMO_0000506	hemoglobin concentration
+30300	high light scatter reticulocyte count	http://purl.obolibrary.org/obo/CMO_0003020	total reticulocyte count
+30120	lymphocyte count	http://purl.obolibrary.org/obo/CMO_0000031	blood lymphocyte count
+30050	mean corpuscular haemoglobin	http://purl.obolibrary.org/obo/CMO_0000290	mean corpuscular hemoglobin level
+30060	mean corpuscular haemoglobin concentration	http://purl.obolibrary.org/obo/CMO_0000291	mean corpuscular hemoglobin concentration
+30040	mean corpuscular volume	http://purl.obolibrary.org/obo/CMO_0000038	mean corpuscular volume
+30130	monocyte count	http://purl.obolibrary.org/obo/CMO_0000032	blood monocyte count
+30140	neutrophill count	http://purl.obolibrary.org/obo/CMO_0000030	blood neutrophil count
+30170	nucleated red blood cell count	http://purl.obolibrary.org/obo/CMO_0000025	red blood cell count
+30080	platelet count	http://purl.obolibrary.org/obo/CMO_0000029	platelet count
+30090	platelet crit	http://purl.obolibrary.org/obo/CMO_0000029	platelet count
+30110	platelet distribution width	http://purl.obolibrary.org/obo/CMO_0001350	platelet distribution width
+30250	reticulocyte count	http://purl.obolibrary.org/obo/CMO_0003020	total reticulocyte count
+49	hip circumference	http://purl.obolibrary.org/obo/CMO_0000014	hip circumference
+51	seated height	http://purl.obolibrary.org/obo/CMO_0000106	body height
+20015	sitting height	http://purl.obolibrary.org/obo/CMO_0000106	body height
+50	standing height	http://purl.obolibrary.org/obo/CMO_0000106	body height
+21002	weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
+3160	weight, manual entry	http://purl.obolibrary.org/obo/CMO_0000012	body weight
+23220	arm bmc (bone mineral content) (left)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23222	arm bmc (bone mineral content) (right)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23221	arm bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23223	arm bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23224	arms bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23225	arms bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23302	femur lower neck bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23206	femur lower neck bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23294	femur lower neck bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23207	femur lower neck bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23299	femur neck bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23208	femur neck bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23300	femur neck bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23209	femur neck bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23290	femur shaft bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23210	femur shaft bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23303	femur shaft bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23211	femur shaft bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23291	femur total bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23212	femur total bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23293	femur total bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23213	femur total bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23295	femur troch bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23214	femur troch bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23298	femur troch bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23215	femur troch bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23292	femur upper neck bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23216	femur upper neck bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23296	femur upper neck bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23217	femur upper neck bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23297	femur wards bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23218	femur wards bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23301	femur wards bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23219	femur wards bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23306	head bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23226	head bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23203	l1-l4 bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23204	l1-l4 bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23205	l1-l4 bmd (bone mineral density) t-score	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23201	l1-l4 average height	http://purl.obolibrary.org/obo/CMO_0000106	body height
+23320	leg bmc (bone mineral content) (left)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23228	leg bmc (bone mineral content) (right)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23227	leg bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23229	leg bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23230	legs bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23231	legs bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23308	pelvis bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23232	pelvis bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23310	ribs bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23233	ribs bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23312	spine bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23234	spine bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23235	total bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23236	total bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23237	total bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23238	total bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23239	total bmd (bone mineral density) t-score	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23240	trunk bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
+23241	trunk bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23242	trunk bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23243	trunk bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+3148	heel bone mineral density (bmd)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+4105	heel bone mineral density (bmd) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+4124	heel bone mineral density (bmd) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+78	heel bone mineral density (bmd) t-score, automated	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+4106	heel bone mineral density (bmd) t-score, automated (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+4125	heel bone mineral density (bmd) t-score, automated (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+4138	heel bone mineral density (bmd) t-score, manual entry (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+4143	heel bone mineral density (bmd) t-score, manual entry (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+3084	heel bone mineral density (bmd), manual entry	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+4140	heel bone mineral density (bmd), manual entry (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+4145	heel bone mineral density (bmd), manual entry (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+20022	birth weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
+23099	body fat percentage	http://purl.obolibrary.org/obo/CMO_0000302	body fat percentage
+23098	weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
+22425	cardiac index	http://purl.obolibrary.org/obo/CMO_0002881	cardiac index
+12702	cardiac index during pwa	http://purl.obolibrary.org/obo/CMO_0002881	cardiac index
+12683	end systolic pressure during pwa	http://purl.obolibrary.org/obo/CMO_0000004	systolic blood pressure
+12684	end systolic pressure index during pwa	http://purl.obolibrary.org/obo/CMO_0000004	systolic blood pressure
+90192	temperature average	http://purl.obolibrary.org/obo/CMO_0000015	body temperature
+90195	temperature maximum	http://purl.obolibrary.org/obo/CMO_0000015	body temperature
+90194	temperature minimum	http://purl.obolibrary.org/obo/CMO_0000015	body temperature
+90193	temperature standard deviation	http://purl.obolibrary.org/obo/CMO_0000015	body temperature
+20258	fev1/ fvc ratio z-score	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
+3063	forced expiratory volume in 1-second (fev1)	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
+10695	forced expiratory volume in 1-second (fev1) (pilot)	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
+20256	forced expiratory volume in 1-second (fev1) z-score	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
+20150	forced expiratory volume in 1-second (fev1), best measure	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
+20153	forced expiratory volume in 1-second (fev1), predicted	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
+20154	forced expiratory volume in 1-second (fev1), predicted percentage	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
+3062	forced vital capacity (fvc)	http://purl.obolibrary.org/obo/CMO_0000222	tidal volume
+10694	forced vital capacity (fvc) (pilot)	http://purl.obolibrary.org/obo/CMO_0000222	tidal volume
+20257	forced vital capacity (fvc) z-score	http://purl.obolibrary.org/obo/CMO_0000222	tidal volume
+20151	forced vital capacity (fvc), best measure	http://purl.obolibrary.org/obo/CMO_0000222	tidal volume
+30510	creatinine (enzymatic) in urine	http://purl.obolibrary.org/obo/CMO_0000125	urine creatinine level
+30520	potassium in urine	http://purl.obolibrary.org/obo/CMO_0000128	urine potassium level
+30530	sodium in urine	http://purl.obolibrary.org/obo/CMO_0000129	urine sodium level
+40008	cancer	http://reality.rehab/ECMO_2	age at onset/diagnosis of cancer
+4700	cataract	http://reality.rehab/ECMO_4	age at onset/diagnosis of cataract
+4689	glaucoma	http://reality.rehab/ECMO_6	age at onset/diagnosis of glaucoma
+5923	macular degeneration	http://reality.rehab/ECMO_8	age at onset/diagnosis of macular degeneration
+5945	other serious eye condition	http://reality.rehab/ECMO_10	age at onset/diagnosis of other serious eye condition
+5901	when diabetes-related eye disease	http://reality.rehab/ECMO_12	age at onset/diagnosis of when diabetes-related eye disease
+5430	when loss of vision due to injury or trauma	http://reality.rehab/ECMO_14	age at onset/diagnosis of when loss of vision due to injury or trauma
+3627	angina	http://reality.rehab/ECMO_16	age at onset/diagnosis of angina
+3786	asthma	http://reality.rehab/ECMO_18	age at onset/diagnosis of asthma
+4012	deep-vein thrombosis (dvt, blood clot in leg)	http://reality.rehab/ECMO_20	age at onset/diagnosis of deep-vein thrombosis (dvt, blood clot in leg)
+2976	diabetes	http://reality.rehab/ECMO_22	age at onset/diagnosis of diabetes
+3992	emphysema/chronic bronchitis	http://reality.rehab/ECMO_24	age at onset/diagnosis of emphysema/chronic bronchitis
+3761	hay fever, rhinitis or eczema	http://reality.rehab/ECMO_26	age at onset/diagnosis of hay fever, rhinitis or eczema
+3894	heart attack	http://reality.rehab/ECMO_28	age at onset/diagnosis of heart attack
+2966	high blood pressure	http://reality.rehab/ECMO_30	age at onset/diagnosis of high blood pressure
+4022	pulmonary embolism (blood clot in lung)	http://reality.rehab/ECMO_32	age at onset/diagnosis of pulmonary embolism (blood clot in lung)
+4056	stroke	http://reality.rehab/ECMO_34	age at onset/diagnosis of stroke
+22150	copd (chronic obstructive pulmonary disease)	http://reality.rehab/ECMO_36	age at onset/diagnosis of copd (chronic obstructive pulmonary disease)
+22152	alpha-1 antitrypsin deficiency	http://reality.rehab/ECMO_38	age at onset/diagnosis of alpha-1 antitrypsin deficiency
+22159	asbestosis	http://reality.rehab/ECMO_40	age at onset/diagnosis of asbestosis
+22147	asthma	http://reality.rehab/ECMO_42	null
+22154	bronchiectasis	http://reality.rehab/ECMO_44	age at onset/diagnosis of bronchiectasis
+22149	chronic bronchitis	http://reality.rehab/ECMO_46	age at onset/diagnosis of chronic bronchitis
+22151	cystic fibrosis	http://reality.rehab/ECMO_48	age at onset/diagnosis of cystic fibrosis
+22148	emphysema	http://reality.rehab/ECMO_50	age at onset/diagnosis of emphysema
+22156	fibrosing alveolitis/unspecified alveolitis	http://reality.rehab/ECMO_52	age at onset/diagnosis of fibrosing alveolitis/unspecified alveolitis
+22146	hayfever or allergic rhinitis	http://reality.rehab/ECMO_54	age at onset/diagnosis of hayfever or allergic rhinitis
+22155	idiopathic pulmonary fibrosis	http://reality.rehab/ECMO_56	age at onset/diagnosis of idiopathic pulmonary fibrosis
+22160	lung cancer (not mesothelioma)	http://reality.rehab/ECMO_58	age at onset/diagnosis of lung cancer (not mesothelioma)
+22161	mesothelioma of the lung	http://reality.rehab/ECMO_60	age at onset/diagnosis of mesothelioma of the lung
+22153	sarcoidosis	http://reality.rehab/ECMO_62	age at onset/diagnosis of sarcoidosis
+22158	silicosis	http://reality.rehab/ECMO_64	age at onset/diagnosis of silicosis
+22157	tuberculosis	http://reality.rehab/ECMO_66	age at onset/diagnosis of tuberculosis
+4429	average monthly beer plus cider intake	http://reality.rehab/ECMO_67	average monthly beer plus cider intake
+4418	average monthly champagne plus white wine intake	http://reality.rehab/ECMO_68	average monthly champagne plus white wine intake
+4451	average monthly fortified wine intake	http://reality.rehab/ECMO_69	average monthly fortified wine intake
+4462	average monthly intake of other alcoholic drinks	http://reality.rehab/ECMO_70	average monthly intake of other alcoholic drinks
+4407	average monthly red wine intake	http://reality.rehab/ECMO_71	average monthly red wine intake
+4440	average monthly spirits intake	http://reality.rehab/ECMO_72	average monthly spirits intake
+1588	average weekly beer plus cider intake	http://reality.rehab/ECMO_73	average weekly beer plus cider intake
+1578	average weekly champagne plus white wine intake	http://reality.rehab/ECMO_74	average weekly champagne plus white wine intake
+1608	average weekly fortified wine intake	http://reality.rehab/ECMO_75	average weekly fortified wine intake
+5364	average weekly intake of other alcoholic drinks	http://reality.rehab/ECMO_76	average weekly intake of other alcoholic drinks
+1568	average weekly red wine intake	http://reality.rehab/ECMO_77	average weekly red wine intake
+1598	average weekly spirits intake	http://reality.rehab/ECMO_78	average weekly spirits intake
+20410	age when known person last commented about drinking habits	http://reality.rehab/ECMO_79	age when known person last commented about drinking habits
+100022	alcohol intake yesterday	http://reality.rehab/ECMO_81	alcohol intake yesterday
+100004	fat intake yesterday	http://reality.rehab/ECMO_82	fat intake yesterday
+100008	total sugars intake yesterday	http://reality.rehab/ECMO_83	total sugars intake yesterday
+22434	abdominal fat ratio	http://reality.rehab/ECMO_91	abdominal fat ratio
+22408	abdominal subcutaneous adipose tissue volume (asat)	http://reality.rehab/ECMO_92	abdominal subcutaneous adipose tissue volume (asat)
+22405	anterior thigh lean muscle volume (left)	http://reality.rehab/ECMO_93	anterior thigh lean muscle volume (left)
+22403	anterior thigh lean muscle volume (right)	http://reality.rehab/ECMO_94	anterior thigh lean muscle volume (right)
+22435	muscle fat infiltration	http://reality.rehab/ECMO_95	muscle fat infiltration
+22406	posterior thigh lean muscle volume (left)	http://reality.rehab/ECMO_96	posterior thigh lean muscle volume (left)
+22404	posterior thigh lean muscle volume (right)	http://reality.rehab/ECMO_97	posterior thigh lean muscle volume (right)
+22415	total adipose tissue volume	http://reality.rehab/ECMO_98	total adipose tissue volume
+22409	total thigh muscle volume	http://reality.rehab/ECMO_99	total thigh muscle volume
+22407	visceral adipose tissue volume (vat)	http://reality.rehab/ECMO_100	visceral adipose tissue volume (vat)
+22433	weight-to-muscle ratio	http://reality.rehab/ECMO_101	weight-to-muscle ratio
+23247	android tissue fat percentage	http://reality.rehab/ECMO_102	android tissue fat percentage
+23248	android total mass	http://reality.rehab/ECMO_103	android total mass
+23251	arm tissue fat percentage (left)	http://reality.rehab/ECMO_104	arm tissue fat percentage (left)
+23255	arm tissue fat percentage (right)	http://reality.rehab/ECMO_105	arm tissue fat percentage (right)
+23252	arm total mass (left)	http://reality.rehab/ECMO_106	arm total mass (left)
+23256	arm total mass (right)	http://reality.rehab/ECMO_107	arm total mass (right)
+23259	arms tissue fat percentage	http://reality.rehab/ECMO_108	arms tissue fat percentage
+23260	arms total mass	http://reality.rehab/ECMO_109	arms total mass
+23264	gynoid tissue fat percentage	http://reality.rehab/ECMO_110	gynoid tissue fat percentage
+23265	gynoid total mass	http://reality.rehab/ECMO_111	gynoid total mass
+23268	leg tissue fat percentage (left)	http://reality.rehab/ECMO_112	leg tissue fat percentage (left)
+23272	leg tissue fat percentage (right)	http://reality.rehab/ECMO_113	leg tissue fat percentage (right)
+23269	leg total mass (left)	http://reality.rehab/ECMO_114	leg total mass (left)
+23273	leg total mass (right)	http://reality.rehab/ECMO_115	leg total mass (right)
+23276	legs tissue fat percentage	http://reality.rehab/ECMO_116	legs tissue fat percentage
+23277	legs total mass	http://reality.rehab/ECMO_117	legs total mass
+23283	total mass	http://reality.rehab/ECMO_118	total mass
+23281	total tissue fat percentage	http://reality.rehab/ECMO_119	total tissue fat percentage
+23286	trunk tissue fat percentage	http://reality.rehab/ECMO_120	trunk tissue fat percentage
+23287	trunk total mass	http://reality.rehab/ECMO_121	trunk total mass
+23124	arm fat mass (left)	http://reality.rehab/ECMO_122	arm fat mass (left)
+23120	arm fat mass (right)	http://reality.rehab/ECMO_123	arm fat mass (right)
+23123	arm fat percentage (left)	http://reality.rehab/ECMO_124	arm fat percentage (left)
+23119	arm fat percentage (right)	http://reality.rehab/ECMO_125	arm fat percentage (right)
+23125	arm fat-free mass (left)	http://reality.rehab/ECMO_126	arm fat-free mass (left)
+23121	arm fat-free mass (right)	http://reality.rehab/ECMO_127	arm fat-free mass (right)
+23126	arm predicted mass (left)	http://reality.rehab/ECMO_128	arm predicted mass (left)
+23122	arm predicted mass (right)	http://reality.rehab/ECMO_129	arm predicted mass (right)
+23104	body mass index (bmi)	http://purl.obolibrary.org/obo/CMO_0000105	body mass index (BMI)
+23110	impedance of arm (left)	http://reality.rehab/ECMO_130	impedance of arm (left)
+23109	impedance of arm (right)	http://reality.rehab/ECMO_131	impedance of arm (right)
+23108	impedance of leg (left)	http://reality.rehab/ECMO_132	impedance of leg (left)
+23107	impedance of leg (right)	http://reality.rehab/ECMO_133	impedance of leg (right)
+23106	impedance of total	http://reality.rehab/ECMO_134	impedance of total
+23116	leg fat mass (left)	http://reality.rehab/ECMO_135	leg fat mass (left)
+23112	leg fat mass (right)	http://reality.rehab/ECMO_136	leg fat mass (right)
+23115	leg fat percentage (left)	http://reality.rehab/ECMO_137	leg fat percentage (left)
+23111	leg fat percentage (right)	http://reality.rehab/ECMO_138	leg fat percentage (right)
+23117	leg fat-free mass (left)	http://reality.rehab/ECMO_139	leg fat-free mass (left)
+23113	leg fat-free mass (right)	http://reality.rehab/ECMO_140	leg fat-free mass (right)
+23118	leg predicted mass (left)	http://reality.rehab/ECMO_141	leg predicted mass (left)
+23114	leg predicted mass (right)	http://reality.rehab/ECMO_142	leg predicted mass (right)
+23128	trunk fat mass	http://reality.rehab/ECMO_143	trunk fat mass
+23127	trunk fat percentage	http://reality.rehab/ECMO_144	trunk fat percentage
+23129	trunk fat-free mass	http://reality.rehab/ECMO_145	trunk fat-free mass
+23130	trunk predicted mass	http://reality.rehab/ECMO_146	trunk predicted mass
+23100	total fat mass	http://reality.rehab/ECMO_147	total fat mass
+23101	total fat-free mass	http://reality.rehab/ECMO_148	total fat-free mass
+23102	total water mass	http://reality.rehab/ECMO_149	total water mass
+23245	android fat mass	http://reality.rehab/ECMO_150	android fat mass
+23246	android lean mass	http://reality.rehab/ECMO_151	android lean mass
+23249	arm fat mass (left)	http://reality.rehab/ECMO_152	null
+23253	arm fat mass (right)	http://reality.rehab/ECMO_153	null
+23250	arm lean mass (left)	http://reality.rehab/ECMO_154	arm lean mass (left)
+23254	arm lean mass (right)	http://reality.rehab/ECMO_155	arm lean mass (right)
+23257	arms fat mass	http://reality.rehab/ECMO_156	arms fat mass
+23258	arms lean mass	http://reality.rehab/ECMO_157	arms lean mass
+23262	gynoid fat mass	http://reality.rehab/ECMO_158	gynoid fat mass
+23263	gynoid lean mass	http://reality.rehab/ECMO_159	gynoid lean mass
+23266	leg fat mass (left)	http://reality.rehab/ECMO_160	null
+23270	leg fat mass (right)	http://reality.rehab/ECMO_161	null
+23267	leg lean mass (left)	http://reality.rehab/ECMO_162	leg lean mass (left)
+23271	leg lean mass (right)	http://reality.rehab/ECMO_163	leg lean mass (right)
+23274	legs fat mass	http://reality.rehab/ECMO_164	legs fat mass
+23275	legs lean mass	http://reality.rehab/ECMO_165	legs lean mass
+23278	total fat mass	http://reality.rehab/ECMO_166	null
+23279	total fat-free mass	http://reality.rehab/ECMO_167	null
+23280	total lean mass	http://reality.rehab/ECMO_168	total lean mass
+23282	total tissue mass	http://reality.rehab/ECMO_169	total tissue mass
+23284	trunk fat mass	http://reality.rehab/ECMO_170	null
+23285	trunk lean mass	http://reality.rehab/ECMO_171	trunk lean mass
+23288	vat (visceral adipose tissue) mass	http://reality.rehab/ECMO_172	vat (visceral adipose tissue) mass
+23289	vat (visceral adipose tissue) volume	http://reality.rehab/ECMO_173	vat (visceral adipose tissue) volume
+26416	crime score (england)	http://reality.rehab/ECMO_179	crime score (england)
+26434	crime score (scotland)	http://reality.rehab/ECMO_180	crime score (scotland)
+26414	education score (england)	http://reality.rehab/ECMO_181	education score (england)
+26431	education score (scotland)	http://reality.rehab/ECMO_182	education score (scotland)
+26421	education score (wales)	http://reality.rehab/ECMO_183	education score (wales)
+26412	employment score (england)	http://reality.rehab/ECMO_184	employment score (england)
+26429	employment score (scotland)	http://reality.rehab/ECMO_185	employment score (scotland)
+26419	employment score (wales)	http://reality.rehab/ECMO_186	employment score (wales)
+26413	health score (england)	http://reality.rehab/ECMO_187	health score (england)
+26430	health score (scotland)	http://reality.rehab/ECMO_188	health score (scotland)
+26420	health score (wales)	http://reality.rehab/ECMO_189	health score (wales)
+26411	income score (england)	http://reality.rehab/ECMO_190	income score (england)
+26428	income score (scotland)	http://reality.rehab/ECMO_191	income score (scotland)
+26418	income score (wales)	http://reality.rehab/ECMO_192	income score (wales)
+26410	index of multiple deprivation (england)	http://reality.rehab/ECMO_193	index of multiple deprivation (england)
+26427	index of multiple deprivation (scotland)	http://reality.rehab/ECMO_194	index of multiple deprivation (scotland)
+26426	index of multiple deprivation (wales)	http://reality.rehab/ECMO_195	index of multiple deprivation (wales)
+90173	calibration - maximum x stationary value	http://reality.rehab/ECMO_197	calibration - maximum x stationary value
+90175	calibration - maximum y stationary value	http://reality.rehab/ECMO_198	calibration - maximum y stationary value
+90177	calibration - maximum z stationary value	http://reality.rehab/ECMO_199	calibration - maximum z stationary value
+90172	calibration - minimum x stationary value	http://reality.rehab/ECMO_200	calibration - minimum x stationary value
+90174	calibration - minimum y stationary value	http://reality.rehab/ECMO_201	calibration - minimum y stationary value
+90176	calibration - minimum z stationary value	http://reality.rehab/ECMO_202	calibration - minimum z stationary value
+90161	calibration coefficients - x offset	http://reality.rehab/ECMO_204	calibration coefficients - x offset
+90164	calibration coefficients - x slope	http://reality.rehab/ECMO_205	calibration coefficients - x slope
+90167	calibration coefficients - x temp	http://reality.rehab/ECMO_206	calibration coefficients - x temp
+90162	calibration coefficients - y offset	http://reality.rehab/ECMO_207	calibration coefficients - y offset
+90165	calibration coefficients - y slope	http://reality.rehab/ECMO_208	calibration coefficients - y slope
+90168	calibration coefficients - y temp	http://reality.rehab/ECMO_209	calibration coefficients - y temp
+90163	calibration coefficients - z offset	http://reality.rehab/ECMO_210	calibration coefficients - z offset
+90166	calibration coefficients - z slope	http://reality.rehab/ECMO_211	calibration coefficients - z slope
+90169	calibration coefficients - z temp	http://reality.rehab/ECMO_212	calibration coefficients - z temp
+90160	error tolerance after calibration	http://reality.rehab/ECMO_213	error tolerance after calibration
+90159	error tolerance before calibration	http://reality.rehab/ECMO_214	error tolerance before calibration
+2754	age at first live birth	http://reality.rehab/ECMO_217	age at first live birth
+3882	age at bilateral oophorectomy (both ovaries removed)	http://reality.rehab/ECMO_216	age at bilateral oophorectomy (both ovaries removed)
+2824	age at hysterectomy	http://reality.rehab/ECMO_218	age at hysterectomy
+2764	age at last live birth	http://reality.rehab/ECMO_219	age at last live birth
+3581	age at menopause (last menstrual period)	http://reality.rehab/ECMO_220	age at menopause (last menstrual period)
+3546	age last used hormone-replacement therapy (hrt)	http://reality.rehab/ECMO_221	age last used hormone-replacement therapy (hrt)
+3872	age of primiparous women at birth of child	http://reality.rehab/ECMO_222	age of primiparous women at birth of child
+3536	age started hormone-replacement therapy (hrt)	http://reality.rehab/ECMO_223	age started hormone-replacement therapy (hrt)
+2794	age started oral contraceptive pill	http://reality.rehab/ECMO_224	age started oral contraceptive pill
+2804	age when last used oral contraceptive pill	http://reality.rehab/ECMO_225	age when last used oral contraceptive pill
+2714	age when periods started (menarche)	http://reality.rehab/ECMO_226	age when periods started (menarche)
+3710	length of menstrual cycle	http://reality.rehab/ECMO_228	length of menstrual cycle
+2734	number of live births	http://reality.rehab/ECMO_229	number of live births
+3849	number of pregnancy terminations	http://reality.rehab/ECMO_230	number of pregnancy terminations
+3839	number of spontaneous miscarriages	http://reality.rehab/ECMO_231	number of spontaneous miscarriages
+3829	number of stillbirths	http://reality.rehab/ECMO_232	number of stillbirths
+2405	number of children fathered	http://reality.rehab/ECMO_233	number of children fathered
+2139	age first had sexual intercourse	http://reality.rehab/ECMO_234	age first had sexual intercourse
+3669	lifetime number of same-sex sexual partners	http://reality.rehab/ECMO_235	lifetime number of same-sex sexual partners
+2149	lifetime number of sexual partners	http://reality.rehab/ECMO_236	lifetime number of sexual partners
+30670	urea	http://purl.obolibrary.org/obo/CMO_0000049	blood urea nitrogen level
+30860	total protein	http://purl.obolibrary.org/obo/CMO_0000054	plasma total protein level
+30770	igf-1	http://purl.obolibrary.org/obo/CMO_0001297	blood insulin-like growth factor 1 level
+30870	triglycerides	http://purl.obolibrary.org/obo/CMO_0000118	blood triglyceride level
+30620	alanine aminotransferase	http://purl.obolibrary.org/obo/CMO_0000574	blood alanine aminotransferase activity level
+30610	alkaline phosphatase	http://purl.obolibrary.org/obo/CMO_0000576	blood alkaline phosphatase activity level
+30650	aspartate aminotransferase	http://purl.obolibrary.org/obo/CMO_0000580	blood aspartate aminotransferase activity level
+30780	ldl direct	http://purl.obolibrary.org/obo/CMO_0000647	plasma low density lipoprotein cholesterol level
+30730	gamma glutamyltransferase	http://purl.obolibrary.org/obo/CMO_0002239	blood gamma-glutamyltransferase activity level
+30800	oestradiol	http://purl.obolibrary.org/obo/CMO_0000513	blood estradiol level
+30880	urate	http://purl.obolibrary.org/obo/CMO_0000501	blood uric acid level
+30710	c-reactive protein	http://reality.rehab/ECMO_237	c-reactive protein
+30820	rheumatoid factor	http://reality.rehab/ECMO_238	rheumatoid factor
+30830	shbg	http://reality.rehab/ECMO_239	shbg
+30890	vitamin d	http://reality.rehab/ECMO_240	vitamin d
+30000	white blood cell (leukocyte) count	http://purl.obolibrary.org/obo/CMO_0000027	white blood cell count
+30220	basophill percentage	http://reality.rehab/ECMO_245	basophill percentage
+30210	eosinophill percentage	http://reality.rehab/ECMO_246	eosinophill percentage
+30030	haematocrit percentage	http://reality.rehab/ECMO_247	haematocrit percentage
+30290	high light scatter reticulocyte percentage	http://reality.rehab/ECMO_248	high light scatter reticulocyte percentage
+30280	immature reticulocyte fraction	http://reality.rehab/ECMO_249	immature reticulocyte fraction
+30180	lymphocyte percentage	http://reality.rehab/ECMO_250	lymphocyte percentage
+30190	monocyte percentage	http://reality.rehab/ECMO_251	monocyte percentage
+30200	neutrophill percentage	http://reality.rehab/ECMO_252	neutrophill percentage
+30230	nucleated red blood cell percentage	http://reality.rehab/ECMO_253	nucleated red blood cell percentage
+30010	red blood cell (erythrocyte) count	http://reality.rehab/ECMO_254	red blood cell (erythrocyte) count
+30070	red blood cell (erythrocyte) distribution width	http://reality.rehab/ECMO_255	red blood cell (erythrocyte) distribution width
+30240	reticulocyte percentage	http://reality.rehab/ECMO_256	reticulocyte percentage
+6350	duration to complete alphanumeric path (trail #2)	http://reality.rehab/ECMO_260	duration to complete alphanumeric path (trail #2)
+6348	duration to complete numeric path (trail #1)	http://reality.rehab/ECMO_261	duration to complete numeric path (trail #1)
+6771	errors before selecting correct item in alphanumeric path (trail #2)	http://reality.rehab/ECMO_262	errors before selecting correct item in alphanumeric path (trail #2)
+20148	errors before selecting correct item in alphanumeric path (trail #2)	http://reality.rehab/ECMO_263	null
+6770	errors before selecting correct item in numeric path (trail #1)	http://reality.rehab/ECMO_264	errors before selecting correct item in numeric path (trail #1)
+20147	errors before selecting correct item in numeric path (trail #1)	http://reality.rehab/ECMO_265	null
+6773	interval between previous point and current one in alphanumeric path (trail #2)	http://reality.rehab/ECMO_266	interval between previous point and current one in alphanumeric path (trail #2)
+20155	interval between previous point and current one in alphanumeric path (trail #2)	http://reality.rehab/ECMO_267	null
+6772	interval between previous point and current one in numeric path (trail #1)	http://reality.rehab/ECMO_268	interval between previous point and current one in numeric path (trail #1)
+20149	interval between previous point and current one in numeric path (trail #1)	http://reality.rehab/ECMO_269	null
+6351	total errors traversing alphanumeric path (trail #2)	http://reality.rehab/ECMO_270	total errors traversing alphanumeric path (trail #2)
+20248	total errors traversing alphanumeric path (trail #2)	http://reality.rehab/ECMO_271	null
+6349	total errors traversing numeric path (trail #1)	http://reality.rehab/ECMO_272	total errors traversing numeric path (trail #1)
+20247	total errors traversing numeric path (trail #1)	http://reality.rehab/ECMO_273	null
+396	number of columns displayed in round	http://reality.rehab/ECMO_274	number of columns displayed in round
+398	number of correct matches in round	http://reality.rehab/ECMO_275	number of correct matches in round
+20131	number of correct matches in round	http://reality.rehab/ECMO_276	null
+10136	number of correct matches in round (pilot)	http://reality.rehab/ECMO_277	number of correct matches in round (pilot)
+399	number of incorrect matches in round	http://reality.rehab/ECMO_278	number of incorrect matches in round
+20132	number of incorrect matches in round	http://reality.rehab/ECMO_279	null
+10137	number of incorrect matches in round (pilot)	http://reality.rehab/ECMO_280	number of incorrect matches in round (pilot)
+397	number of rows displayed in round	http://reality.rehab/ECMO_281	number of rows displayed in round
+6365	uncertainty in vocabulary level	http://reality.rehab/ECMO_282	uncertainty in vocabulary level
+20016	fluid intelligence score	http://reality.rehab/ECMO_283	fluid intelligence score
+20191	fluid intelligence score	http://reality.rehab/ECMO_284	null
+6333	duration spent answering each puzzle	http://reality.rehab/ECMO_285	duration spent answering each puzzle
+6373	number of puzzles correctly solved	http://reality.rehab/ECMO_286	number of puzzles correctly solved
+6374	number of puzzles viewed	http://reality.rehab/ECMO_287	number of puzzles viewed
+4282	maximum digits remembered correctly	http://reality.rehab/ECMO_288	maximum digits remembered correctly
+20240	maximum digits remembered correctly	http://reality.rehab/ECMO_289	null
+20197	number of word pairs correctly associated	http://reality.rehab/ECMO_290	number of word pairs correctly associated
+4291	number of attempts	http://reality.rehab/ECMO_291	number of attempts
+404	duration to first press of snap-button in each round	http://reality.rehab/ECMO_292	duration to first press of snap-button in each round
+10147	duration to first press of snap-button in each round (pilot)	http://reality.rehab/ECMO_293	duration to first press of snap-button in each round (pilot)
+20023	mean time to correctly identify matches	http://reality.rehab/ECMO_294	mean time to correctly identify matches
+20230	duration to entering value	http://reality.rehab/ECMO_295	duration to entering value
+6313	duration to entering selection	http://reality.rehab/ECMO_296	duration to entering selection
+20121	cascot confidence score	http://reality.rehab/ECMO_298	cascot confidence score
+796	distance between home and job workplace	http://reality.rehab/ECMO_299	distance between home and job workplace
+777	frequency of travelling from home to job workplace	http://reality.rehab/ECMO_300	frequency of travelling from home to job workplace
+757	time employed in main current job	http://reality.rehab/ECMO_301	time employed in main current job
+22644	consecutive night shifts during mixed shift periods	http://reality.rehab/ECMO_302	consecutive night shifts during mixed shift periods
+22654	consecutive night shifts during night shift periods	http://reality.rehab/ECMO_303	consecutive night shifts during night shift periods
+22599	number of jobs held	http://reality.rehab/ECMO_304	number of jobs held
+22643	number of night shifts worked monthly during mixed shift periods	http://reality.rehab/ECMO_305	number of night shifts worked monthly during mixed shift periods
+22653	number of night shifts worked monthly during night shift periods	http://reality.rehab/ECMO_306	number of night shifts worked monthly during night shift periods
+22645	rest days during mixed shift periods	http://reality.rehab/ECMO_307	rest days during mixed shift periods
+22655	rest days during night shift periods	http://reality.rehab/ECMO_308	rest days during night shift periods
+22642	usual length of each night shift during mixed shift periods	http://reality.rehab/ECMO_309	usual length of each night shift during mixed shift periods
+22652	usual length of each night shift during night shift periods	http://reality.rehab/ECMO_310	usual length of each night shift during night shift periods
+22664	year gap ended	http://reality.rehab/ECMO_311	year gap ended
+22663	year gap started	http://reality.rehab/ECMO_312	year gap started
+22603	year job ended	http://reality.rehab/ECMO_313	year job ended
+22602	year job started	http://reality.rehab/ECMO_314	year job started
+22200	year of birth	http://reality.rehab/ECMO_315	year of birth
+22501	year ended full time education	http://reality.rehab/ECMO_316	year ended full time education
+20162	pack years adult smoking as proportion of life span exposed to smoking	http://reality.rehab/ECMO_318	pack years adult smoking as proportion of life span exposed to smoking
+20161	pack years of smoking	http://reality.rehab/ECMO_319	pack years of smoking
+3436	age started smoking in current smokers	http://reality.rehab/ECMO_320	age started smoking in current smokers
+2867	age started smoking in former smokers	http://reality.rehab/ECMO_321	age started smoking in former smokers
+2897	age stopped smoking	http://reality.rehab/ECMO_322	age stopped smoking
+6194	age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker)	http://reality.rehab/ECMO_323	age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker)
+1269	exposure to tobacco smoke at home	http://reality.rehab/ECMO_324	exposure to tobacco smoke at home
+1279	exposure to tobacco smoke outside home	http://reality.rehab/ECMO_325	exposure to tobacco smoke outside home
+3456	number of cigarettes currently smoked daily (current cigarette smokers)	http://reality.rehab/ECMO_326	number of cigarettes currently smoked daily (current cigarette smokers)
+2887	number of cigarettes previously smoked daily	http://reality.rehab/ECMO_327	number of cigarettes previously smoked daily
+6183	number of cigarettes previously smoked daily (current cigar/pipe smokers)	http://reality.rehab/ECMO_328	number of cigarettes previously smoked daily (current cigar/pipe smokers)
+2926	number of unsuccessful stop-smoking attempts	http://reality.rehab/ECMO_329	number of unsuccessful stop-smoking attempts
+20455	age when last took cannabis	http://reality.rehab/ECMO_330	age when last took cannabis
+22672	maximum carotid imt (intima-medial thickness) at 120 degrees	http://reality.rehab/ECMO_332	maximum carotid imt (intima-medial thickness) at 120 degrees
+22675	maximum carotid imt (intima-medial thickness) at 150 degrees	http://reality.rehab/ECMO_333	maximum carotid imt (intima-medial thickness) at 150 degrees
+22678	maximum carotid imt (intima-medial thickness) at 210 degrees	http://reality.rehab/ECMO_334	maximum carotid imt (intima-medial thickness) at 210 degrees
+22681	maximum carotid imt (intima-medial thickness) at 240 degrees	http://reality.rehab/ECMO_335	maximum carotid imt (intima-medial thickness) at 240 degrees
+22671	mean carotid imt (intima-medial thickness) at 120 degrees	http://reality.rehab/ECMO_336	mean carotid imt (intima-medial thickness) at 120 degrees
+22674	mean carotid imt (intima-medial thickness) at 150 degrees	http://reality.rehab/ECMO_337	mean carotid imt (intima-medial thickness) at 150 degrees
+22677	mean carotid imt (intima-medial thickness) at 210 degrees	http://reality.rehab/ECMO_338	mean carotid imt (intima-medial thickness) at 210 degrees
+22680	mean carotid imt (intima-medial thickness) at 240 degrees	http://reality.rehab/ECMO_339	mean carotid imt (intima-medial thickness) at 240 degrees
+22670	minimum carotid imt (intima-medial thickness) at 120 degrees	http://reality.rehab/ECMO_340	minimum carotid imt (intima-medial thickness) at 120 degrees
+22673	minimum carotid imt (intima-medial thickness) at 150 degrees	http://reality.rehab/ECMO_341	minimum carotid imt (intima-medial thickness) at 150 degrees
+22676	minimum carotid imt (intima-medial thickness) at 210 degrees	http://reality.rehab/ECMO_342	minimum carotid imt (intima-medial thickness) at 210 degrees
+22679	minimum carotid imt (intima-medial thickness) at 240 degrees	http://reality.rehab/ECMO_343	minimum carotid imt (intima-medial thickness) at 240 degrees
+74	fasting time	http://reality.rehab/ECMO_344	fasting time
+3680	age when last ate meat	http://reality.rehab/ECMO_345	age when last ate meat
+1438	bread intake	http://reality.rehab/ECMO_346	bread intake
+1458	cereal intake	http://reality.rehab/ECMO_347	cereal intake
+1498	coffee intake	http://reality.rehab/ECMO_348	coffee intake
+1289	cooked vegetable intake	http://reality.rehab/ECMO_349	cooked vegetable intake
+1319	dried fruit intake	http://reality.rehab/ECMO_350	dried fruit intake
+1309	fresh fruit intake	http://reality.rehab/ECMO_351	fresh fruit intake
+1299	salad / raw vegetable intake	http://reality.rehab/ECMO_352	salad / raw vegetable intake
+1488	tea intake	http://reality.rehab/ECMO_353	tea intake
+1528	water intake	http://reality.rehab/ECMO_354	water intake
+22033	summed days activity	http://reality.rehab/ECMO_356	summed days activity
+22034	summed minutes activity	http://reality.rehab/ECMO_357	summed minutes activity
+894	duration of moderate activity	http://reality.rehab/ECMO_358	duration of moderate activity
+914	duration of vigorous activity	http://reality.rehab/ECMO_359	duration of vigorous activity
+874	duration of walks	http://reality.rehab/ECMO_360	duration of walks
+884	number of days/week of moderate physical activity 10+ minutes	http://reality.rehab/ECMO_361	number of days/week of moderate physical activity 10+ minutes
+904	number of days/week of vigorous physical activity 10+ minutes	http://reality.rehab/ECMO_362	number of days/week of vigorous physical activity 10+ minutes
+864	number of days/week walked 10+ minutes	http://reality.rehab/ECMO_363	number of days/week walked 10+ minutes
+1090	time spent driving	http://reality.rehab/ECMO_364	time spent driving
+1080	time spent using computer	http://reality.rehab/ECMO_365	time spent using computer
+1070	time spent watching television (tv)	http://reality.rehab/ECMO_366	time spent watching television (tv)
+2946	father's age	http://reality.rehab/ECMO_368	father's age
+1807	father's age at death	http://reality.rehab/ECMO_369	father's age at death
+1845	mother's age	http://reality.rehab/ECMO_370	mother's age
+3526	mother's age at death	http://reality.rehab/ECMO_371	mother's age at death
+3972	number of adopted brothers	http://reality.rehab/ECMO_372	number of adopted brothers
+3982	number of adopted sisters	http://reality.rehab/ECMO_373	number of adopted sisters
+1873	number of full brothers	http://reality.rehab/ECMO_374	number of full brothers
+1883	number of full sisters	http://reality.rehab/ECMO_375	number of full sisters
+5057	number of older siblings	http://reality.rehab/ECMO_376	number of older siblings
+5264	corneal hysteresis (left)	http://reality.rehab/ECMO_380	corneal hysteresis (left)
+5256	corneal hysteresis (right)	http://reality.rehab/ECMO_381	corneal hysteresis (right)
+5265	corneal resistance factor (left)	http://reality.rehab/ECMO_382	corneal resistance factor (left)
+5257	corneal resistance factor (right)	http://reality.rehab/ECMO_383	corneal resistance factor (right)
+5263	intra-ocular pressure, goldmann-correlated (left)	http://reality.rehab/ECMO_384	intra-ocular pressure, goldmann-correlated (left)
+5255	intra-ocular pressure, goldmann-correlated (right)	http://reality.rehab/ECMO_385	intra-ocular pressure, goldmann-correlated (right)
+5262	intra-ocular pressure, corneal-compensated (left)	http://reality.rehab/ECMO_386	intra-ocular pressure, corneal-compensated (left)
+5254	intra-ocular pressure, corneal-compensated (right)	http://reality.rehab/ECMO_387	intra-ocular pressure, corneal-compensated (right)
+20261	avmse	http://reality.rehab/ECMO_388	avmse
+5208	logmar, final (left)	http://reality.rehab/ECMO_389	logmar, final (left)
+5201	logmar, final (right)	http://reality.rehab/ECMO_390	logmar, final (right)
+5156	3mm asymmetry index (left)	http://reality.rehab/ECMO_392	3mm asymmetry index (left)
+5159	3mm asymmetry index (right)	http://reality.rehab/ECMO_393	3mm asymmetry index (right)
+5119	3mm cylindrical power (left)	http://reality.rehab/ECMO_394	3mm cylindrical power (left)
+5116	3mm cylindrical power (right)	http://reality.rehab/ECMO_395	3mm cylindrical power (right)
+5163	3mm regularity index (left)	http://reality.rehab/ECMO_396	3mm regularity index (left)
+5160	3mm regularity index (right)	http://reality.rehab/ECMO_397	3mm regularity index (right)
+5135	3mm strong meridian (left)	http://reality.rehab/ECMO_398	3mm strong meridian (left)
+5132	3mm strong meridian (right)	http://reality.rehab/ECMO_399	3mm strong meridian (right)
+5096	3mm weak meridian (left)	http://reality.rehab/ECMO_400	3mm weak meridian (left)
+5099	3mm weak meridian (right)	http://reality.rehab/ECMO_401	3mm weak meridian (right)
+5157	6mm asymmetry index (left)	http://reality.rehab/ECMO_402	6mm asymmetry index (left)
+5158	6mm asymmetry index (right)	http://reality.rehab/ECMO_403	6mm asymmetry index (right)
+5118	6mm cylindrical power (left)	http://reality.rehab/ECMO_404	6mm cylindrical power (left)
+5117	6mm cylindrical power (right)	http://reality.rehab/ECMO_405	6mm cylindrical power (right)
+5162	6mm regularity index (left)	http://reality.rehab/ECMO_406	6mm regularity index (left)
+5161	6mm regularity index (right)	http://reality.rehab/ECMO_407	6mm regularity index (right)
+5134	6mm strong meridian (left)	http://reality.rehab/ECMO_408	6mm strong meridian (left)
+5133	6mm strong meridian (right)	http://reality.rehab/ECMO_409	6mm strong meridian (right)
+5097	6mm weak meridian (left)	http://reality.rehab/ECMO_410	6mm weak meridian (left)
+5098	6mm weak meridian (right)	http://reality.rehab/ECMO_411	6mm weak meridian (right)
+5086	cylindrical power (left)	http://reality.rehab/ECMO_412	cylindrical power (left)
+5087	cylindrical power (right)	http://reality.rehab/ECMO_413	cylindrical power (right)
+5085	spherical power (left)	http://reality.rehab/ECMO_414	spherical power (left)
+5084	spherical power (right)	http://reality.rehab/ECMO_415	spherical power (right)
+5274	vertex distance (left)	http://reality.rehab/ECMO_416	vertex distance (left)
+5215	vertex distance (right)	http://reality.rehab/ECMO_417	vertex distance (right)
+5111	3mm asymmetry angle (left)	http://reality.rehab/ECMO_418	3mm asymmetry angle (left)
+5108	3mm asymmetry angle (right)	http://reality.rehab/ECMO_419	3mm asymmetry angle (right)
+5112	3mm cylindrical power angle (left)	http://reality.rehab/ECMO_420	3mm cylindrical power angle (left)
+5115	3mm cylindrical power angle (right)	http://reality.rehab/ECMO_421	3mm cylindrical power angle (right)
+5292	3mm index of best keratometry results (left)	http://reality.rehab/ECMO_422	3mm index of best keratometry results (left)
+5237	3mm index of best keratometry results (right)	http://reality.rehab/ECMO_423	3mm index of best keratometry results (right)
+5104	3mm strong meridian angle (left)	http://reality.rehab/ECMO_424	3mm strong meridian angle (left)
+5107	3mm strong meridian angle (right)	http://reality.rehab/ECMO_425	3mm strong meridian angle (right)
+5103	3mm weak meridian angle (left)	http://reality.rehab/ECMO_426	3mm weak meridian angle (left)
+5100	3mm weak meridian angle (right)	http://reality.rehab/ECMO_427	3mm weak meridian angle (right)
+5110	6mm asymmetry angle (left)	http://reality.rehab/ECMO_428	6mm asymmetry angle (left)
+5109	6mm asymmetry angle (right)	http://reality.rehab/ECMO_429	6mm asymmetry angle (right)
+5113	6mm cylindrical power angle (left)	http://reality.rehab/ECMO_430	6mm cylindrical power angle (left)
+5114	6mm cylindrical power angle (right)	http://reality.rehab/ECMO_431	6mm cylindrical power angle (right)
+5306	6mm index of best keratometry results (left)	http://reality.rehab/ECMO_432	6mm index of best keratometry results (left)
+5251	6mm index of best keratometry results (right)	http://reality.rehab/ECMO_433	6mm index of best keratometry results (right)
+5105	6mm strong meridian angle (left)	http://reality.rehab/ECMO_434	6mm strong meridian angle (left)
+5106	6mm strong meridian angle (right)	http://reality.rehab/ECMO_435	6mm strong meridian angle (right)
+5102	6mm weak meridian angle (left)	http://reality.rehab/ECMO_436	6mm weak meridian angle (left)
+5101	6mm weak meridian angle (right)	http://reality.rehab/ECMO_437	6mm weak meridian angle (right)
+5089	astigmatism angle (left)	http://reality.rehab/ECMO_438	astigmatism angle (left)
+5088	astigmatism angle (right)	http://reality.rehab/ECMO_439	astigmatism angle (right)
+12682	cardiac output during pwa	http://reality.rehab/ECMO_440	cardiac output during pwa
+12680	central augmentation pressure during pwa	http://reality.rehab/ECMO_441	central augmentation pressure during pwa
+12679	number of beats in waveform average for pwa	http://reality.rehab/ECMO_442	number of beats in waveform average for pwa
+12685	total peripheral resistance during pwa	http://reality.rehab/ECMO_443	total peripheral resistance during pwa
+12698	diastolic brachial blood pressure	http://reality.rehab/ECMO_446	diastolic brachial blood pressure
+12675	diastolic brachial blood pressure during pwa	http://reality.rehab/ECMO_447	diastolic brachial blood pressure during pwa
+12697	systolic brachial blood pressure	http://reality.rehab/ECMO_448	systolic brachial blood pressure
+12674	systolic brachial blood pressure during pwa	http://reality.rehab/ECMO_449	systolic brachial blood pressure during pwa
+20420	longest period spent worried or anxious	http://reality.rehab/ECMO_452	longest period spent worried or anxious
+4609	longest period of depression	http://reality.rehab/ECMO_453	longest period of depression
+5375	longest period of unenthusiasm / disinterest	http://reality.rehab/ECMO_454	longest period of unenthusiasm / disinterest
+20127	neuroticism score	http://reality.rehab/ECMO_455	neuroticism score
+4620	number of depression episodes	http://reality.rehab/ECMO_456	number of depression episodes
+5386	number of unenthusiastic/disinterested episodes	http://reality.rehab/ECMO_457	number of unenthusiastic/disinterested episodes
+20461	age when first had unusual or psychotic experience	http://reality.rehab/ECMO_458	age when first had unusual or psychotic experience
+20470	number of times believed in an un-real conspiracy against self	http://reality.rehab/ECMO_459	number of times believed in an un-real conspiracy against self
+20476	number of times believed in un-real communications or signs	http://reality.rehab/ECMO_460	number of times believed in un-real communications or signs
+20465	number of times heard an un-real voice	http://reality.rehab/ECMO_461	number of times heard an un-real voice
+20473	number of times seen an un-real vision	http://reality.rehab/ECMO_462	number of times seen an un-real vision
+20433	age at first episode of depression	http://reality.rehab/ECMO_463	age at first episode of depression
+20434	age at last episode of depression	http://reality.rehab/ECMO_464	age at last episode of depression
+20442	lifetime number of depressed periods	http://reality.rehab/ECMO_465	lifetime number of depressed periods
+22335	p axis	http://reality.rehab/ECMO_466	p axis
+12338	p duration	http://reality.rehab/ECMO_467	p duration
+22330	pq interval	http://reality.rehab/ECMO_468	pq interval
+22338	qrs num	http://reality.rehab/ECMO_469	qrs num
+22336	r axis	http://reality.rehab/ECMO_470	r axis
+22337	t axis	http://reality.rehab/ECMO_471	t axis
+12336	ventricular rate	http://reality.rehab/ECMO_472	ventricular rate
+5984	ecg, load	http://reality.rehab/ECMO_473	ecg, load
+5993	ecg, number of stages in a phase	http://reality.rehab/ECMO_474	ecg, number of stages in a phase
+5992	ecg, phase duration	http://reality.rehab/ECMO_475	ecg, phase duration
+5986	ecg, phase time	http://reality.rehab/ECMO_476	ecg, phase time
+5990	ecg, stage duration	http://reality.rehab/ECMO_477	ecg, stage duration
+130	place of birth in uk - east co-ordinate	http://reality.rehab/ECMO_479	place of birth in uk - east co-ordinate
+129	place of birth in uk - north co-ordinate	http://reality.rehab/ECMO_480	place of birth in uk - north co-ordinate
+41275	duration of antenatal stay	http://reality.rehab/ECMO_481	duration of antenatal stay
+41285	duration of postnatal stay	http://reality.rehab/ECMO_482	duration of postnatal stay
+41269	gestation period at first antenatal assessment	http://reality.rehab/ECMO_483	gestation period at first antenatal assessment
+41286	mother age on date of delivery	http://reality.rehab/ECMO_484	mother age on date of delivery
+41276	number of weeks of gestation	http://reality.rehab/ECMO_485	number of weeks of gestation
+21044	average number of times bowels opened per day	http://reality.rehab/ECMO_486	average number of times bowels opened per day
+21042	greatest number of times bowels opened per day	http://reality.rehab/ECMO_487	greatest number of times bowels opened per day
+21043	least number of times bowels opened per week	http://reality.rehab/ECMO_488	least number of times bowels opened per week
+21047	number of weeks (in the last year) at work suffering because of ibs	http://reality.rehab/ECMO_489	number of weeks (in the last year) at work suffering because of ibs
+21045	number of weeks absent from work due to ibs, in the last year	http://reality.rehab/ECMO_490	number of weeks absent from work due to ibs, in the last year
+1737	childhood sunburn occasions	http://reality.rehab/ECMO_492	childhood sunburn occasions
+2277	frequency of solarium/sunlamp use	http://reality.rehab/ECMO_493	frequency of solarium/sunlamp use
+1050	time spend outdoors in summer	http://reality.rehab/ECMO_494	time spend outdoors in summer
+1060	time spent outdoors in winter	http://reality.rehab/ECMO_495	time spent outdoors in winter
+22507	age of stopping smoking	http://reality.rehab/ECMO_354	water intake
+22508	amount of tobacco currently smoked	http://reality.rehab/ECMO_496	amount of tobacco currently smoked
+22505	years of bringing up phlegm/sputum/mucus on most days	http://reality.rehab/ECMO_497	years of bringing up phlegm/sputum/mucus on most days
+22503	years of cough on most days	http://reality.rehab/ECMO_498	years of cough on most days
+84	cancer year/age first occurred	http://reality.rehab/ECMO_499	cancer year/age first occurred
+87	non-cancer illness year/age first occurred	http://reality.rehab/ECMO_500	non-cancer illness year/age first occurred
+134	number of self-reported cancers	http://reality.rehab/ECMO_501	number of self-reported cancers
+135	number of self-reported non-cancer illnesses	http://reality.rehab/ECMO_502	number of self-reported non-cancer illnesses
+22401	liver inflammation factor (lif)	http://reality.rehab/ECMO_503	liver inflammation factor (lif)
+22400	liver iron (fe)	http://reality.rehab/ECMO_504	liver iron (fe)
+22417	liver iron corrected t1 (ct1)	http://reality.rehab/ECMO_505	liver iron corrected t1 (ct1)
+22402	proton density fat fraction (pdff)	http://reality.rehab/ECMO_506	proton density fat fraction (pdff)
+22424	cardiac output	http://purl.obolibrary.org/obo/CMO_0000197	cardiac output measurement
+22421	lv end diastolic volume	http://reality.rehab/ECMO_507	lv end diastolic volume
+22422	lv end systolic volume	http://reality.rehab/ECMO_508	lv end systolic volume
+20019	speech-reception-threshold (srt) estimate (left)	http://reality.rehab/ECMO_511	speech-reception-threshold (srt) estimate (left)
+20021	speech-reception-threshold (srt) estimate (right)	http://reality.rehab/ECMO_512	speech-reception-threshold (srt) estimate (right)
+4230	signal-to-noise-ratio (snr) of triplet (left)	http://reality.rehab/ECMO_513	signal-to-noise-ratio (snr) of triplet (left)
+4241	signal-to-noise-ratio (snr) of triplet (right)	http://reality.rehab/ECMO_514	signal-to-noise-ratio (snr) of triplet (right)
+6671	number of antibiotics taken in last 3 months	http://reality.rehab/ECMO_516	number of antibiotics taken in last 3 months
+137	number of treatments/medications taken	http://reality.rehab/ECMO_517	number of treatments/medications taken
+46	hand grip strength (left)	http://reality.rehab/ECMO_519	hand grip strength (left)
+47	hand grip strength (right)	http://reality.rehab/ECMO_520	hand grip strength (right)
+40007	age at death	http://reality.rehab/ECMO_522	age at death
+21022	age at recruitment	http://reality.rehab/ECMO_523	age at recruitment
+34	year of birth	http://reality.rehab/ECMO_524	null
+40009	reported occurrences of cancer	http://reality.rehab/ECMO_525	reported occurrences of cancer
+845	age completed full time education	http://reality.rehab/ECMO_526	age completed full time education
+2217	age started wearing glasses or contact lenses	http://reality.rehab/ECMO_527	age started wearing glasses or contact lenses
+709	number in household	http://reality.rehab/ECMO_528	number in household
+92	operation year/age first occurred	http://reality.rehab/ECMO_529	operation year/age first occurred
+21003	age when attended assessment centre	http://reality.rehab/ECMO_530	age when attended assessment centre
+41235	spells in hospital	http://reality.rehab/ECMO_531	spells in hospital
+1160	sleep duration	http://reality.rehab/ECMO_533	sleep duration
+30500	microalbumin in urine	http://reality.rehab/ECMO_534	microalbumin in urine
+22436	liver proton density fat fraction (amra)	NONE	null
+22410	total trunk fat volume	NONE	null
+90012	overall acceleration average	NONE	null
+90013	standard deviation of acceleration	NONE	null
+21001	body mass index (bmi)	NONE	null
+23313	arm bone area (left)	NONE	null
+23314	arm bone area (right)	NONE	null
+23317	arms combined bone area	NONE	null
+23305	head bone area	NONE	null
+23200	l1-l4 area	NONE	null
+23202	l1-l4 average width	NONE	null
+23315	leg bone area (left)	NONE	null
+23316	leg bone area (right)	NONE	null
+23318	legs combined bone area	NONE	null
+23307	pelvis bone area	NONE	null
+23309	ribs bone area	NONE	null
+23311	spine bone area	NONE	null
+23304	trunk bone area	NONE	null
+3143	ankle spacing width	NONE	null
+4100	ankle spacing width (left)	NONE	null
+4119	ankle spacing width (right)	NONE	null
+3085	heel broadband ultrasound attenuation (bua), manual entry	NONE	null
+3144	heel broadband ultrasound attenuation, direct entry	NONE	null
+77	heel bone ultrasound t-score, manual entry	NONE	null
+4141	heel broadband ultrasound attenuation (bua), manual entry (left)	NONE	null
+4146	heel broadband ultrasound attenuation (bua), manual entry (right)	NONE	null
+4101	heel broadband ultrasound attenuation (left)	NONE	null
+4120	heel broadband ultrasound attenuation (right)	NONE	null
+3147	heel quantitative ultrasound index (qui), direct entry	NONE	null
+4104	heel quantitative ultrasound index (qui), direct entry (left)	NONE	null
+4123	heel quantitative ultrasound index (qui), direct entry (right)	NONE	null
+3083	heel quantitative ultrasound index (qui), manual entry	NONE	null
+4139	heel quantitative ultrasound index (qui), manual entry (left)	NONE	null
+4144	heel quantitative ultrasound index (qui), manual entry (right)	NONE	null
+23105	basal metabolic rate	NONE	null
+22427	body surface area	NONE	null
+23039	caga antigen for helicobacter pylori	NONE	null
+3064	peak expiratory flow (pef)	NONE	null
+10696	peak expiratory flow (pef) (pilot)	NONE	null

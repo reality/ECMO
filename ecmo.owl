@@ -1,0 +1,5342 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://reality.rehab/ecmo.owl#"
+     xml:base="http://reality.rehab/ecmo.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://reality.rehab/ecmo.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000000 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000008 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000023 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000028 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000028"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000037 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000037"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000089 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000089"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000126 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000126"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000131 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000131"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000197 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000197"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000224 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000224"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000230 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000230"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000256 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000256"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000311 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000311"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000389 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000389"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000426 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000426"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000484 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000484"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000669 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000669"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000772 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000772"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000951 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000951"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000974 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000974"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000997 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000997"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001064 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001064"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001108 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001356 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001356"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001407 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001407"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001864 -->
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001864"/>
+    
+
+
+    <!-- http://reality.rehab/ECMO_1 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>cancer onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_10 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_10">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_9"/>
+        <rdfs:label>age at onset/diagnosis of other serious eye condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_100 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000484"/>
+        <rdfs:label>visceral adipose tissue volume (vat)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_101 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000131"/>
+        <rdfs:label>weight-to-muscle ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_102 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_102">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_89"/>
+        <rdfs:label>android tissue fat percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_103 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_103">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_89"/>
+        <rdfs:label>android total mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_104 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_104">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm tissue fat percentage (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_105 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_105">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm tissue fat percentage (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_106 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_106">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm total mass (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_107 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_107">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm total mass (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_108 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_108">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arms tissue fat percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_109 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_109">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arms total mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_11 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_11">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>when diabetes-related eye disease onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_110 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_110">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>gynoid tissue fat percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_111 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_111">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>gynoid total mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_112 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_112">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg tissue fat percentage (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_113 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_113">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg tissue fat percentage (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_114 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_114">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg total mass (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_115 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_115">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg total mass (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_116 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_116">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>legs tissue fat percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_117 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_117">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>legs total mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_118 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_118">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <rdfs:label>total mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_119 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000089"/>
+        <rdfs:label>total tissue fat percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_12 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_12">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_11"/>
+        <rdfs:label>age at onset/diagnosis of when diabetes-related eye disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_120 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_120">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <rdfs:label>trunk tissue fat percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_121 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_121">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <rdfs:label>trunk total mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_122 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_122">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm fat mass (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_123 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_123">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm fat mass (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_124 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_124">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm fat percentage (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_125 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_125">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm fat percentage (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_126 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_126">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm fat-free mass (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_127 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_127">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm fat-free mass (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_128 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_128">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm predicted mass (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_129 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_129">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm predicted mass (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_13 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_13">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>when loss of vision due to injury or trauma onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_130 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000126"/>
+        <rdfs:label>impedance of arm (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_131 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000126"/>
+        <rdfs:label>impedance of arm (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_132 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000126"/>
+        <rdfs:label>impedance of leg (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_133 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000126"/>
+        <rdfs:label>impedance of leg (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_134 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000126"/>
+        <rdfs:label>impedance of total</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_135 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_135">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg fat mass (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_136 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_136">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg fat mass (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_137 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_137">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg fat percentage (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_138 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_138">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg fat percentage (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_139 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_139">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg fat-free mass (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_14 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_14">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_13"/>
+        <rdfs:label>age at onset/diagnosis of when loss of vision due to injury or trauma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_140 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_140">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg fat-free mass (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_141 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_141">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg predicted mass (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_142 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_142">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg predicted mass (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_143 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_143">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <rdfs:label>trunk fat mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_144 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_144">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <rdfs:label>trunk fat percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_145 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_145">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <rdfs:label>trunk fat-free mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_146 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_146">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <rdfs:label>trunk predicted mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_147 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_147">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <rdfs:label>total fat mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_148 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_148">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <rdfs:label>total fat-free mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_149 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_149">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <rdfs:label>total water mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_15 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_15">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>angina onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_150 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_150">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_89"/>
+        <rdfs:label>android fat mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_151 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_151">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_89"/>
+        <rdfs:label>android lean mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_154 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_154">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm lean mass (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_155 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_155">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arm lean mass (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_156 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_156">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arms fat mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_157 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_157">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>arms lean mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_158 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_158">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>gynoid fat mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_159 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_159">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <rdfs:label>gynoid lean mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_16 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_16">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_15"/>
+        <rdfs:label>age at onset/diagnosis of angina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_162 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_162">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg lean mass (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_163 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_163">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>leg lean mass (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_164 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_164">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>legs fat mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_165 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_165">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <rdfs:label>legs lean mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_168 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_168">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <rdfs:label>total lean mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_169 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_169">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <rdfs:label>total tissue mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_17 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_17">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>asthma onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_171 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_171">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <rdfs:label>trunk lean mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_172 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000484"/>
+        <rdfs:label>vat (visceral adipose tissue) mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_173 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000484"/>
+        <rdfs:label>vat (visceral adipose tissue) volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_174 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>multiple deprivation measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_175 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_175">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <rdfs:label>health score measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_176 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_176">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <rdfs:label>employment score measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_177 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_177">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <rdfs:label>income score measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_178 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_178">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <rdfs:label>crime score measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_179 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_179">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_178"/>
+        <rdfs:label>crime score (england)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_18 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_18">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_17"/>
+        <rdfs:label>age at onset/diagnosis of asthma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_180 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_180">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_178"/>
+        <rdfs:label>crime score (scotland)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_181 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_181">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <rdfs:label>education score (england)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_182 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_182">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <rdfs:label>education score (scotland)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_183 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_183">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <rdfs:label>education score (wales)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_184 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_184">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_176"/>
+        <rdfs:label>employment score (england)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_185 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_185">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_176"/>
+        <rdfs:label>employment score (scotland)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_186 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_186">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_176"/>
+        <rdfs:label>employment score (wales)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_187 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_187">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_175"/>
+        <rdfs:label>health score (england)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_188 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_188">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_175"/>
+        <rdfs:label>health score (scotland)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_189 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_189">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_175"/>
+        <rdfs:label>health score (wales)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_19 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_19">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>deep-vein thrombosis (dvt, blood clot in leg) onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_190 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_190">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_177"/>
+        <rdfs:label>income score (england)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_191 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_191">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_177"/>
+        <rdfs:label>income score (scotland)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_192 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_192">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_177"/>
+        <rdfs:label>income score (wales)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_193 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_193">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <rdfs:label>index of multiple deprivation (england)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_194 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_194">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <rdfs:label>index of multiple deprivation (scotland)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_195 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_195">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <rdfs:label>index of multiple deprivation (wales)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_196 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_196">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>accelerometer calibration measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_197 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_197">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration - maximum x stationary value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_198 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_198">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration - maximum y stationary value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_199 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_199">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration - maximum z stationary value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_2 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_2">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_1"/>
+        <rdfs:label>age at onset/diagnosis of cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_20 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_20">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_19"/>
+        <rdfs:label>age at onset/diagnosis of deep-vein thrombosis (dvt, blood clot in leg)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_200 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_200">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration - minimum x stationary value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_201 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_201">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration - minimum y stationary value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_202 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_202">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration - minimum z stationary value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_203 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_203">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration coefficients - mean temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_204 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_204">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration coefficients - x offset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_205 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_205">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration coefficients - x slope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_206 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_206">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration coefficients - x temp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_207 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_207">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration coefficients - y offset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_208 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_208">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration coefficients - y slope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_209 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_209">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration coefficients - y temp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_21 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_21">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>diabetes onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_210 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_210">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration coefficients - z offset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_211 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_211">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration coefficients - z slope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_212 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_212">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>calibration coefficients - z temp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_213 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_213">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>error tolerance after calibration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_214 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_214">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <rdfs:label>error tolerance before calibration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_215 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000389"/>
+        <rdfs:label>female-specific reproduction measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_216 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_216">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age at bilateral oophorectomy (both ovaries removed)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_217 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_217">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age at first live birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_218 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_218">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age at hysterectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_219 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_219">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age at last live birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_22 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_22">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_21"/>
+        <rdfs:label>age at onset/diagnosis of diabetes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_220 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_220">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age at menopause (last menstrual period)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_221 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_221">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age last used hormone-replacement therapy (hrt)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_222 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_222">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age of primiparous women at birth of child</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_223 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_223">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age started hormone-replacement therapy (hrt)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_224 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_224">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age started oral contraceptive pill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_225 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_225">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age when last used oral contraceptive pill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_226 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_226">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>age when periods started (menarche)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_227 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_227">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>birth weight of first child</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_228 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_228">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>length of menstrual cycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_229 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_229">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>number of live births</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_23 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_23">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>emphysema/chronic bronchitis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_230 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_230">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>number of pregnancy terminations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_231 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_231">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>number of spontaneous miscarriages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_232 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_232">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <rdfs:label>number of stillbirths</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_233 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000389"/>
+        <rdfs:label>number of children fathered</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_234 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000389"/>
+        <rdfs:label>age first had sexual intercourse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_235 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000389"/>
+        <rdfs:label>lifetime number of same-sex sexual partners</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_236 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000389"/>
+        <rdfs:label>lifetime number of sexual partners</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_237 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000028"/>
+        <rdfs:label>c-reactive protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_238 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000028"/>
+        <rdfs:label>rheumatoid factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_239 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000028"/>
+        <rdfs:label>shbg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_24 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_24">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_23"/>
+        <rdfs:label>age at onset/diagnosis of emphysema/chronic bronchitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_240 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000023"/>
+        <rdfs:label>vitamin d</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_241 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001864"/>
+        <rdfs:label>immune cell percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_242 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_242">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_241"/>
+        <rdfs:label>white blood cell percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_243 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_243">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_242"/>
+        <rdfs:label>blood granulocyte percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_245 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_245">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_243"/>
+        <rdfs:label>basophill percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_246 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_246">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_243"/>
+        <rdfs:label>eosinophill percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_247 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000037"/>
+        <rdfs:label>haematocrit percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_248 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <rdfs:label>high light scatter reticulocyte percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_249 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <rdfs:label>immature reticulocyte fraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_25 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_25">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>hay fever, rhinitis or eczema onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_250 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_250">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_243"/>
+        <rdfs:label>lymphocyte percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_251 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_251">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_243"/>
+        <rdfs:label>monocyte percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_252 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_252">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_243"/>
+        <rdfs:label>neutrophill percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_253 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <rdfs:label>nucleated red blood cell percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_254 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <rdfs:label>red blood cell (erythrocyte) count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_255 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <rdfs:label>red blood cell (erythrocyte) distribution width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_256 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <rdfs:label>reticulocyte percentage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_257 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>cognitive performance measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_258 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_258">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>trail making measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_259 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_259">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>pair matching measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_26 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_26">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_25"/>
+        <rdfs:label>age at onset/diagnosis of hay fever, rhinitis or eczema</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_260 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_260">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <rdfs:label>duration to complete alphanumeric path (trail #2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_261 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_261">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <rdfs:label>duration to complete numeric path (trail #1)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_262 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_262">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <rdfs:label>errors before selecting correct item in alphanumeric path (trail #2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_264 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_264">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <rdfs:label>errors before selecting correct item in numeric path (trail #1)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_266 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_266">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <rdfs:label>interval between previous point and current one in alphanumeric path (trail #2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_268 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_268">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <rdfs:label>interval between previous point and current one in numeric path (trail #1)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_27 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_27">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>heart attack onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_270 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_270">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <rdfs:label>total errors traversing alphanumeric path (trail #2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_272 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_272">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <rdfs:label>total errors traversing numeric path (trail #1)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_274 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_274">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <rdfs:label>number of columns displayed in round</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_275 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_275">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <rdfs:label>number of correct matches in round</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_277 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_277">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <rdfs:label>number of correct matches in round (pilot)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_278 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_278">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <rdfs:label>number of incorrect matches in round</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_28 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_28">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_27"/>
+        <rdfs:label>age at onset/diagnosis of heart attack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_280 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_280">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <rdfs:label>number of incorrect matches in round (pilot)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_281 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_281">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <rdfs:label>number of rows displayed in round</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_282 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_282">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>uncertainty in vocabulary level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_283 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_283">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>fluid intelligence score</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_285 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_285">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>duration spent answering each puzzle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_286 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_286">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>number of puzzles correctly solved</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_287 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_287">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>number of puzzles viewed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_288 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_288">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>maximum digits remembered correctly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_29 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_29">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>high blood pressure onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_290 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_290">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>number of word pairs correctly associated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_291 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_291">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>number of attempts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_292 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_292">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>duration to first press of snap-button in each round</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_293 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_293">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>duration to first press of snap-button in each round (pilot)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_294 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_294">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>mean time to correctly identify matches</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_295 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_295">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>duration to entering value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_296 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_296">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <rdfs:label>duration to entering selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_297 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>employment history measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_298 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_298">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>cascot confidence score</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_299 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_299">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>distance between home and job workplace</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_3 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>cataract onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_30 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_30">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_29"/>
+        <rdfs:label>age at onset/diagnosis of high blood pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_300 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_300">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>frequency of travelling from home to job workplace</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_301 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_301">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>time employed in main current job</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_302 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_302">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>consecutive night shifts during mixed shift periods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_303 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_303">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>consecutive night shifts during night shift periods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_304 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_304">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>number of jobs held</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_305 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_305">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>number of night shifts worked monthly during mixed shift periods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_306 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_306">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>number of night shifts worked monthly during night shift periods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_307 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_307">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>rest days during mixed shift periods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_308 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_308">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>rest days during night shift periods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_309 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_309">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>usual length of each night shift during mixed shift periods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_31 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_31">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>pulmonary embolism (blood clot in lung) onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_310 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_310">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>usual length of each night shift during night shift periods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_311 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_311">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>year gap ended</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_312 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_312">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>year gap started</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_313 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_313">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>year job ended</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_314 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_314">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>year job started</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_315 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_315">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>year of birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_316 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_316">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <rdfs:label>year ended full time education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_317 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000426"/>
+        <rdfs:label>smoking intake measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_318 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_318">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>pack years adult smoking as proportion of life span exposed to smoking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_319 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_319">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>pack years of smoking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_32 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_32">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_31"/>
+        <rdfs:label>age at onset/diagnosis of pulmonary embolism (blood clot in lung)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_320 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_320">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>age started smoking in current smokers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_321 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_321">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>age started smoking in former smokers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_322 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_322">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>age stopped smoking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_323 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_323">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_324 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_324">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>exposure to tobacco smoke at home</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_325 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_325">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>exposure to tobacco smoke outside home</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_326 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_326">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>number of cigarettes currently smoked daily (current cigarette smokers)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_327 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_327">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>number of cigarettes previously smoked daily</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_328 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_328">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>number of cigarettes previously smoked daily (current cigar/pipe smokers)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_329 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_329">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>number of unsuccessful stop-smoking attempts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_33 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_33">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>stroke onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_330 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000426"/>
+        <rdfs:label>age when last took cannabis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_331 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000974"/>
+        <rdfs:label>carotid artery measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_332 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_332">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>maximum carotid imt (intima-medial thickness) at 120 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_333 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_333">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>maximum carotid imt (intima-medial thickness) at 150 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_334 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_334">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>maximum carotid imt (intima-medial thickness) at 210 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_335 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_335">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>maximum carotid imt (intima-medial thickness) at 240 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_336 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_336">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>mean carotid imt (intima-medial thickness) at 120 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_337 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_337">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>mean carotid imt (intima-medial thickness) at 150 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_338 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_338">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>mean carotid imt (intima-medial thickness) at 210 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_339 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_339">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>mean carotid imt (intima-medial thickness) at 240 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_34 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_34">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_33"/>
+        <rdfs:label>age at onset/diagnosis of stroke</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_340 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_340">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>minimum carotid imt (intima-medial thickness) at 120 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_341 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_341">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>minimum carotid imt (intima-medial thickness) at 150 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_342 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_342">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>minimum carotid imt (intima-medial thickness) at 210 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_343 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_343">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <rdfs:label>minimum carotid imt (intima-medial thickness) at 240 degrees</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_344 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>fasting time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_345 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_345">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>age when last ate meat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_346 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>bread intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_347 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>cereal intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_348 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>coffee intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_349 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>cooked vegetable intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_35 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_35">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>copd (chronic obstructive pulmonary disease) onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_350 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>dried fruit intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_351 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>fresh fruit intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_352 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>salad / raw vegetable intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_353 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>tea intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_354 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <rdfs:label>water intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_355 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>physical activity measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_356 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_356">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>summed days activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_357 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_357">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>summed minutes activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_358 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_358">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>duration of moderate activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_359 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_359">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>duration of vigorous activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_36 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_36">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_35"/>
+        <rdfs:label>age at onset/diagnosis of copd (chronic obstructive pulmonary disease)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_360 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_360">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>duration of walks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_361 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_361">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>number of days/week of moderate physical activity 10+ minutes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_362 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_362">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>number of days/week of vigorous physical activity 10+ minutes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_363 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_363">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>number of days/week walked 10+ minutes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_364 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_364">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>time spent driving</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_365 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_365">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>time spent using computer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_366 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_366">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <rdfs:label>time spent watching television (tv)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_367 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>family history measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_368 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_368">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <rdfs:label>father&apos;s age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_369 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_369">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <rdfs:label>father&apos;s age at death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_37 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_37">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>alpha-1 antitrypsin deficiency onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_370 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_370">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <rdfs:label>mother&apos;s age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_371 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_371">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <rdfs:label>mother&apos;s age at death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_372 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_372">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <rdfs:label>number of adopted brothers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_373 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_373">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <rdfs:label>number of adopted sisters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_374 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_374">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <rdfs:label>number of full brothers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_375 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_375">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <rdfs:label>number of full sisters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_376 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_376">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <rdfs:label>number of older siblings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_377 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000669"/>
+        <rdfs:label>ocular organ measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_378 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_378">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_377"/>
+        <rdfs:label>corneal measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_379 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_379">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_377"/>
+        <rdfs:label>intra-ocular measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_38 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_38">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_37"/>
+        <rdfs:label>age at onset/diagnosis of alpha-1 antitrypsin deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_380 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_380">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <rdfs:label>corneal hysteresis (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_381 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_381">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <rdfs:label>corneal hysteresis (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_382 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_382">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <rdfs:label>corneal resistance factor (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_383 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_383">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <rdfs:label>corneal resistance factor (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_384 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_384">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_379"/>
+        <rdfs:label>intra-ocular pressure, goldmann-correlated (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_385 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_385">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_379"/>
+        <rdfs:label>intra-ocular pressure, goldmann-correlated (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_386 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_386">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <rdfs:label>intra-ocular pressure, corneal-compensated (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_387 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_387">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <rdfs:label>intra-ocular pressure, corneal-compensated (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_388 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_388">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_377"/>
+        <rdfs:label>avmse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_389 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_389">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_377"/>
+        <rdfs:label>logmar, final (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_39 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_39">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>asbestosis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_390 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_390">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_377"/>
+        <rdfs:label>logmar, final (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_391 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_391">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_377"/>
+        <rdfs:label>ocular autorefraction measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_392 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_392">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm asymmetry index (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_393 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_393">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm asymmetry index (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_394 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_394">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm cylindrical power (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_395 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_395">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm cylindrical power (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_396 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_396">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm regularity index (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_397 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_397">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm regularity index (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_398 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_398">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm strong meridian (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_399 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_399">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm strong meridian (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_4 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_4">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_3"/>
+        <rdfs:label>age at onset/diagnosis of cataract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_40 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_40">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_39"/>
+        <rdfs:label>age at onset/diagnosis of asbestosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_400 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_400">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm weak meridian (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_401 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_401">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm weak meridian (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_402 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_402">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm asymmetry index (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_403 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_403">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm asymmetry index (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_404 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_404">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm cylindrical power (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_405 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_405">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm cylindrical power (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_406 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_406">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm regularity index (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_407 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_407">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm regularity index (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_408 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_408">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm strong meridian (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_409 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_409">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm strong meridian (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_410 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_410">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm weak meridian (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_411 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_411">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm weak meridian (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_412 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_412">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>cylindrical power (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_413 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_413">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>cylindrical power (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_414 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_414">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>spherical power (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_415 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_415">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>spherical power (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_416 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_416">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>vertex distance (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_417 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_417">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>vertex distance (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_418 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_418">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm asymmetry angle (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_419 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_419">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm asymmetry angle (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_420 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_420">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm cylindrical power angle (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_421 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_421">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm cylindrical power angle (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_422 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_422">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm index of best keratometry results (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_423 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_423">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm index of best keratometry results (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_424 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_424">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm strong meridian angle (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_425 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_425">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm strong meridian angle (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_426 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_426">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm weak meridian angle (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_427 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_427">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>3mm weak meridian angle (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_428 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_428">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm asymmetry angle (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_429 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_429">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm asymmetry angle (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_43 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_43">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>bronchiectasis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_430 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_430">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm cylindrical power angle (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_431 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_431">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm cylindrical power angle (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_432 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_432">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm index of best keratometry results (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_433 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_433">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm index of best keratometry results (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_434 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_434">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm strong meridian angle (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_435 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_435">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm strong meridian angle (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_436 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_436">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm weak meridian angle (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_437 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_437">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>6mm weak meridian angle (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_438 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_438">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>astigmatism angle (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_439 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_439">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <rdfs:label>astigmatism angle (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_44 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_44">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_43"/>
+        <rdfs:label>age at onset/diagnosis of bronchiectasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_440 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_440">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000197"/>
+        <rdfs:label>cardiac output during pwa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_441 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_441">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <rdfs:label>central augmentation pressure during pwa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_442 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_442">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <rdfs:label>number of beats in waveform average for pwa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_443 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <rdfs:label>total peripheral resistance during pwa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_444 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_444">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <rdfs:label>pulse wave peak to peak time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_445 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_445">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <rdfs:label>pulse wave reflection index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_446 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <rdfs:label>diastolic brachial blood pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_447 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_447">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <rdfs:label>diastolic brachial blood pressure during pwa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_448 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <rdfs:label>systolic brachial blood pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_449 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_449">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <rdfs:label>systolic brachial blood pressure during pwa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_45 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_45">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>chronic bronchitis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_450 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>mental health measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_451 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_451">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>depression measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_452 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_452">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>longest period spent worried or anxious</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_453 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_453">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>longest period of depression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_454 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_454">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>longest period of unenthusiasm / disinterest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_455 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_455">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>neuroticism score</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_456 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_456">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>number of depression episodes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_457 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_457">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>number of unenthusiastic/disinterested episodes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_458 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_458">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>age when first had unusual or psychotic experience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_459 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_459">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>number of times believed in an un-real conspiracy against self</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_46 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_46">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_45"/>
+        <rdfs:label>age at onset/diagnosis of chronic bronchitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_460 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_460">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>number of times believed in un-real communications or signs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_461 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_461">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>number of times heard an un-real voice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_462 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_462">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <rdfs:label>number of times seen an un-real vision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_463 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_463">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_451"/>
+        <rdfs:label>age at first episode of depression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_464 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_464">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_451"/>
+        <rdfs:label>age at last episode of depression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_465 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_465">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_451"/>
+        <rdfs:label>lifetime number of depressed periods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_466 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>p axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_467 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_467">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>p duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_468 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>pq interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_469 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>qrs num</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_47 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_47">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>cystic fibrosis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_470 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>r axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_471 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_471">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>t axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_472 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_472">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>ventricular rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_473 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>ecg, load</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_474 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_474">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>ecg, number of stages in a phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_475 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_475">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>ecg, phase duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_476 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_476">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>ecg, phase time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_477 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_477">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <rdfs:label>ecg, stage duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_478 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_478">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>maternity measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_479 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_479">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <rdfs:label>place of birth in uk - east co-ordinate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_48 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_48">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_47"/>
+        <rdfs:label>age at onset/diagnosis of cystic fibrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_480 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_480">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <rdfs:label>place of birth in uk - north co-ordinate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_481 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_481">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <rdfs:label>duration of antenatal stay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_482 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_482">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <rdfs:label>duration of postnatal stay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_483 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_483">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <rdfs:label>gestation period at first antenatal assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_484 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_484">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <rdfs:label>mother age on date of delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_485 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_485">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <rdfs:label>number of weeks of gestation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_486 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_486">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000997"/>
+        <rdfs:label>average number of times bowels opened per day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_487 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_487">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000997"/>
+        <rdfs:label>greatest number of times bowels opened per day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_488 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_488">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000997"/>
+        <rdfs:label>least number of times bowels opened per week</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_489 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_489">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000997"/>
+        <rdfs:label>number of weeks (in the last year) at work suffering because of ibs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_49 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_49">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>emphysema onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_490 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_490">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000997"/>
+        <rdfs:label>number of weeks absent from work due to ibs, in the last year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_491 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>sun exposure measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_492 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_492">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_491"/>
+        <rdfs:label>childhood sunburn occasions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_493 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_493">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_491"/>
+        <rdfs:label>frequency of solarium/sunlamp use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_494 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_494">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_491"/>
+        <rdfs:label>time spend outdoors in summer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_495 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_495">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_491"/>
+        <rdfs:label>time spent outdoors in winter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_496 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_496">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>amount of tobacco currently smoked</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_497 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_497">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>years of bringing up phlegm/sputum/mucus on most days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_498 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_498">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <rdfs:label>years of cough on most days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_499 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_499">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>cancer year/age first occurred</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_5 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>glaucoma onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_50 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_50">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_49"/>
+        <rdfs:label>age at onset/diagnosis of emphysema</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_500 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>non-cancer illness year/age first occurred</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_501 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>number of self-reported cancers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_502 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>number of self-reported non-cancer illnesses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_503 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001064"/>
+        <rdfs:label>liver inflammation factor (lif)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_504 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001064"/>
+        <rdfs:label>liver iron (fe)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_505 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_505">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001064"/>
+        <rdfs:label>liver iron corrected t1 (ct1)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_506 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_506">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001064"/>
+        <rdfs:label>proton density fat fraction (pdff)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_507 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000951"/>
+        <rdfs:label>lv end diastolic volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_508 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000951"/>
+        <rdfs:label>lv end systolic volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_509 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000951"/>
+        <rdfs:label>lv stroke volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_51 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_51">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>fibrosing alveolitis/unspecified alveolitis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_510 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>hearing measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_511 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_511">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_510"/>
+        <rdfs:label>speech-reception-threshold (srt) estimate (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_512 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_512">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_510"/>
+        <rdfs:label>speech-reception-threshold (srt) estimate (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_513 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_513">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_510"/>
+        <rdfs:label>signal-to-noise-ratio (snr) of triplet (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_514 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_514">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_510"/>
+        <rdfs:label>signal-to-noise-ratio (snr) of triplet (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_515 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_515">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>treatment measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_516 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_516">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_515"/>
+        <rdfs:label>number of antibiotics taken in last 3 months</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_517 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_517">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_515"/>
+        <rdfs:label>number of treatments/medications taken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_518 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000131"/>
+        <rdfs:label>grip strength measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_519 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_519">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_518"/>
+        <rdfs:label>hand grip strength (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_52 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_52">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_51"/>
+        <rdfs:label>age at onset/diagnosis of fibrosing alveolitis/unspecified alveolitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_520 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_520">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_518"/>
+        <rdfs:label>hand grip strength (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_521 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>demographic measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_522 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_522">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <rdfs:label>age at death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_523 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_523">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <rdfs:label>age at recruitment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_525 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_525">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <rdfs:label>reported occurrences of cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_526 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_526">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <rdfs:label>age completed full time education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_527 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_527">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <rdfs:label>age started wearing glasses or contact lenses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_528 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_528">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <rdfs:label>number in household</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_529 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_529">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <rdfs:label>operation year/age first occurred</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_53 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_53">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>hayfever or allergic rhinitis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_530 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_530">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <rdfs:label>age when attended assessment centre</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_531 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_531">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <rdfs:label>spells in hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_532 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:label>sleep measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_533 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_533">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_532"/>
+        <rdfs:label>sleep duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_534 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_534">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000256"/>
+        <rdfs:label>microalbumin in urine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_54 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_54">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_53"/>
+        <rdfs:label>age at onset/diagnosis of hayfever or allergic rhinitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_55 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_55">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>idiopathic pulmonary fibrosis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_56 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_56">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_55"/>
+        <rdfs:label>age at onset/diagnosis of idiopathic pulmonary fibrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_57 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_57">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>lung cancer (not mesothelioma) onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_58 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_58">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_57"/>
+        <rdfs:label>age at onset/diagnosis of lung cancer (not mesothelioma)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_59 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_59">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>mesothelioma of the lung onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_6 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_6">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_5"/>
+        <rdfs:label>age at onset/diagnosis of glaucoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_60 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_60">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_59"/>
+        <rdfs:label>age at onset/diagnosis of mesothelioma of the lung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_61 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_61">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>sarcoidosis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_62 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_62">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_61"/>
+        <rdfs:label>age at onset/diagnosis of sarcoidosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_63 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_63">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>silicosis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_64 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_64">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_63"/>
+        <rdfs:label>age at onset/diagnosis of silicosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_65 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_65">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>tuberculosis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_66 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_66">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_65"/>
+        <rdfs:label>age at onset/diagnosis of tuberculosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_67 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_67">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average monthly beer plus cider intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_68 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_68">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average monthly champagne plus white wine intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_69 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_69">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average monthly fortified wine intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_7 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>macular degeneration onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_70 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_70">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average monthly intake of other alcoholic drinks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_71 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_71">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average monthly red wine intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_72 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_72">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average monthly spirits intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_73 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_73">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average weekly beer plus cider intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_74 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_74">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average weekly champagne plus white wine intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_75 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_75">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average weekly fortified wine intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_76 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_76">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average weekly intake of other alcoholic drinks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_77 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_77">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average weekly red wine intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_78 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_78">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>average weekly spirits intake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_79 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_79">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>age when known person last commented about drinking habits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_8 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_8">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_7"/>
+        <rdfs:label>age at onset/diagnosis of macular degeneration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_80 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_80">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000426"/>
+        <rdfs:label>nutrition intake measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_81 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_81">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <rdfs:label>alcohol intake yesterday</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_82 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_82">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_80"/>
+        <rdfs:label>fat intake yesterday</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_83 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_83">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_80"/>
+        <rdfs:label>total sugars intake yesterday</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_84 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_84">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000131"/>
+        <rdfs:label>muscle volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_85 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_85">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000224"/>
+        <rdfs:label>trunk fat morphological measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_86 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_86">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000224"/>
+        <rdfs:label>arm fat morphological measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_87 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_87">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000224"/>
+        <rdfs:label>gynoid fat morphological measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_88 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_88">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000224"/>
+        <rdfs:label>leg fat morphological measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_89 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_89">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000224"/>
+        <rdfs:label>android fat morphological measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_9 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_9">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <rdfs:label>other serious eye condition onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_90 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_90">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000089"/>
+        <rdfs:label>total body fat mass measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_91 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_91">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000311"/>
+        <rdfs:label>abdominal fat ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_92 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_92">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000484"/>
+        <rdfs:label>abdominal subcutaneous adipose tissue volume (asat)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_93 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_93">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_84"/>
+        <rdfs:label>anterior thigh lean muscle volume (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_94 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_94">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_84"/>
+        <rdfs:label>anterior thigh lean muscle volume (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_95 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_95">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000131"/>
+        <rdfs:label>muscle fat infiltration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_96 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_96">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_84"/>
+        <rdfs:label>posterior thigh lean muscle volume (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_97 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_97">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_84"/>
+        <rdfs:label>posterior thigh lean muscle volume (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_98 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_98">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000484"/>
+        <rdfs:label>total adipose tissue volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_99 -->
+
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_99">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000131"/>
+        <rdfs:label>total thigh muscle volume</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14.2020-04-18T20:17:57Z) https://github.com/owlcs/owlapi/ -->
+
+
