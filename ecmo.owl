@@ -5,10 +5,30 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://reality.rehab/ecmo.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     
 
 
@@ -41,7 +61,9 @@
     <!-- http://purl.obolibrary.org/obo/CMO_0000023 -->
 
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000023"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000023">
+        <oboInOwl:hasDbXref>UKB:6033</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -83,7 +105,9 @@
     <!-- http://purl.obolibrary.org/obo/CMO_0000197 -->
 
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000197"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000197">
+        <oboInOwl:hasDbXref>UKB:22424</oboInOwl:hasDbXref>
+    </owl:Class>
     
 
 
@@ -221,6 +245,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_10">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_9"/>
+        <oboInOwl:hasDbXref>UKB:5945</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of other serious eye condition</rdfs:label>
     </owl:Class>
     
@@ -231,6 +256,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000484"/>
+        <oboInOwl:hasDbXref>UKB:22407</oboInOwl:hasDbXref>
         <rdfs:label>visceral adipose tissue volume (vat)</rdfs:label>
     </owl:Class>
     
@@ -241,6 +267,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000131"/>
+        <oboInOwl:hasDbXref>UKB:22433</oboInOwl:hasDbXref>
         <rdfs:label>weight-to-muscle ratio</rdfs:label>
     </owl:Class>
     
@@ -251,6 +278,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_102">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_89"/>
+        <oboInOwl:hasDbXref>UKB:23247</oboInOwl:hasDbXref>
         <rdfs:label>android tissue fat percentage</rdfs:label>
     </owl:Class>
     
@@ -261,6 +289,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_103">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_89"/>
+        <oboInOwl:hasDbXref>UKB:23248</oboInOwl:hasDbXref>
         <rdfs:label>android total mass</rdfs:label>
     </owl:Class>
     
@@ -271,6 +300,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_104">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23251</oboInOwl:hasDbXref>
         <rdfs:label>arm tissue fat percentage (left)</rdfs:label>
     </owl:Class>
     
@@ -281,6 +311,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_105">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23255</oboInOwl:hasDbXref>
         <rdfs:label>arm tissue fat percentage (right)</rdfs:label>
     </owl:Class>
     
@@ -291,6 +322,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_106">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23252</oboInOwl:hasDbXref>
         <rdfs:label>arm total mass (left)</rdfs:label>
     </owl:Class>
     
@@ -301,6 +333,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_107">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23256</oboInOwl:hasDbXref>
         <rdfs:label>arm total mass (right)</rdfs:label>
     </owl:Class>
     
@@ -311,6 +344,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_108">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23259</oboInOwl:hasDbXref>
         <rdfs:label>arms tissue fat percentage</rdfs:label>
     </owl:Class>
     
@@ -321,6 +355,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_109">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23260</oboInOwl:hasDbXref>
         <rdfs:label>arms total mass</rdfs:label>
     </owl:Class>
     
@@ -341,6 +376,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_110">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23264</oboInOwl:hasDbXref>
         <rdfs:label>gynoid tissue fat percentage</rdfs:label>
     </owl:Class>
     
@@ -351,6 +387,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_111">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23265</oboInOwl:hasDbXref>
         <rdfs:label>gynoid total mass</rdfs:label>
     </owl:Class>
     
@@ -361,6 +398,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_112">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23268</oboInOwl:hasDbXref>
         <rdfs:label>leg tissue fat percentage (left)</rdfs:label>
     </owl:Class>
     
@@ -371,6 +409,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_113">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23272</oboInOwl:hasDbXref>
         <rdfs:label>leg tissue fat percentage (right)</rdfs:label>
     </owl:Class>
     
@@ -381,6 +420,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_114">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23269</oboInOwl:hasDbXref>
         <rdfs:label>leg total mass (left)</rdfs:label>
     </owl:Class>
     
@@ -391,6 +431,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_115">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23273</oboInOwl:hasDbXref>
         <rdfs:label>leg total mass (right)</rdfs:label>
     </owl:Class>
     
@@ -401,6 +442,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_116">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23276</oboInOwl:hasDbXref>
         <rdfs:label>legs tissue fat percentage</rdfs:label>
     </owl:Class>
     
@@ -411,6 +453,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_117">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23277</oboInOwl:hasDbXref>
         <rdfs:label>legs total mass</rdfs:label>
     </owl:Class>
     
@@ -421,6 +464,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_118">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <oboInOwl:hasDbXref>UKB:23283</oboInOwl:hasDbXref>
         <rdfs:label>total mass</rdfs:label>
     </owl:Class>
     
@@ -431,6 +475,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000089"/>
+        <oboInOwl:hasDbXref>UKB:23281</oboInOwl:hasDbXref>
         <rdfs:label>total tissue fat percentage</rdfs:label>
     </owl:Class>
     
@@ -441,6 +486,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_12">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_11"/>
+        <oboInOwl:hasDbXref>UKB:5901</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of when diabetes-related eye disease</rdfs:label>
     </owl:Class>
     
@@ -451,6 +497,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_120">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <oboInOwl:hasDbXref>UKB:23286</oboInOwl:hasDbXref>
         <rdfs:label>trunk tissue fat percentage</rdfs:label>
     </owl:Class>
     
@@ -461,6 +508,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_121">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <oboInOwl:hasDbXref>UKB:23287</oboInOwl:hasDbXref>
         <rdfs:label>trunk total mass</rdfs:label>
     </owl:Class>
     
@@ -471,6 +519,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_122">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23124</oboInOwl:hasDbXref>
         <rdfs:label>arm fat mass (left)</rdfs:label>
     </owl:Class>
     
@@ -481,6 +530,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_123">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23120</oboInOwl:hasDbXref>
         <rdfs:label>arm fat mass (right)</rdfs:label>
     </owl:Class>
     
@@ -491,6 +541,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_124">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23123</oboInOwl:hasDbXref>
         <rdfs:label>arm fat percentage (left)</rdfs:label>
     </owl:Class>
     
@@ -501,6 +552,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_125">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23119</oboInOwl:hasDbXref>
         <rdfs:label>arm fat percentage (right)</rdfs:label>
     </owl:Class>
     
@@ -511,6 +563,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_126">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23125</oboInOwl:hasDbXref>
         <rdfs:label>arm fat-free mass (left)</rdfs:label>
     </owl:Class>
     
@@ -521,6 +574,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_127">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23121</oboInOwl:hasDbXref>
         <rdfs:label>arm fat-free mass (right)</rdfs:label>
     </owl:Class>
     
@@ -531,6 +585,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_128">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23126</oboInOwl:hasDbXref>
         <rdfs:label>arm predicted mass (left)</rdfs:label>
     </owl:Class>
     
@@ -541,6 +596,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_129">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23122</oboInOwl:hasDbXref>
         <rdfs:label>arm predicted mass (right)</rdfs:label>
     </owl:Class>
     
@@ -561,6 +617,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000126"/>
+        <oboInOwl:hasDbXref>UKB:23110</oboInOwl:hasDbXref>
         <rdfs:label>impedance of arm (left)</rdfs:label>
     </owl:Class>
     
@@ -571,6 +628,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000126"/>
+        <oboInOwl:hasDbXref>UKB:23109</oboInOwl:hasDbXref>
         <rdfs:label>impedance of arm (right)</rdfs:label>
     </owl:Class>
     
@@ -581,6 +639,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000126"/>
+        <oboInOwl:hasDbXref>UKB:23108</oboInOwl:hasDbXref>
         <rdfs:label>impedance of leg (left)</rdfs:label>
     </owl:Class>
     
@@ -591,6 +650,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000126"/>
+        <oboInOwl:hasDbXref>UKB:23107</oboInOwl:hasDbXref>
         <rdfs:label>impedance of leg (right)</rdfs:label>
     </owl:Class>
     
@@ -601,6 +661,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000126"/>
+        <oboInOwl:hasDbXref>UKB:23106</oboInOwl:hasDbXref>
         <rdfs:label>impedance of total</rdfs:label>
     </owl:Class>
     
@@ -611,6 +672,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_135">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23116</oboInOwl:hasDbXref>
         <rdfs:label>leg fat mass (left)</rdfs:label>
     </owl:Class>
     
@@ -621,6 +683,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_136">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23112</oboInOwl:hasDbXref>
         <rdfs:label>leg fat mass (right)</rdfs:label>
     </owl:Class>
     
@@ -631,6 +694,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_137">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23115</oboInOwl:hasDbXref>
         <rdfs:label>leg fat percentage (left)</rdfs:label>
     </owl:Class>
     
@@ -641,6 +705,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_138">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23111</oboInOwl:hasDbXref>
         <rdfs:label>leg fat percentage (right)</rdfs:label>
     </owl:Class>
     
@@ -651,6 +716,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_139">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23117</oboInOwl:hasDbXref>
         <rdfs:label>leg fat-free mass (left)</rdfs:label>
     </owl:Class>
     
@@ -661,6 +727,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_14">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_13"/>
+        <oboInOwl:hasDbXref>UKB:5430</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of when loss of vision due to injury or trauma</rdfs:label>
     </owl:Class>
     
@@ -671,6 +738,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_140">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23113</oboInOwl:hasDbXref>
         <rdfs:label>leg fat-free mass (right)</rdfs:label>
     </owl:Class>
     
@@ -681,6 +749,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_141">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23118</oboInOwl:hasDbXref>
         <rdfs:label>leg predicted mass (left)</rdfs:label>
     </owl:Class>
     
@@ -691,6 +760,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_142">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23114</oboInOwl:hasDbXref>
         <rdfs:label>leg predicted mass (right)</rdfs:label>
     </owl:Class>
     
@@ -701,6 +771,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_143">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <oboInOwl:hasDbXref>UKB:23128</oboInOwl:hasDbXref>
         <rdfs:label>trunk fat mass</rdfs:label>
     </owl:Class>
     
@@ -711,6 +782,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_144">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <oboInOwl:hasDbXref>UKB:23127</oboInOwl:hasDbXref>
         <rdfs:label>trunk fat percentage</rdfs:label>
     </owl:Class>
     
@@ -721,6 +793,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_145">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <oboInOwl:hasDbXref>UKB:23129</oboInOwl:hasDbXref>
         <rdfs:label>trunk fat-free mass</rdfs:label>
     </owl:Class>
     
@@ -731,6 +804,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_146">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <oboInOwl:hasDbXref>UKB:23130</oboInOwl:hasDbXref>
         <rdfs:label>trunk predicted mass</rdfs:label>
     </owl:Class>
     
@@ -741,6 +815,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_147">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <oboInOwl:hasDbXref>UKB:23100</oboInOwl:hasDbXref>
         <rdfs:label>total fat mass</rdfs:label>
     </owl:Class>
     
@@ -751,6 +826,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_148">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <oboInOwl:hasDbXref>UKB:23101</oboInOwl:hasDbXref>
         <rdfs:label>total fat-free mass</rdfs:label>
     </owl:Class>
     
@@ -761,6 +837,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_149">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <oboInOwl:hasDbXref>UKB:23102</oboInOwl:hasDbXref>
         <rdfs:label>total water mass</rdfs:label>
     </owl:Class>
     
@@ -781,6 +858,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_150">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_89"/>
+        <oboInOwl:hasDbXref>UKB:23245</oboInOwl:hasDbXref>
         <rdfs:label>android fat mass</rdfs:label>
     </owl:Class>
     
@@ -791,6 +869,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_151">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_89"/>
+        <oboInOwl:hasDbXref>UKB:23246</oboInOwl:hasDbXref>
         <rdfs:label>android lean mass</rdfs:label>
     </owl:Class>
     
@@ -801,6 +880,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_154">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23250</oboInOwl:hasDbXref>
         <rdfs:label>arm lean mass (left)</rdfs:label>
     </owl:Class>
     
@@ -811,6 +891,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_155">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23254</oboInOwl:hasDbXref>
         <rdfs:label>arm lean mass (right)</rdfs:label>
     </owl:Class>
     
@@ -821,6 +902,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_156">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23257</oboInOwl:hasDbXref>
         <rdfs:label>arms fat mass</rdfs:label>
     </owl:Class>
     
@@ -831,6 +913,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_157">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23258</oboInOwl:hasDbXref>
         <rdfs:label>arms lean mass</rdfs:label>
     </owl:Class>
     
@@ -841,6 +924,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_158">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23262</oboInOwl:hasDbXref>
         <rdfs:label>gynoid fat mass</rdfs:label>
     </owl:Class>
     
@@ -851,6 +935,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_159">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
+        <oboInOwl:hasDbXref>UKB:23263</oboInOwl:hasDbXref>
         <rdfs:label>gynoid lean mass</rdfs:label>
     </owl:Class>
     
@@ -861,6 +946,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_16">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_15"/>
+        <oboInOwl:hasDbXref>UKB:3627</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of angina</rdfs:label>
     </owl:Class>
     
@@ -871,6 +957,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_162">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23267</oboInOwl:hasDbXref>
         <rdfs:label>leg lean mass (left)</rdfs:label>
     </owl:Class>
     
@@ -881,6 +968,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_163">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23271</oboInOwl:hasDbXref>
         <rdfs:label>leg lean mass (right)</rdfs:label>
     </owl:Class>
     
@@ -891,6 +979,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_164">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23274</oboInOwl:hasDbXref>
         <rdfs:label>legs fat mass</rdfs:label>
     </owl:Class>
     
@@ -901,6 +990,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_165">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
+        <oboInOwl:hasDbXref>UKB:23275</oboInOwl:hasDbXref>
         <rdfs:label>legs lean mass</rdfs:label>
     </owl:Class>
     
@@ -911,6 +1001,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_168">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <oboInOwl:hasDbXref>UKB:23280</oboInOwl:hasDbXref>
         <rdfs:label>total lean mass</rdfs:label>
     </owl:Class>
     
@@ -921,6 +1012,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_169">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
+        <oboInOwl:hasDbXref>UKB:23282</oboInOwl:hasDbXref>
         <rdfs:label>total tissue mass</rdfs:label>
     </owl:Class>
     
@@ -941,6 +1033,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_171">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_85"/>
+        <oboInOwl:hasDbXref>UKB:23285</oboInOwl:hasDbXref>
         <rdfs:label>trunk lean mass</rdfs:label>
     </owl:Class>
     
@@ -951,6 +1044,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000484"/>
+        <oboInOwl:hasDbXref>UKB:23288</oboInOwl:hasDbXref>
         <rdfs:label>vat (visceral adipose tissue) mass</rdfs:label>
     </owl:Class>
     
@@ -961,6 +1055,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000484"/>
+        <oboInOwl:hasDbXref>UKB:23289</oboInOwl:hasDbXref>
         <rdfs:label>vat (visceral adipose tissue) volume</rdfs:label>
     </owl:Class>
     
@@ -1021,6 +1116,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_179">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_178"/>
+        <oboInOwl:hasDbXref>UKB:26416</oboInOwl:hasDbXref>
         <rdfs:label>crime score (england)</rdfs:label>
     </owl:Class>
     
@@ -1031,6 +1127,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_18">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_17"/>
+        <oboInOwl:hasDbXref>UKB:3786</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of asthma</rdfs:label>
     </owl:Class>
     
@@ -1041,6 +1138,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_180">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_178"/>
+        <oboInOwl:hasDbXref>UKB:26434</oboInOwl:hasDbXref>
         <rdfs:label>crime score (scotland)</rdfs:label>
     </owl:Class>
     
@@ -1051,6 +1149,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_181">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <oboInOwl:hasDbXref>UKB:26414</oboInOwl:hasDbXref>
         <rdfs:label>education score (england)</rdfs:label>
     </owl:Class>
     
@@ -1061,6 +1160,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_182">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <oboInOwl:hasDbXref>UKB:26431</oboInOwl:hasDbXref>
         <rdfs:label>education score (scotland)</rdfs:label>
     </owl:Class>
     
@@ -1071,6 +1171,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_183">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <oboInOwl:hasDbXref>UKB:26421</oboInOwl:hasDbXref>
         <rdfs:label>education score (wales)</rdfs:label>
     </owl:Class>
     
@@ -1081,6 +1182,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_184">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_176"/>
+        <oboInOwl:hasDbXref>UKB:26412</oboInOwl:hasDbXref>
         <rdfs:label>employment score (england)</rdfs:label>
     </owl:Class>
     
@@ -1091,6 +1193,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_185">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_176"/>
+        <oboInOwl:hasDbXref>UKB:26429</oboInOwl:hasDbXref>
         <rdfs:label>employment score (scotland)</rdfs:label>
     </owl:Class>
     
@@ -1101,6 +1204,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_186">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_176"/>
+        <oboInOwl:hasDbXref>UKB:26419</oboInOwl:hasDbXref>
         <rdfs:label>employment score (wales)</rdfs:label>
     </owl:Class>
     
@@ -1111,6 +1215,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_187">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_175"/>
+        <oboInOwl:hasDbXref>UKB:26413</oboInOwl:hasDbXref>
         <rdfs:label>health score (england)</rdfs:label>
     </owl:Class>
     
@@ -1121,6 +1226,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_188">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_175"/>
+        <oboInOwl:hasDbXref>UKB:26430</oboInOwl:hasDbXref>
         <rdfs:label>health score (scotland)</rdfs:label>
     </owl:Class>
     
@@ -1131,6 +1237,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_189">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_175"/>
+        <oboInOwl:hasDbXref>UKB:26420</oboInOwl:hasDbXref>
         <rdfs:label>health score (wales)</rdfs:label>
     </owl:Class>
     
@@ -1151,6 +1258,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_190">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_177"/>
+        <oboInOwl:hasDbXref>UKB:26411</oboInOwl:hasDbXref>
         <rdfs:label>income score (england)</rdfs:label>
     </owl:Class>
     
@@ -1161,6 +1269,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_191">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_177"/>
+        <oboInOwl:hasDbXref>UKB:26428</oboInOwl:hasDbXref>
         <rdfs:label>income score (scotland)</rdfs:label>
     </owl:Class>
     
@@ -1171,6 +1280,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_192">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_177"/>
+        <oboInOwl:hasDbXref>UKB:26418</oboInOwl:hasDbXref>
         <rdfs:label>income score (wales)</rdfs:label>
     </owl:Class>
     
@@ -1181,6 +1291,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_193">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <oboInOwl:hasDbXref>UKB:26410</oboInOwl:hasDbXref>
         <rdfs:label>index of multiple deprivation (england)</rdfs:label>
     </owl:Class>
     
@@ -1191,6 +1302,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_194">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <oboInOwl:hasDbXref>UKB:26427</oboInOwl:hasDbXref>
         <rdfs:label>index of multiple deprivation (scotland)</rdfs:label>
     </owl:Class>
     
@@ -1201,6 +1313,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_195">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_174"/>
+        <oboInOwl:hasDbXref>UKB:26426</oboInOwl:hasDbXref>
         <rdfs:label>index of multiple deprivation (wales)</rdfs:label>
     </owl:Class>
     
@@ -1221,6 +1334,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_197">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90173</oboInOwl:hasDbXref>
         <rdfs:label>calibration - maximum x stationary value</rdfs:label>
     </owl:Class>
     
@@ -1231,6 +1345,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_198">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90175</oboInOwl:hasDbXref>
         <rdfs:label>calibration - maximum y stationary value</rdfs:label>
     </owl:Class>
     
@@ -1241,6 +1356,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_199">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90177</oboInOwl:hasDbXref>
         <rdfs:label>calibration - maximum z stationary value</rdfs:label>
     </owl:Class>
     
@@ -1251,6 +1367,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_2">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_1"/>
+        <oboInOwl:hasDbXref>UKB:40008</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of cancer</rdfs:label>
     </owl:Class>
     
@@ -1261,6 +1378,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_20">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_19"/>
+        <oboInOwl:hasDbXref>UKB:4012</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of deep-vein thrombosis (dvt, blood clot in leg)</rdfs:label>
     </owl:Class>
     
@@ -1271,6 +1389,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_200">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90172</oboInOwl:hasDbXref>
         <rdfs:label>calibration - minimum x stationary value</rdfs:label>
     </owl:Class>
     
@@ -1281,6 +1400,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_201">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90174</oboInOwl:hasDbXref>
         <rdfs:label>calibration - minimum y stationary value</rdfs:label>
     </owl:Class>
     
@@ -1291,6 +1411,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_202">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90176</oboInOwl:hasDbXref>
         <rdfs:label>calibration - minimum z stationary value</rdfs:label>
     </owl:Class>
     
@@ -1301,6 +1422,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_203">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90170</oboInOwl:hasDbXref>
         <rdfs:label>calibration coefficients - mean temperature</rdfs:label>
     </owl:Class>
     
@@ -1311,6 +1433,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_204">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90161</oboInOwl:hasDbXref>
         <rdfs:label>calibration coefficients - x offset</rdfs:label>
     </owl:Class>
     
@@ -1321,6 +1444,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_205">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90164</oboInOwl:hasDbXref>
         <rdfs:label>calibration coefficients - x slope</rdfs:label>
     </owl:Class>
     
@@ -1331,6 +1455,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_206">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90167</oboInOwl:hasDbXref>
         <rdfs:label>calibration coefficients - x temp</rdfs:label>
     </owl:Class>
     
@@ -1341,6 +1466,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_207">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90162</oboInOwl:hasDbXref>
         <rdfs:label>calibration coefficients - y offset</rdfs:label>
     </owl:Class>
     
@@ -1351,6 +1477,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_208">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90165</oboInOwl:hasDbXref>
         <rdfs:label>calibration coefficients - y slope</rdfs:label>
     </owl:Class>
     
@@ -1361,6 +1488,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_209">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90168</oboInOwl:hasDbXref>
         <rdfs:label>calibration coefficients - y temp</rdfs:label>
     </owl:Class>
     
@@ -1381,6 +1509,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_210">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90163</oboInOwl:hasDbXref>
         <rdfs:label>calibration coefficients - z offset</rdfs:label>
     </owl:Class>
     
@@ -1391,6 +1520,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_211">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90166</oboInOwl:hasDbXref>
         <rdfs:label>calibration coefficients - z slope</rdfs:label>
     </owl:Class>
     
@@ -1401,6 +1531,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_212">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90169</oboInOwl:hasDbXref>
         <rdfs:label>calibration coefficients - z temp</rdfs:label>
     </owl:Class>
     
@@ -1411,6 +1542,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_213">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90160</oboInOwl:hasDbXref>
         <rdfs:label>error tolerance after calibration</rdfs:label>
     </owl:Class>
     
@@ -1421,6 +1553,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_214">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_196"/>
+        <oboInOwl:hasDbXref>UKB:90159</oboInOwl:hasDbXref>
         <rdfs:label>error tolerance before calibration</rdfs:label>
     </owl:Class>
     
@@ -1441,6 +1574,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_216">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:3882</oboInOwl:hasDbXref>
         <rdfs:label>age at bilateral oophorectomy (both ovaries removed)</rdfs:label>
     </owl:Class>
     
@@ -1451,6 +1585,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_217">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:2754</oboInOwl:hasDbXref>
         <rdfs:label>age at first live birth</rdfs:label>
     </owl:Class>
     
@@ -1461,6 +1596,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_218">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:2824</oboInOwl:hasDbXref>
         <rdfs:label>age at hysterectomy</rdfs:label>
     </owl:Class>
     
@@ -1471,6 +1607,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_219">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:2764</oboInOwl:hasDbXref>
         <rdfs:label>age at last live birth</rdfs:label>
     </owl:Class>
     
@@ -1481,6 +1618,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_22">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_21"/>
+        <oboInOwl:hasDbXref>UKB:2976</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of diabetes</rdfs:label>
     </owl:Class>
     
@@ -1491,6 +1629,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_220">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:3581</oboInOwl:hasDbXref>
         <rdfs:label>age at menopause (last menstrual period)</rdfs:label>
     </owl:Class>
     
@@ -1501,6 +1640,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_221">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:3546</oboInOwl:hasDbXref>
         <rdfs:label>age last used hormone-replacement therapy (hrt)</rdfs:label>
     </owl:Class>
     
@@ -1511,6 +1651,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_222">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:3872</oboInOwl:hasDbXref>
         <rdfs:label>age of primiparous women at birth of child</rdfs:label>
     </owl:Class>
     
@@ -1521,6 +1662,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_223">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:3536</oboInOwl:hasDbXref>
         <rdfs:label>age started hormone-replacement therapy (hrt)</rdfs:label>
     </owl:Class>
     
@@ -1531,6 +1673,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_224">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:2794</oboInOwl:hasDbXref>
         <rdfs:label>age started oral contraceptive pill</rdfs:label>
     </owl:Class>
     
@@ -1541,6 +1684,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_225">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:2804</oboInOwl:hasDbXref>
         <rdfs:label>age when last used oral contraceptive pill</rdfs:label>
     </owl:Class>
     
@@ -1551,6 +1695,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_226">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:2714</oboInOwl:hasDbXref>
         <rdfs:label>age when periods started (menarche)</rdfs:label>
     </owl:Class>
     
@@ -1561,6 +1706,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_227">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:2744</oboInOwl:hasDbXref>
         <rdfs:label>birth weight of first child</rdfs:label>
     </owl:Class>
     
@@ -1571,6 +1717,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_228">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:3710</oboInOwl:hasDbXref>
         <rdfs:label>length of menstrual cycle</rdfs:label>
     </owl:Class>
     
@@ -1581,6 +1728,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_229">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:2734</oboInOwl:hasDbXref>
         <rdfs:label>number of live births</rdfs:label>
     </owl:Class>
     
@@ -1601,6 +1749,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_230">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:3849</oboInOwl:hasDbXref>
         <rdfs:label>number of pregnancy terminations</rdfs:label>
     </owl:Class>
     
@@ -1611,6 +1760,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_231">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:3839</oboInOwl:hasDbXref>
         <rdfs:label>number of spontaneous miscarriages</rdfs:label>
     </owl:Class>
     
@@ -1621,6 +1771,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_232">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_215"/>
+        <oboInOwl:hasDbXref>UKB:3829</oboInOwl:hasDbXref>
         <rdfs:label>number of stillbirths</rdfs:label>
     </owl:Class>
     
@@ -1631,6 +1782,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000389"/>
+        <oboInOwl:hasDbXref>UKB:2405</oboInOwl:hasDbXref>
         <rdfs:label>number of children fathered</rdfs:label>
     </owl:Class>
     
@@ -1641,6 +1793,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_234">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000389"/>
+        <oboInOwl:hasDbXref>UKB:2139</oboInOwl:hasDbXref>
         <rdfs:label>age first had sexual intercourse</rdfs:label>
     </owl:Class>
     
@@ -1651,6 +1804,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000389"/>
+        <oboInOwl:hasDbXref>UKB:3669</oboInOwl:hasDbXref>
         <rdfs:label>lifetime number of same-sex sexual partners</rdfs:label>
     </owl:Class>
     
@@ -1661,6 +1815,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_236">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000389"/>
+        <oboInOwl:hasDbXref>UKB:2149</oboInOwl:hasDbXref>
         <rdfs:label>lifetime number of sexual partners</rdfs:label>
     </owl:Class>
     
@@ -1671,6 +1826,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000028"/>
+        <oboInOwl:hasDbXref>UKB:30710</oboInOwl:hasDbXref>
         <rdfs:label>c-reactive protein</rdfs:label>
     </owl:Class>
     
@@ -1681,6 +1837,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_238">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000028"/>
+        <oboInOwl:hasDbXref>UKB:30820</oboInOwl:hasDbXref>
         <rdfs:label>rheumatoid factor</rdfs:label>
     </owl:Class>
     
@@ -1691,6 +1848,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000028"/>
+        <oboInOwl:hasDbXref>UKB:30830</oboInOwl:hasDbXref>
         <rdfs:label>shbg</rdfs:label>
     </owl:Class>
     
@@ -1701,6 +1859,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_24">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_23"/>
+        <oboInOwl:hasDbXref>UKB:3992</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of emphysema/chronic bronchitis</rdfs:label>
     </owl:Class>
     
@@ -1711,6 +1870,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_240">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000023"/>
+        <oboInOwl:hasDbXref>UKB:30890</oboInOwl:hasDbXref>
         <rdfs:label>vitamin d</rdfs:label>
     </owl:Class>
     
@@ -1751,6 +1911,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_245">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_243"/>
+        <oboInOwl:hasDbXref>UKB:30220</oboInOwl:hasDbXref>
         <rdfs:label>basophill percentage</rdfs:label>
     </owl:Class>
     
@@ -1761,6 +1922,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_246">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_243"/>
+        <oboInOwl:hasDbXref>UKB:30210</oboInOwl:hasDbXref>
         <rdfs:label>eosinophill percentage</rdfs:label>
     </owl:Class>
     
@@ -1771,6 +1933,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_247">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000037"/>
+        <oboInOwl:hasDbXref>UKB:30030</oboInOwl:hasDbXref>
         <rdfs:label>haematocrit percentage</rdfs:label>
     </owl:Class>
     
@@ -1781,6 +1944,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_248">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <oboInOwl:hasDbXref>UKB:30290</oboInOwl:hasDbXref>
         <rdfs:label>high light scatter reticulocyte percentage</rdfs:label>
     </owl:Class>
     
@@ -1791,6 +1955,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_249">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <oboInOwl:hasDbXref>UKB:30280</oboInOwl:hasDbXref>
         <rdfs:label>immature reticulocyte fraction</rdfs:label>
     </owl:Class>
     
@@ -1811,6 +1976,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_250">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_243"/>
+        <oboInOwl:hasDbXref>UKB:30180</oboInOwl:hasDbXref>
         <rdfs:label>lymphocyte percentage</rdfs:label>
     </owl:Class>
     
@@ -1821,6 +1987,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_251">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_243"/>
+        <oboInOwl:hasDbXref>UKB:30190</oboInOwl:hasDbXref>
         <rdfs:label>monocyte percentage</rdfs:label>
     </owl:Class>
     
@@ -1831,6 +1998,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_252">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_243"/>
+        <oboInOwl:hasDbXref>UKB:30200</oboInOwl:hasDbXref>
         <rdfs:label>neutrophill percentage</rdfs:label>
     </owl:Class>
     
@@ -1841,6 +2009,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_253">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <oboInOwl:hasDbXref>UKB:30230</oboInOwl:hasDbXref>
         <rdfs:label>nucleated red blood cell percentage</rdfs:label>
     </owl:Class>
     
@@ -1851,6 +2020,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <oboInOwl:hasDbXref>UKB:30010</oboInOwl:hasDbXref>
         <rdfs:label>red blood cell (erythrocyte) count</rdfs:label>
     </owl:Class>
     
@@ -1861,6 +2031,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_255">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <oboInOwl:hasDbXref>UKB:30070</oboInOwl:hasDbXref>
         <rdfs:label>red blood cell (erythrocyte) distribution width</rdfs:label>
     </owl:Class>
     
@@ -1871,6 +2042,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001356"/>
+        <oboInOwl:hasDbXref>UKB:30240</oboInOwl:hasDbXref>
         <rdfs:label>reticulocyte percentage</rdfs:label>
     </owl:Class>
     
@@ -1911,6 +2083,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_26">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_25"/>
+        <oboInOwl:hasDbXref>UKB:3761</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of hay fever, rhinitis or eczema</rdfs:label>
     </owl:Class>
     
@@ -1921,6 +2094,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_260">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <oboInOwl:hasDbXref>UKB:6350</oboInOwl:hasDbXref>
         <rdfs:label>duration to complete alphanumeric path (trail #2)</rdfs:label>
     </owl:Class>
     
@@ -1931,6 +2105,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_261">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <oboInOwl:hasDbXref>UKB:6348</oboInOwl:hasDbXref>
         <rdfs:label>duration to complete numeric path (trail #1)</rdfs:label>
     </owl:Class>
     
@@ -1941,6 +2116,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_262">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <oboInOwl:hasDbXref>UKB:6771</oboInOwl:hasDbXref>
         <rdfs:label>errors before selecting correct item in alphanumeric path (trail #2)</rdfs:label>
     </owl:Class>
     
@@ -1951,6 +2127,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_264">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <oboInOwl:hasDbXref>UKB:6770</oboInOwl:hasDbXref>
         <rdfs:label>errors before selecting correct item in numeric path (trail #1)</rdfs:label>
     </owl:Class>
     
@@ -1961,6 +2138,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_266">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <oboInOwl:hasDbXref>UKB:6773</oboInOwl:hasDbXref>
         <rdfs:label>interval between previous point and current one in alphanumeric path (trail #2)</rdfs:label>
     </owl:Class>
     
@@ -1971,6 +2149,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_268">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <oboInOwl:hasDbXref>UKB:6772</oboInOwl:hasDbXref>
         <rdfs:label>interval between previous point and current one in numeric path (trail #1)</rdfs:label>
     </owl:Class>
     
@@ -1991,6 +2170,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_270">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <oboInOwl:hasDbXref>UKB:6351</oboInOwl:hasDbXref>
         <rdfs:label>total errors traversing alphanumeric path (trail #2)</rdfs:label>
     </owl:Class>
     
@@ -2001,6 +2181,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_272">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_258"/>
+        <oboInOwl:hasDbXref>UKB:6349</oboInOwl:hasDbXref>
         <rdfs:label>total errors traversing numeric path (trail #1)</rdfs:label>
     </owl:Class>
     
@@ -2011,6 +2192,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_274">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <oboInOwl:hasDbXref>UKB:396</oboInOwl:hasDbXref>
         <rdfs:label>number of columns displayed in round</rdfs:label>
     </owl:Class>
     
@@ -2021,6 +2203,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_275">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <oboInOwl:hasDbXref>UKB:398</oboInOwl:hasDbXref>
         <rdfs:label>number of correct matches in round</rdfs:label>
     </owl:Class>
     
@@ -2031,6 +2214,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_277">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <oboInOwl:hasDbXref>UKB:10136</oboInOwl:hasDbXref>
         <rdfs:label>number of correct matches in round (pilot)</rdfs:label>
     </owl:Class>
     
@@ -2041,6 +2225,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_278">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <oboInOwl:hasDbXref>UKB:399</oboInOwl:hasDbXref>
         <rdfs:label>number of incorrect matches in round</rdfs:label>
     </owl:Class>
     
@@ -2051,6 +2236,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_28">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_27"/>
+        <oboInOwl:hasDbXref>UKB:3894</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of heart attack</rdfs:label>
     </owl:Class>
     
@@ -2061,6 +2247,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_280">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <oboInOwl:hasDbXref>UKB:10137</oboInOwl:hasDbXref>
         <rdfs:label>number of incorrect matches in round (pilot)</rdfs:label>
     </owl:Class>
     
@@ -2071,6 +2258,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_281">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_259"/>
+        <oboInOwl:hasDbXref>UKB:397</oboInOwl:hasDbXref>
         <rdfs:label>number of rows displayed in round</rdfs:label>
     </owl:Class>
     
@@ -2081,6 +2269,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_282">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:6365</oboInOwl:hasDbXref>
         <rdfs:label>uncertainty in vocabulary level</rdfs:label>
     </owl:Class>
     
@@ -2091,6 +2280,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_283">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:20016</oboInOwl:hasDbXref>
         <rdfs:label>fluid intelligence score</rdfs:label>
     </owl:Class>
     
@@ -2101,6 +2291,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_285">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:6333</oboInOwl:hasDbXref>
         <rdfs:label>duration spent answering each puzzle</rdfs:label>
     </owl:Class>
     
@@ -2111,6 +2302,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_286">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:6373</oboInOwl:hasDbXref>
         <rdfs:label>number of puzzles correctly solved</rdfs:label>
     </owl:Class>
     
@@ -2121,6 +2313,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_287">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:6374</oboInOwl:hasDbXref>
         <rdfs:label>number of puzzles viewed</rdfs:label>
     </owl:Class>
     
@@ -2131,6 +2324,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_288">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:4282</oboInOwl:hasDbXref>
         <rdfs:label>maximum digits remembered correctly</rdfs:label>
     </owl:Class>
     
@@ -2151,6 +2345,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_290">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:20197</oboInOwl:hasDbXref>
         <rdfs:label>number of word pairs correctly associated</rdfs:label>
     </owl:Class>
     
@@ -2161,6 +2356,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_291">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:4291</oboInOwl:hasDbXref>
         <rdfs:label>number of attempts</rdfs:label>
     </owl:Class>
     
@@ -2171,6 +2367,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_292">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:404</oboInOwl:hasDbXref>
         <rdfs:label>duration to first press of snap-button in each round</rdfs:label>
     </owl:Class>
     
@@ -2181,6 +2378,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_293">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:10147</oboInOwl:hasDbXref>
         <rdfs:label>duration to first press of snap-button in each round (pilot)</rdfs:label>
     </owl:Class>
     
@@ -2191,6 +2389,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_294">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:20023</oboInOwl:hasDbXref>
         <rdfs:label>mean time to correctly identify matches</rdfs:label>
     </owl:Class>
     
@@ -2201,6 +2400,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_295">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:20230</oboInOwl:hasDbXref>
         <rdfs:label>duration to entering value</rdfs:label>
     </owl:Class>
     
@@ -2211,6 +2411,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_296">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_257"/>
+        <oboInOwl:hasDbXref>UKB:6313</oboInOwl:hasDbXref>
         <rdfs:label>duration to entering selection</rdfs:label>
     </owl:Class>
     
@@ -2231,6 +2432,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_298">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:20121</oboInOwl:hasDbXref>
         <rdfs:label>cascot confidence score</rdfs:label>
     </owl:Class>
     
@@ -2241,6 +2443,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_299">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:796</oboInOwl:hasDbXref>
         <rdfs:label>distance between home and job workplace</rdfs:label>
     </owl:Class>
     
@@ -2261,6 +2464,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_30">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_29"/>
+        <oboInOwl:hasDbXref>UKB:2966</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of high blood pressure</rdfs:label>
     </owl:Class>
     
@@ -2271,6 +2475,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_300">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:777</oboInOwl:hasDbXref>
         <rdfs:label>frequency of travelling from home to job workplace</rdfs:label>
     </owl:Class>
     
@@ -2281,6 +2486,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_301">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:757</oboInOwl:hasDbXref>
         <rdfs:label>time employed in main current job</rdfs:label>
     </owl:Class>
     
@@ -2291,6 +2497,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_302">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22644</oboInOwl:hasDbXref>
         <rdfs:label>consecutive night shifts during mixed shift periods</rdfs:label>
     </owl:Class>
     
@@ -2301,6 +2508,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_303">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22654</oboInOwl:hasDbXref>
         <rdfs:label>consecutive night shifts during night shift periods</rdfs:label>
     </owl:Class>
     
@@ -2311,6 +2519,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_304">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22599</oboInOwl:hasDbXref>
         <rdfs:label>number of jobs held</rdfs:label>
     </owl:Class>
     
@@ -2321,6 +2530,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_305">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22643</oboInOwl:hasDbXref>
         <rdfs:label>number of night shifts worked monthly during mixed shift periods</rdfs:label>
     </owl:Class>
     
@@ -2331,6 +2541,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_306">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22653</oboInOwl:hasDbXref>
         <rdfs:label>number of night shifts worked monthly during night shift periods</rdfs:label>
     </owl:Class>
     
@@ -2341,6 +2552,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_307">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22645</oboInOwl:hasDbXref>
         <rdfs:label>rest days during mixed shift periods</rdfs:label>
     </owl:Class>
     
@@ -2351,6 +2563,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_308">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22655</oboInOwl:hasDbXref>
         <rdfs:label>rest days during night shift periods</rdfs:label>
     </owl:Class>
     
@@ -2361,6 +2574,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_309">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22642</oboInOwl:hasDbXref>
         <rdfs:label>usual length of each night shift during mixed shift periods</rdfs:label>
     </owl:Class>
     
@@ -2381,6 +2595,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_310">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22652</oboInOwl:hasDbXref>
         <rdfs:label>usual length of each night shift during night shift periods</rdfs:label>
     </owl:Class>
     
@@ -2391,6 +2606,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_311">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22664</oboInOwl:hasDbXref>
         <rdfs:label>year gap ended</rdfs:label>
     </owl:Class>
     
@@ -2401,6 +2617,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_312">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22663</oboInOwl:hasDbXref>
         <rdfs:label>year gap started</rdfs:label>
     </owl:Class>
     
@@ -2411,6 +2628,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_313">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22603</oboInOwl:hasDbXref>
         <rdfs:label>year job ended</rdfs:label>
     </owl:Class>
     
@@ -2421,6 +2639,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_314">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22602</oboInOwl:hasDbXref>
         <rdfs:label>year job started</rdfs:label>
     </owl:Class>
     
@@ -2431,6 +2650,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_315">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22200</oboInOwl:hasDbXref>
         <rdfs:label>year of birth</rdfs:label>
     </owl:Class>
     
@@ -2441,6 +2661,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_316">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_297"/>
+        <oboInOwl:hasDbXref>UKB:22501</oboInOwl:hasDbXref>
         <rdfs:label>year ended full time education</rdfs:label>
     </owl:Class>
     
@@ -2461,6 +2682,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_318">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:20162</oboInOwl:hasDbXref>
         <rdfs:label>pack years adult smoking as proportion of life span exposed to smoking</rdfs:label>
     </owl:Class>
     
@@ -2471,6 +2693,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_319">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:20161</oboInOwl:hasDbXref>
         <rdfs:label>pack years of smoking</rdfs:label>
     </owl:Class>
     
@@ -2481,6 +2704,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_32">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_31"/>
+        <oboInOwl:hasDbXref>UKB:4022</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of pulmonary embolism (blood clot in lung)</rdfs:label>
     </owl:Class>
     
@@ -2491,6 +2715,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_320">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:3436</oboInOwl:hasDbXref>
         <rdfs:label>age started smoking in current smokers</rdfs:label>
     </owl:Class>
     
@@ -2501,6 +2726,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_321">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:2867</oboInOwl:hasDbXref>
         <rdfs:label>age started smoking in former smokers</rdfs:label>
     </owl:Class>
     
@@ -2511,6 +2737,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_322">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:2897</oboInOwl:hasDbXref>
         <rdfs:label>age stopped smoking</rdfs:label>
     </owl:Class>
     
@@ -2521,6 +2748,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_323">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:6194</oboInOwl:hasDbXref>
         <rdfs:label>age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker)</rdfs:label>
     </owl:Class>
     
@@ -2531,6 +2759,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_324">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:1269</oboInOwl:hasDbXref>
         <rdfs:label>exposure to tobacco smoke at home</rdfs:label>
     </owl:Class>
     
@@ -2541,6 +2770,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_325">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:1279</oboInOwl:hasDbXref>
         <rdfs:label>exposure to tobacco smoke outside home</rdfs:label>
     </owl:Class>
     
@@ -2551,6 +2781,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_326">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:3456</oboInOwl:hasDbXref>
         <rdfs:label>number of cigarettes currently smoked daily (current cigarette smokers)</rdfs:label>
     </owl:Class>
     
@@ -2561,6 +2792,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_327">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:2887</oboInOwl:hasDbXref>
         <rdfs:label>number of cigarettes previously smoked daily</rdfs:label>
     </owl:Class>
     
@@ -2571,6 +2803,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_328">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:6183</oboInOwl:hasDbXref>
         <rdfs:label>number of cigarettes previously smoked daily (current cigar/pipe smokers)</rdfs:label>
     </owl:Class>
     
@@ -2581,6 +2814,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_329">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:2926</oboInOwl:hasDbXref>
         <rdfs:label>number of unsuccessful stop-smoking attempts</rdfs:label>
     </owl:Class>
     
@@ -2601,6 +2835,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_330">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000426"/>
+        <oboInOwl:hasDbXref>UKB:20455</oboInOwl:hasDbXref>
         <rdfs:label>age when last took cannabis</rdfs:label>
     </owl:Class>
     
@@ -2621,6 +2856,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_332">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22672</oboInOwl:hasDbXref>
         <rdfs:label>maximum carotid imt (intima-medial thickness) at 120 degrees</rdfs:label>
     </owl:Class>
     
@@ -2631,6 +2867,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_333">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22675</oboInOwl:hasDbXref>
         <rdfs:label>maximum carotid imt (intima-medial thickness) at 150 degrees</rdfs:label>
     </owl:Class>
     
@@ -2641,6 +2878,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_334">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22678</oboInOwl:hasDbXref>
         <rdfs:label>maximum carotid imt (intima-medial thickness) at 210 degrees</rdfs:label>
     </owl:Class>
     
@@ -2651,6 +2889,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_335">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22681</oboInOwl:hasDbXref>
         <rdfs:label>maximum carotid imt (intima-medial thickness) at 240 degrees</rdfs:label>
     </owl:Class>
     
@@ -2661,6 +2900,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_336">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22671</oboInOwl:hasDbXref>
         <rdfs:label>mean carotid imt (intima-medial thickness) at 120 degrees</rdfs:label>
     </owl:Class>
     
@@ -2671,6 +2911,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_337">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22674</oboInOwl:hasDbXref>
         <rdfs:label>mean carotid imt (intima-medial thickness) at 150 degrees</rdfs:label>
     </owl:Class>
     
@@ -2681,6 +2922,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_338">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22677</oboInOwl:hasDbXref>
         <rdfs:label>mean carotid imt (intima-medial thickness) at 210 degrees</rdfs:label>
     </owl:Class>
     
@@ -2691,6 +2933,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_339">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22680</oboInOwl:hasDbXref>
         <rdfs:label>mean carotid imt (intima-medial thickness) at 240 degrees</rdfs:label>
     </owl:Class>
     
@@ -2701,6 +2944,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_34">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_33"/>
+        <oboInOwl:hasDbXref>UKB:4056</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of stroke</rdfs:label>
     </owl:Class>
     
@@ -2711,6 +2955,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_340">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22670</oboInOwl:hasDbXref>
         <rdfs:label>minimum carotid imt (intima-medial thickness) at 120 degrees</rdfs:label>
     </owl:Class>
     
@@ -2721,6 +2966,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_341">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22673</oboInOwl:hasDbXref>
         <rdfs:label>minimum carotid imt (intima-medial thickness) at 150 degrees</rdfs:label>
     </owl:Class>
     
@@ -2731,6 +2977,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_342">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22676</oboInOwl:hasDbXref>
         <rdfs:label>minimum carotid imt (intima-medial thickness) at 210 degrees</rdfs:label>
     </owl:Class>
     
@@ -2741,6 +2988,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_343">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_331"/>
+        <oboInOwl:hasDbXref>UKB:22679</oboInOwl:hasDbXref>
         <rdfs:label>minimum carotid imt (intima-medial thickness) at 240 degrees</rdfs:label>
     </owl:Class>
     
@@ -2751,6 +2999,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_344">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:74</oboInOwl:hasDbXref>
         <rdfs:label>fasting time</rdfs:label>
     </owl:Class>
     
@@ -2761,6 +3010,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_345">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:3680</oboInOwl:hasDbXref>
         <rdfs:label>age when last ate meat</rdfs:label>
     </owl:Class>
     
@@ -2771,6 +3021,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_346">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:1438</oboInOwl:hasDbXref>
         <rdfs:label>bread intake</rdfs:label>
     </owl:Class>
     
@@ -2781,6 +3032,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_347">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:1458</oboInOwl:hasDbXref>
         <rdfs:label>cereal intake</rdfs:label>
     </owl:Class>
     
@@ -2791,6 +3043,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:1498</oboInOwl:hasDbXref>
         <rdfs:label>coffee intake</rdfs:label>
     </owl:Class>
     
@@ -2801,6 +3054,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:1289</oboInOwl:hasDbXref>
         <rdfs:label>cooked vegetable intake</rdfs:label>
     </owl:Class>
     
@@ -2821,6 +3075,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_350">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:1319</oboInOwl:hasDbXref>
         <rdfs:label>dried fruit intake</rdfs:label>
     </owl:Class>
     
@@ -2831,6 +3086,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_351">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:1309</oboInOwl:hasDbXref>
         <rdfs:label>fresh fruit intake</rdfs:label>
     </owl:Class>
     
@@ -2841,6 +3097,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_352">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:1299</oboInOwl:hasDbXref>
         <rdfs:label>salad / raw vegetable intake</rdfs:label>
     </owl:Class>
     
@@ -2851,6 +3108,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_353">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:1488</oboInOwl:hasDbXref>
         <rdfs:label>tea intake</rdfs:label>
     </owl:Class>
     
@@ -2861,6 +3119,8 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_354">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000772"/>
+        <oboInOwl:hasDbXref>UKB:1528</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:22507</oboInOwl:hasDbXref>
         <rdfs:label>water intake</rdfs:label>
     </owl:Class>
     
@@ -2881,6 +3141,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_356">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:22033</oboInOwl:hasDbXref>
         <rdfs:label>summed days activity</rdfs:label>
     </owl:Class>
     
@@ -2891,6 +3152,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_357">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:22034</oboInOwl:hasDbXref>
         <rdfs:label>summed minutes activity</rdfs:label>
     </owl:Class>
     
@@ -2901,6 +3163,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_358">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:894</oboInOwl:hasDbXref>
         <rdfs:label>duration of moderate activity</rdfs:label>
     </owl:Class>
     
@@ -2911,6 +3174,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_359">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:914</oboInOwl:hasDbXref>
         <rdfs:label>duration of vigorous activity</rdfs:label>
     </owl:Class>
     
@@ -2921,6 +3185,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_36">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_35"/>
+        <oboInOwl:hasDbXref>UKB:22150</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of copd (chronic obstructive pulmonary disease)</rdfs:label>
     </owl:Class>
     
@@ -2931,6 +3196,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_360">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:874</oboInOwl:hasDbXref>
         <rdfs:label>duration of walks</rdfs:label>
     </owl:Class>
     
@@ -2941,6 +3207,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_361">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:884</oboInOwl:hasDbXref>
         <rdfs:label>number of days/week of moderate physical activity 10+ minutes</rdfs:label>
     </owl:Class>
     
@@ -2951,6 +3218,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_362">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:904</oboInOwl:hasDbXref>
         <rdfs:label>number of days/week of vigorous physical activity 10+ minutes</rdfs:label>
     </owl:Class>
     
@@ -2961,6 +3229,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_363">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:864</oboInOwl:hasDbXref>
         <rdfs:label>number of days/week walked 10+ minutes</rdfs:label>
     </owl:Class>
     
@@ -2971,6 +3240,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_364">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:1090</oboInOwl:hasDbXref>
         <rdfs:label>time spent driving</rdfs:label>
     </owl:Class>
     
@@ -2981,6 +3251,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_365">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:1080</oboInOwl:hasDbXref>
         <rdfs:label>time spent using computer</rdfs:label>
     </owl:Class>
     
@@ -2991,6 +3262,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_366">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_355"/>
+        <oboInOwl:hasDbXref>UKB:1070</oboInOwl:hasDbXref>
         <rdfs:label>time spent watching television (tv)</rdfs:label>
     </owl:Class>
     
@@ -3011,6 +3283,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_368">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <oboInOwl:hasDbXref>UKB:2946</oboInOwl:hasDbXref>
         <rdfs:label>father&apos;s age</rdfs:label>
     </owl:Class>
     
@@ -3021,6 +3294,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_369">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <oboInOwl:hasDbXref>UKB:1807</oboInOwl:hasDbXref>
         <rdfs:label>father&apos;s age at death</rdfs:label>
     </owl:Class>
     
@@ -3041,6 +3315,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_370">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <oboInOwl:hasDbXref>UKB:1845</oboInOwl:hasDbXref>
         <rdfs:label>mother&apos;s age</rdfs:label>
     </owl:Class>
     
@@ -3051,6 +3326,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_371">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <oboInOwl:hasDbXref>UKB:3526</oboInOwl:hasDbXref>
         <rdfs:label>mother&apos;s age at death</rdfs:label>
     </owl:Class>
     
@@ -3061,6 +3337,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_372">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <oboInOwl:hasDbXref>UKB:3972</oboInOwl:hasDbXref>
         <rdfs:label>number of adopted brothers</rdfs:label>
     </owl:Class>
     
@@ -3071,6 +3348,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_373">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <oboInOwl:hasDbXref>UKB:3982</oboInOwl:hasDbXref>
         <rdfs:label>number of adopted sisters</rdfs:label>
     </owl:Class>
     
@@ -3081,6 +3359,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_374">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <oboInOwl:hasDbXref>UKB:1873</oboInOwl:hasDbXref>
         <rdfs:label>number of full brothers</rdfs:label>
     </owl:Class>
     
@@ -3091,6 +3370,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_375">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <oboInOwl:hasDbXref>UKB:1883</oboInOwl:hasDbXref>
         <rdfs:label>number of full sisters</rdfs:label>
     </owl:Class>
     
@@ -3101,6 +3381,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_376">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_367"/>
+        <oboInOwl:hasDbXref>UKB:5057</oboInOwl:hasDbXref>
         <rdfs:label>number of older siblings</rdfs:label>
     </owl:Class>
     
@@ -3141,6 +3422,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_38">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_37"/>
+        <oboInOwl:hasDbXref>UKB:22152</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of alpha-1 antitrypsin deficiency</rdfs:label>
     </owl:Class>
     
@@ -3151,6 +3433,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_380">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <oboInOwl:hasDbXref>UKB:5264</oboInOwl:hasDbXref>
         <rdfs:label>corneal hysteresis (left)</rdfs:label>
     </owl:Class>
     
@@ -3161,6 +3444,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_381">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <oboInOwl:hasDbXref>UKB:5256</oboInOwl:hasDbXref>
         <rdfs:label>corneal hysteresis (right)</rdfs:label>
     </owl:Class>
     
@@ -3171,6 +3455,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_382">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <oboInOwl:hasDbXref>UKB:5265</oboInOwl:hasDbXref>
         <rdfs:label>corneal resistance factor (left)</rdfs:label>
     </owl:Class>
     
@@ -3181,6 +3466,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_383">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <oboInOwl:hasDbXref>UKB:5257</oboInOwl:hasDbXref>
         <rdfs:label>corneal resistance factor (right)</rdfs:label>
     </owl:Class>
     
@@ -3191,6 +3477,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_384">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_379"/>
+        <oboInOwl:hasDbXref>UKB:5263</oboInOwl:hasDbXref>
         <rdfs:label>intra-ocular pressure, goldmann-correlated (left)</rdfs:label>
     </owl:Class>
     
@@ -3201,6 +3488,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_385">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_379"/>
+        <oboInOwl:hasDbXref>UKB:5255</oboInOwl:hasDbXref>
         <rdfs:label>intra-ocular pressure, goldmann-correlated (right)</rdfs:label>
     </owl:Class>
     
@@ -3211,6 +3499,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_386">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <oboInOwl:hasDbXref>UKB:5262</oboInOwl:hasDbXref>
         <rdfs:label>intra-ocular pressure, corneal-compensated (left)</rdfs:label>
     </owl:Class>
     
@@ -3221,6 +3510,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_387">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_378"/>
+        <oboInOwl:hasDbXref>UKB:5254</oboInOwl:hasDbXref>
         <rdfs:label>intra-ocular pressure, corneal-compensated (right)</rdfs:label>
     </owl:Class>
     
@@ -3231,6 +3521,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_388">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_377"/>
+        <oboInOwl:hasDbXref>UKB:20261</oboInOwl:hasDbXref>
         <rdfs:label>avmse</rdfs:label>
     </owl:Class>
     
@@ -3241,6 +3532,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_389">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_377"/>
+        <oboInOwl:hasDbXref>UKB:5208</oboInOwl:hasDbXref>
         <rdfs:label>logmar, final (left)</rdfs:label>
     </owl:Class>
     
@@ -3261,6 +3553,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_390">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_377"/>
+        <oboInOwl:hasDbXref>UKB:5201</oboInOwl:hasDbXref>
         <rdfs:label>logmar, final (right)</rdfs:label>
     </owl:Class>
     
@@ -3281,6 +3574,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_392">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5156</oboInOwl:hasDbXref>
         <rdfs:label>3mm asymmetry index (left)</rdfs:label>
     </owl:Class>
     
@@ -3291,6 +3585,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_393">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5159</oboInOwl:hasDbXref>
         <rdfs:label>3mm asymmetry index (right)</rdfs:label>
     </owl:Class>
     
@@ -3301,6 +3596,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_394">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5119</oboInOwl:hasDbXref>
         <rdfs:label>3mm cylindrical power (left)</rdfs:label>
     </owl:Class>
     
@@ -3311,6 +3607,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_395">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5116</oboInOwl:hasDbXref>
         <rdfs:label>3mm cylindrical power (right)</rdfs:label>
     </owl:Class>
     
@@ -3321,6 +3618,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_396">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5163</oboInOwl:hasDbXref>
         <rdfs:label>3mm regularity index (left)</rdfs:label>
     </owl:Class>
     
@@ -3331,6 +3629,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_397">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5160</oboInOwl:hasDbXref>
         <rdfs:label>3mm regularity index (right)</rdfs:label>
     </owl:Class>
     
@@ -3341,6 +3640,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_398">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5135</oboInOwl:hasDbXref>
         <rdfs:label>3mm strong meridian (left)</rdfs:label>
     </owl:Class>
     
@@ -3351,6 +3651,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_399">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5132</oboInOwl:hasDbXref>
         <rdfs:label>3mm strong meridian (right)</rdfs:label>
     </owl:Class>
     
@@ -3361,6 +3662,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_4">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_3"/>
+        <oboInOwl:hasDbXref>UKB:4700</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of cataract</rdfs:label>
     </owl:Class>
     
@@ -3371,6 +3673,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_40">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_39"/>
+        <oboInOwl:hasDbXref>UKB:22159</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of asbestosis</rdfs:label>
     </owl:Class>
     
@@ -3381,6 +3684,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_400">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5096</oboInOwl:hasDbXref>
         <rdfs:label>3mm weak meridian (left)</rdfs:label>
     </owl:Class>
     
@@ -3391,6 +3695,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_401">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5099</oboInOwl:hasDbXref>
         <rdfs:label>3mm weak meridian (right)</rdfs:label>
     </owl:Class>
     
@@ -3401,6 +3706,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_402">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5157</oboInOwl:hasDbXref>
         <rdfs:label>6mm asymmetry index (left)</rdfs:label>
     </owl:Class>
     
@@ -3411,6 +3717,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_403">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5158</oboInOwl:hasDbXref>
         <rdfs:label>6mm asymmetry index (right)</rdfs:label>
     </owl:Class>
     
@@ -3421,6 +3728,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_404">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5118</oboInOwl:hasDbXref>
         <rdfs:label>6mm cylindrical power (left)</rdfs:label>
     </owl:Class>
     
@@ -3431,6 +3739,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_405">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5117</oboInOwl:hasDbXref>
         <rdfs:label>6mm cylindrical power (right)</rdfs:label>
     </owl:Class>
     
@@ -3441,6 +3750,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_406">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5162</oboInOwl:hasDbXref>
         <rdfs:label>6mm regularity index (left)</rdfs:label>
     </owl:Class>
     
@@ -3451,6 +3761,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_407">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5161</oboInOwl:hasDbXref>
         <rdfs:label>6mm regularity index (right)</rdfs:label>
     </owl:Class>
     
@@ -3461,6 +3772,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_408">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5134</oboInOwl:hasDbXref>
         <rdfs:label>6mm strong meridian (left)</rdfs:label>
     </owl:Class>
     
@@ -3471,6 +3783,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_409">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5133</oboInOwl:hasDbXref>
         <rdfs:label>6mm strong meridian (right)</rdfs:label>
     </owl:Class>
     
@@ -3481,6 +3794,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_410">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5097</oboInOwl:hasDbXref>
         <rdfs:label>6mm weak meridian (left)</rdfs:label>
     </owl:Class>
     
@@ -3491,6 +3805,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_411">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5098</oboInOwl:hasDbXref>
         <rdfs:label>6mm weak meridian (right)</rdfs:label>
     </owl:Class>
     
@@ -3501,6 +3816,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_412">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5086</oboInOwl:hasDbXref>
         <rdfs:label>cylindrical power (left)</rdfs:label>
     </owl:Class>
     
@@ -3511,6 +3827,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_413">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5087</oboInOwl:hasDbXref>
         <rdfs:label>cylindrical power (right)</rdfs:label>
     </owl:Class>
     
@@ -3521,6 +3838,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_414">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5085</oboInOwl:hasDbXref>
         <rdfs:label>spherical power (left)</rdfs:label>
     </owl:Class>
     
@@ -3531,6 +3849,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_415">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5084</oboInOwl:hasDbXref>
         <rdfs:label>spherical power (right)</rdfs:label>
     </owl:Class>
     
@@ -3541,6 +3860,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_416">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5274</oboInOwl:hasDbXref>
         <rdfs:label>vertex distance (left)</rdfs:label>
     </owl:Class>
     
@@ -3551,6 +3871,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_417">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5215</oboInOwl:hasDbXref>
         <rdfs:label>vertex distance (right)</rdfs:label>
     </owl:Class>
     
@@ -3561,6 +3882,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_418">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5111</oboInOwl:hasDbXref>
         <rdfs:label>3mm asymmetry angle (left)</rdfs:label>
     </owl:Class>
     
@@ -3571,6 +3893,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_419">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5108</oboInOwl:hasDbXref>
         <rdfs:label>3mm asymmetry angle (right)</rdfs:label>
     </owl:Class>
     
@@ -3581,6 +3904,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_420">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5112</oboInOwl:hasDbXref>
         <rdfs:label>3mm cylindrical power angle (left)</rdfs:label>
     </owl:Class>
     
@@ -3591,6 +3915,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_421">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5115</oboInOwl:hasDbXref>
         <rdfs:label>3mm cylindrical power angle (right)</rdfs:label>
     </owl:Class>
     
@@ -3601,6 +3926,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_422">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5292</oboInOwl:hasDbXref>
         <rdfs:label>3mm index of best keratometry results (left)</rdfs:label>
     </owl:Class>
     
@@ -3611,6 +3937,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_423">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5237</oboInOwl:hasDbXref>
         <rdfs:label>3mm index of best keratometry results (right)</rdfs:label>
     </owl:Class>
     
@@ -3621,6 +3948,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_424">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5104</oboInOwl:hasDbXref>
         <rdfs:label>3mm strong meridian angle (left)</rdfs:label>
     </owl:Class>
     
@@ -3631,6 +3959,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_425">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5107</oboInOwl:hasDbXref>
         <rdfs:label>3mm strong meridian angle (right)</rdfs:label>
     </owl:Class>
     
@@ -3641,6 +3970,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_426">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5103</oboInOwl:hasDbXref>
         <rdfs:label>3mm weak meridian angle (left)</rdfs:label>
     </owl:Class>
     
@@ -3651,6 +3981,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_427">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5100</oboInOwl:hasDbXref>
         <rdfs:label>3mm weak meridian angle (right)</rdfs:label>
     </owl:Class>
     
@@ -3661,6 +3992,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_428">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5110</oboInOwl:hasDbXref>
         <rdfs:label>6mm asymmetry angle (left)</rdfs:label>
     </owl:Class>
     
@@ -3671,6 +4003,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_429">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5109</oboInOwl:hasDbXref>
         <rdfs:label>6mm asymmetry angle (right)</rdfs:label>
     </owl:Class>
     
@@ -3691,6 +4024,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_430">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5113</oboInOwl:hasDbXref>
         <rdfs:label>6mm cylindrical power angle (left)</rdfs:label>
     </owl:Class>
     
@@ -3701,6 +4035,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_431">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5114</oboInOwl:hasDbXref>
         <rdfs:label>6mm cylindrical power angle (right)</rdfs:label>
     </owl:Class>
     
@@ -3711,6 +4046,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_432">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5306</oboInOwl:hasDbXref>
         <rdfs:label>6mm index of best keratometry results (left)</rdfs:label>
     </owl:Class>
     
@@ -3721,6 +4057,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_433">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5251</oboInOwl:hasDbXref>
         <rdfs:label>6mm index of best keratometry results (right)</rdfs:label>
     </owl:Class>
     
@@ -3731,6 +4068,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_434">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5105</oboInOwl:hasDbXref>
         <rdfs:label>6mm strong meridian angle (left)</rdfs:label>
     </owl:Class>
     
@@ -3741,6 +4079,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_435">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5106</oboInOwl:hasDbXref>
         <rdfs:label>6mm strong meridian angle (right)</rdfs:label>
     </owl:Class>
     
@@ -3751,6 +4090,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_436">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5102</oboInOwl:hasDbXref>
         <rdfs:label>6mm weak meridian angle (left)</rdfs:label>
     </owl:Class>
     
@@ -3761,6 +4101,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_437">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5101</oboInOwl:hasDbXref>
         <rdfs:label>6mm weak meridian angle (right)</rdfs:label>
     </owl:Class>
     
@@ -3771,6 +4112,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_438">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5089</oboInOwl:hasDbXref>
         <rdfs:label>astigmatism angle (left)</rdfs:label>
     </owl:Class>
     
@@ -3781,6 +4123,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_439">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_391"/>
+        <oboInOwl:hasDbXref>UKB:5088</oboInOwl:hasDbXref>
         <rdfs:label>astigmatism angle (right)</rdfs:label>
     </owl:Class>
     
@@ -3791,6 +4134,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_44">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_43"/>
+        <oboInOwl:hasDbXref>UKB:22154</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of bronchiectasis</rdfs:label>
     </owl:Class>
     
@@ -3801,6 +4145,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_440">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000197"/>
+        <oboInOwl:hasDbXref>UKB:12682</oboInOwl:hasDbXref>
         <rdfs:label>cardiac output during pwa</rdfs:label>
     </owl:Class>
     
@@ -3811,6 +4156,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_441">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <oboInOwl:hasDbXref>UKB:12680</oboInOwl:hasDbXref>
         <rdfs:label>central augmentation pressure during pwa</rdfs:label>
     </owl:Class>
     
@@ -3821,6 +4167,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_442">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <oboInOwl:hasDbXref>UKB:12679</oboInOwl:hasDbXref>
         <rdfs:label>number of beats in waveform average for pwa</rdfs:label>
     </owl:Class>
     
@@ -3831,6 +4178,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_443">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <oboInOwl:hasDbXref>UKB:12685</oboInOwl:hasDbXref>
         <rdfs:label>total peripheral resistance during pwa</rdfs:label>
     </owl:Class>
     
@@ -3841,6 +4189,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_444">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <oboInOwl:hasDbXref>UKB:4196</oboInOwl:hasDbXref>
         <rdfs:label>pulse wave peak to peak time</rdfs:label>
     </owl:Class>
     
@@ -3851,6 +4200,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_445">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <oboInOwl:hasDbXref>UKB:4195</oboInOwl:hasDbXref>
         <rdfs:label>pulse wave reflection index</rdfs:label>
     </owl:Class>
     
@@ -3861,6 +4211,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_446">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <oboInOwl:hasDbXref>UKB:12698</oboInOwl:hasDbXref>
         <rdfs:label>diastolic brachial blood pressure</rdfs:label>
     </owl:Class>
     
@@ -3871,6 +4222,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_447">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <oboInOwl:hasDbXref>UKB:12675</oboInOwl:hasDbXref>
         <rdfs:label>diastolic brachial blood pressure during pwa</rdfs:label>
     </owl:Class>
     
@@ -3881,6 +4233,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_448">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <oboInOwl:hasDbXref>UKB:12697</oboInOwl:hasDbXref>
         <rdfs:label>systolic brachial blood pressure</rdfs:label>
     </owl:Class>
     
@@ -3891,6 +4244,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_449">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000008"/>
+        <oboInOwl:hasDbXref>UKB:12674</oboInOwl:hasDbXref>
         <rdfs:label>systolic brachial blood pressure during pwa</rdfs:label>
     </owl:Class>
     
@@ -3931,6 +4285,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_452">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:20420</oboInOwl:hasDbXref>
         <rdfs:label>longest period spent worried or anxious</rdfs:label>
     </owl:Class>
     
@@ -3941,6 +4296,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_453">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:4609</oboInOwl:hasDbXref>
         <rdfs:label>longest period of depression</rdfs:label>
     </owl:Class>
     
@@ -3951,6 +4307,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_454">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:5375</oboInOwl:hasDbXref>
         <rdfs:label>longest period of unenthusiasm / disinterest</rdfs:label>
     </owl:Class>
     
@@ -3961,6 +4318,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_455">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:20127</oboInOwl:hasDbXref>
         <rdfs:label>neuroticism score</rdfs:label>
     </owl:Class>
     
@@ -3971,6 +4329,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_456">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:4620</oboInOwl:hasDbXref>
         <rdfs:label>number of depression episodes</rdfs:label>
     </owl:Class>
     
@@ -3981,6 +4340,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_457">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:5386</oboInOwl:hasDbXref>
         <rdfs:label>number of unenthusiastic/disinterested episodes</rdfs:label>
     </owl:Class>
     
@@ -3991,6 +4351,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_458">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:20461</oboInOwl:hasDbXref>
         <rdfs:label>age when first had unusual or psychotic experience</rdfs:label>
     </owl:Class>
     
@@ -4001,6 +4362,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_459">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:20470</oboInOwl:hasDbXref>
         <rdfs:label>number of times believed in an un-real conspiracy against self</rdfs:label>
     </owl:Class>
     
@@ -4011,6 +4373,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_46">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_45"/>
+        <oboInOwl:hasDbXref>UKB:22149</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of chronic bronchitis</rdfs:label>
     </owl:Class>
     
@@ -4021,6 +4384,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_460">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:20476</oboInOwl:hasDbXref>
         <rdfs:label>number of times believed in un-real communications or signs</rdfs:label>
     </owl:Class>
     
@@ -4031,6 +4395,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_461">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:20465</oboInOwl:hasDbXref>
         <rdfs:label>number of times heard an un-real voice</rdfs:label>
     </owl:Class>
     
@@ -4041,6 +4406,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_462">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_450"/>
+        <oboInOwl:hasDbXref>UKB:20473</oboInOwl:hasDbXref>
         <rdfs:label>number of times seen an un-real vision</rdfs:label>
     </owl:Class>
     
@@ -4051,6 +4417,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_463">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_451"/>
+        <oboInOwl:hasDbXref>UKB:20433</oboInOwl:hasDbXref>
         <rdfs:label>age at first episode of depression</rdfs:label>
     </owl:Class>
     
@@ -4061,6 +4428,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_464">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_451"/>
+        <oboInOwl:hasDbXref>UKB:20434</oboInOwl:hasDbXref>
         <rdfs:label>age at last episode of depression</rdfs:label>
     </owl:Class>
     
@@ -4071,6 +4439,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_465">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_451"/>
+        <oboInOwl:hasDbXref>UKB:20442</oboInOwl:hasDbXref>
         <rdfs:label>lifetime number of depressed periods</rdfs:label>
     </owl:Class>
     
@@ -4081,6 +4450,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_466">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:22335</oboInOwl:hasDbXref>
         <rdfs:label>p axis</rdfs:label>
     </owl:Class>
     
@@ -4091,6 +4461,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_467">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:12338</oboInOwl:hasDbXref>
         <rdfs:label>p duration</rdfs:label>
     </owl:Class>
     
@@ -4101,6 +4472,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_468">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:22330</oboInOwl:hasDbXref>
         <rdfs:label>pq interval</rdfs:label>
     </owl:Class>
     
@@ -4111,6 +4483,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:22338</oboInOwl:hasDbXref>
         <rdfs:label>qrs num</rdfs:label>
     </owl:Class>
     
@@ -4131,6 +4504,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_470">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:22336</oboInOwl:hasDbXref>
         <rdfs:label>r axis</rdfs:label>
     </owl:Class>
     
@@ -4141,6 +4515,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_471">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:22337</oboInOwl:hasDbXref>
         <rdfs:label>t axis</rdfs:label>
     </owl:Class>
     
@@ -4151,6 +4526,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_472">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:12336</oboInOwl:hasDbXref>
         <rdfs:label>ventricular rate</rdfs:label>
     </owl:Class>
     
@@ -4161,6 +4537,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_473">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:5984</oboInOwl:hasDbXref>
         <rdfs:label>ecg, load</rdfs:label>
     </owl:Class>
     
@@ -4171,6 +4548,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_474">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:5993</oboInOwl:hasDbXref>
         <rdfs:label>ecg, number of stages in a phase</rdfs:label>
     </owl:Class>
     
@@ -4181,6 +4559,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_475">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:5992</oboInOwl:hasDbXref>
         <rdfs:label>ecg, phase duration</rdfs:label>
     </owl:Class>
     
@@ -4191,6 +4570,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_476">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:5986</oboInOwl:hasDbXref>
         <rdfs:label>ecg, phase time</rdfs:label>
     </owl:Class>
     
@@ -4201,6 +4581,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_477">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000230"/>
+        <oboInOwl:hasDbXref>UKB:5990</oboInOwl:hasDbXref>
         <rdfs:label>ecg, stage duration</rdfs:label>
     </owl:Class>
     
@@ -4221,6 +4602,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_479">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <oboInOwl:hasDbXref>UKB:130</oboInOwl:hasDbXref>
         <rdfs:label>place of birth in uk - east co-ordinate</rdfs:label>
     </owl:Class>
     
@@ -4231,6 +4613,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_48">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_47"/>
+        <oboInOwl:hasDbXref>UKB:22151</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of cystic fibrosis</rdfs:label>
     </owl:Class>
     
@@ -4241,6 +4624,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_480">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <oboInOwl:hasDbXref>UKB:129</oboInOwl:hasDbXref>
         <rdfs:label>place of birth in uk - north co-ordinate</rdfs:label>
     </owl:Class>
     
@@ -4251,6 +4635,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_481">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <oboInOwl:hasDbXref>UKB:41275</oboInOwl:hasDbXref>
         <rdfs:label>duration of antenatal stay</rdfs:label>
     </owl:Class>
     
@@ -4261,6 +4646,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_482">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <oboInOwl:hasDbXref>UKB:41285</oboInOwl:hasDbXref>
         <rdfs:label>duration of postnatal stay</rdfs:label>
     </owl:Class>
     
@@ -4271,6 +4657,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_483">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <oboInOwl:hasDbXref>UKB:41269</oboInOwl:hasDbXref>
         <rdfs:label>gestation period at first antenatal assessment</rdfs:label>
     </owl:Class>
     
@@ -4281,6 +4668,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_484">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <oboInOwl:hasDbXref>UKB:41286</oboInOwl:hasDbXref>
         <rdfs:label>mother age on date of delivery</rdfs:label>
     </owl:Class>
     
@@ -4291,6 +4679,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_485">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_478"/>
+        <oboInOwl:hasDbXref>UKB:41276</oboInOwl:hasDbXref>
         <rdfs:label>number of weeks of gestation</rdfs:label>
     </owl:Class>
     
@@ -4301,6 +4690,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_486">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000997"/>
+        <oboInOwl:hasDbXref>UKB:21044</oboInOwl:hasDbXref>
         <rdfs:label>average number of times bowels opened per day</rdfs:label>
     </owl:Class>
     
@@ -4311,6 +4701,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_487">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000997"/>
+        <oboInOwl:hasDbXref>UKB:21042</oboInOwl:hasDbXref>
         <rdfs:label>greatest number of times bowels opened per day</rdfs:label>
     </owl:Class>
     
@@ -4321,6 +4712,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_488">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000997"/>
+        <oboInOwl:hasDbXref>UKB:21043</oboInOwl:hasDbXref>
         <rdfs:label>least number of times bowels opened per week</rdfs:label>
     </owl:Class>
     
@@ -4331,6 +4723,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_489">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000997"/>
+        <oboInOwl:hasDbXref>UKB:21047</oboInOwl:hasDbXref>
         <rdfs:label>number of weeks (in the last year) at work suffering because of ibs</rdfs:label>
     </owl:Class>
     
@@ -4351,6 +4744,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_490">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000997"/>
+        <oboInOwl:hasDbXref>UKB:21045</oboInOwl:hasDbXref>
         <rdfs:label>number of weeks absent from work due to ibs, in the last year</rdfs:label>
     </owl:Class>
     
@@ -4371,6 +4765,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_492">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_491"/>
+        <oboInOwl:hasDbXref>UKB:1737</oboInOwl:hasDbXref>
         <rdfs:label>childhood sunburn occasions</rdfs:label>
     </owl:Class>
     
@@ -4381,6 +4776,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_493">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_491"/>
+        <oboInOwl:hasDbXref>UKB:2277</oboInOwl:hasDbXref>
         <rdfs:label>frequency of solarium/sunlamp use</rdfs:label>
     </owl:Class>
     
@@ -4391,6 +4787,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_494">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_491"/>
+        <oboInOwl:hasDbXref>UKB:1050</oboInOwl:hasDbXref>
         <rdfs:label>time spend outdoors in summer</rdfs:label>
     </owl:Class>
     
@@ -4401,6 +4798,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_495">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_491"/>
+        <oboInOwl:hasDbXref>UKB:1060</oboInOwl:hasDbXref>
         <rdfs:label>time spent outdoors in winter</rdfs:label>
     </owl:Class>
     
@@ -4411,6 +4809,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_496">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:22508</oboInOwl:hasDbXref>
         <rdfs:label>amount of tobacco currently smoked</rdfs:label>
     </owl:Class>
     
@@ -4421,6 +4820,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_497">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:22505</oboInOwl:hasDbXref>
         <rdfs:label>years of bringing up phlegm/sputum/mucus on most days</rdfs:label>
     </owl:Class>
     
@@ -4431,6 +4831,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_498">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_317"/>
+        <oboInOwl:hasDbXref>UKB:22503</oboInOwl:hasDbXref>
         <rdfs:label>years of cough on most days</rdfs:label>
     </owl:Class>
     
@@ -4441,6 +4842,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_499">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <oboInOwl:hasDbXref>UKB:84</oboInOwl:hasDbXref>
         <rdfs:label>cancer year/age first occurred</rdfs:label>
     </owl:Class>
     
@@ -4461,6 +4863,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_50">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_49"/>
+        <oboInOwl:hasDbXref>UKB:22148</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of emphysema</rdfs:label>
     </owl:Class>
     
@@ -4471,6 +4874,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_500">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <oboInOwl:hasDbXref>UKB:87</oboInOwl:hasDbXref>
         <rdfs:label>non-cancer illness year/age first occurred</rdfs:label>
     </owl:Class>
     
@@ -4481,6 +4885,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_501">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <oboInOwl:hasDbXref>UKB:134</oboInOwl:hasDbXref>
         <rdfs:label>number of self-reported cancers</rdfs:label>
     </owl:Class>
     
@@ -4491,6 +4896,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_502">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
+        <oboInOwl:hasDbXref>UKB:135</oboInOwl:hasDbXref>
         <rdfs:label>number of self-reported non-cancer illnesses</rdfs:label>
     </owl:Class>
     
@@ -4501,6 +4907,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_503">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001064"/>
+        <oboInOwl:hasDbXref>UKB:22401</oboInOwl:hasDbXref>
         <rdfs:label>liver inflammation factor (lif)</rdfs:label>
     </owl:Class>
     
@@ -4511,6 +4918,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_504">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001064"/>
+        <oboInOwl:hasDbXref>UKB:22400</oboInOwl:hasDbXref>
         <rdfs:label>liver iron (fe)</rdfs:label>
     </owl:Class>
     
@@ -4521,6 +4929,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_505">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001064"/>
+        <oboInOwl:hasDbXref>UKB:22417</oboInOwl:hasDbXref>
         <rdfs:label>liver iron corrected t1 (ct1)</rdfs:label>
     </owl:Class>
     
@@ -4531,6 +4940,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_506">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001064"/>
+        <oboInOwl:hasDbXref>UKB:22402</oboInOwl:hasDbXref>
         <rdfs:label>proton density fat fraction (pdff)</rdfs:label>
     </owl:Class>
     
@@ -4541,6 +4951,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_507">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000951"/>
+        <oboInOwl:hasDbXref>UKB:22421</oboInOwl:hasDbXref>
         <rdfs:label>lv end diastolic volume</rdfs:label>
     </owl:Class>
     
@@ -4551,6 +4962,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_508">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000951"/>
+        <oboInOwl:hasDbXref>UKB:22422</oboInOwl:hasDbXref>
         <rdfs:label>lv end systolic volume</rdfs:label>
     </owl:Class>
     
@@ -4561,6 +4973,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_509">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000951"/>
+        <oboInOwl:hasDbXref>UKB:22423</oboInOwl:hasDbXref>
         <rdfs:label>lv stroke volume</rdfs:label>
     </owl:Class>
     
@@ -4591,6 +5004,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_511">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_510"/>
+        <oboInOwl:hasDbXref>UKB:20019</oboInOwl:hasDbXref>
         <rdfs:label>speech-reception-threshold (srt) estimate (left)</rdfs:label>
     </owl:Class>
     
@@ -4601,6 +5015,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_512">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_510"/>
+        <oboInOwl:hasDbXref>UKB:20021</oboInOwl:hasDbXref>
         <rdfs:label>speech-reception-threshold (srt) estimate (right)</rdfs:label>
     </owl:Class>
     
@@ -4611,6 +5026,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_513">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_510"/>
+        <oboInOwl:hasDbXref>UKB:4230</oboInOwl:hasDbXref>
         <rdfs:label>signal-to-noise-ratio (snr) of triplet (left)</rdfs:label>
     </owl:Class>
     
@@ -4621,6 +5037,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_514">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_510"/>
+        <oboInOwl:hasDbXref>UKB:4241</oboInOwl:hasDbXref>
         <rdfs:label>signal-to-noise-ratio (snr) of triplet (right)</rdfs:label>
     </owl:Class>
     
@@ -4641,6 +5058,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_516">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_515"/>
+        <oboInOwl:hasDbXref>UKB:6671</oboInOwl:hasDbXref>
         <rdfs:label>number of antibiotics taken in last 3 months</rdfs:label>
     </owl:Class>
     
@@ -4651,6 +5069,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_517">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_515"/>
+        <oboInOwl:hasDbXref>UKB:137</oboInOwl:hasDbXref>
         <rdfs:label>number of treatments/medications taken</rdfs:label>
     </owl:Class>
     
@@ -4671,6 +5090,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_519">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_518"/>
+        <oboInOwl:hasDbXref>UKB:46</oboInOwl:hasDbXref>
         <rdfs:label>hand grip strength (left)</rdfs:label>
     </owl:Class>
     
@@ -4681,6 +5101,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_52">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_51"/>
+        <oboInOwl:hasDbXref>UKB:22156</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of fibrosing alveolitis/unspecified alveolitis</rdfs:label>
     </owl:Class>
     
@@ -4691,6 +5112,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_520">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_518"/>
+        <oboInOwl:hasDbXref>UKB:47</oboInOwl:hasDbXref>
         <rdfs:label>hand grip strength (right)</rdfs:label>
     </owl:Class>
     
@@ -4711,6 +5133,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_522">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <oboInOwl:hasDbXref>UKB:40007</oboInOwl:hasDbXref>
         <rdfs:label>age at death</rdfs:label>
     </owl:Class>
     
@@ -4721,6 +5144,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_523">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <oboInOwl:hasDbXref>UKB:21022</oboInOwl:hasDbXref>
         <rdfs:label>age at recruitment</rdfs:label>
     </owl:Class>
     
@@ -4731,6 +5155,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_525">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <oboInOwl:hasDbXref>UKB:40009</oboInOwl:hasDbXref>
         <rdfs:label>reported occurrences of cancer</rdfs:label>
     </owl:Class>
     
@@ -4741,6 +5166,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_526">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <oboInOwl:hasDbXref>UKB:845</oboInOwl:hasDbXref>
         <rdfs:label>age completed full time education</rdfs:label>
     </owl:Class>
     
@@ -4751,6 +5177,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_527">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <oboInOwl:hasDbXref>UKB:2217</oboInOwl:hasDbXref>
         <rdfs:label>age started wearing glasses or contact lenses</rdfs:label>
     </owl:Class>
     
@@ -4761,6 +5188,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_528">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <oboInOwl:hasDbXref>UKB:709</oboInOwl:hasDbXref>
         <rdfs:label>number in household</rdfs:label>
     </owl:Class>
     
@@ -4771,6 +5199,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_529">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <oboInOwl:hasDbXref>UKB:92</oboInOwl:hasDbXref>
         <rdfs:label>operation year/age first occurred</rdfs:label>
     </owl:Class>
     
@@ -4791,6 +5220,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_530">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <oboInOwl:hasDbXref>UKB:21003</oboInOwl:hasDbXref>
         <rdfs:label>age when attended assessment centre</rdfs:label>
     </owl:Class>
     
@@ -4801,6 +5231,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_531">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
+        <oboInOwl:hasDbXref>UKB:41235</oboInOwl:hasDbXref>
         <rdfs:label>spells in hospital</rdfs:label>
     </owl:Class>
     
@@ -4821,6 +5252,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_533">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_532"/>
+        <oboInOwl:hasDbXref>UKB:1160</oboInOwl:hasDbXref>
         <rdfs:label>sleep duration</rdfs:label>
     </owl:Class>
     
@@ -4831,6 +5263,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_534">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000256"/>
+        <oboInOwl:hasDbXref>UKB:30500</oboInOwl:hasDbXref>
         <rdfs:label>microalbumin in urine</rdfs:label>
     </owl:Class>
     
@@ -4841,6 +5274,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_54">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_53"/>
+        <oboInOwl:hasDbXref>UKB:22146</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of hayfever or allergic rhinitis</rdfs:label>
     </owl:Class>
     
@@ -4861,6 +5295,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_56">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_55"/>
+        <oboInOwl:hasDbXref>UKB:22155</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of idiopathic pulmonary fibrosis</rdfs:label>
     </owl:Class>
     
@@ -4881,6 +5316,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_58">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_57"/>
+        <oboInOwl:hasDbXref>UKB:22160</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of lung cancer (not mesothelioma)</rdfs:label>
     </owl:Class>
     
@@ -4901,6 +5337,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_6">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_5"/>
+        <oboInOwl:hasDbXref>UKB:4689</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of glaucoma</rdfs:label>
     </owl:Class>
     
@@ -4911,6 +5348,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_60">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_59"/>
+        <oboInOwl:hasDbXref>UKB:22161</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of mesothelioma of the lung</rdfs:label>
     </owl:Class>
     
@@ -4931,6 +5369,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_62">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_61"/>
+        <oboInOwl:hasDbXref>UKB:22153</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of sarcoidosis</rdfs:label>
     </owl:Class>
     
@@ -4951,6 +5390,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_64">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_63"/>
+        <oboInOwl:hasDbXref>UKB:22158</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of silicosis</rdfs:label>
     </owl:Class>
     
@@ -4971,6 +5411,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_66">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_65"/>
+        <oboInOwl:hasDbXref>UKB:22157</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of tuberculosis</rdfs:label>
     </owl:Class>
     
@@ -4981,6 +5422,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_67">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:4429</oboInOwl:hasDbXref>
         <rdfs:label>average monthly beer plus cider intake</rdfs:label>
     </owl:Class>
     
@@ -4991,6 +5433,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_68">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:4418</oboInOwl:hasDbXref>
         <rdfs:label>average monthly champagne plus white wine intake</rdfs:label>
     </owl:Class>
     
@@ -5001,6 +5444,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_69">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:4451</oboInOwl:hasDbXref>
         <rdfs:label>average monthly fortified wine intake</rdfs:label>
     </owl:Class>
     
@@ -5021,6 +5465,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_70">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:4462</oboInOwl:hasDbXref>
         <rdfs:label>average monthly intake of other alcoholic drinks</rdfs:label>
     </owl:Class>
     
@@ -5031,6 +5476,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_71">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:4407</oboInOwl:hasDbXref>
         <rdfs:label>average monthly red wine intake</rdfs:label>
     </owl:Class>
     
@@ -5041,6 +5487,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_72">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:4440</oboInOwl:hasDbXref>
         <rdfs:label>average monthly spirits intake</rdfs:label>
     </owl:Class>
     
@@ -5051,6 +5498,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_73">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:1588</oboInOwl:hasDbXref>
         <rdfs:label>average weekly beer plus cider intake</rdfs:label>
     </owl:Class>
     
@@ -5061,6 +5509,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_74">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:1578</oboInOwl:hasDbXref>
         <rdfs:label>average weekly champagne plus white wine intake</rdfs:label>
     </owl:Class>
     
@@ -5071,6 +5520,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_75">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:1608</oboInOwl:hasDbXref>
         <rdfs:label>average weekly fortified wine intake</rdfs:label>
     </owl:Class>
     
@@ -5081,6 +5531,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_76">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:5364</oboInOwl:hasDbXref>
         <rdfs:label>average weekly intake of other alcoholic drinks</rdfs:label>
     </owl:Class>
     
@@ -5091,6 +5542,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_77">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:1568</oboInOwl:hasDbXref>
         <rdfs:label>average weekly red wine intake</rdfs:label>
     </owl:Class>
     
@@ -5101,6 +5553,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_78">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:1598</oboInOwl:hasDbXref>
         <rdfs:label>average weekly spirits intake</rdfs:label>
     </owl:Class>
     
@@ -5111,6 +5564,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_79">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:20410</oboInOwl:hasDbXref>
         <rdfs:label>age when known person last commented about drinking habits</rdfs:label>
     </owl:Class>
     
@@ -5121,6 +5575,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_8">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_7"/>
+        <oboInOwl:hasDbXref>UKB:5923</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of macular degeneration</rdfs:label>
     </owl:Class>
     
@@ -5141,6 +5596,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_81">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001407"/>
+        <oboInOwl:hasDbXref>UKB:100022</oboInOwl:hasDbXref>
         <rdfs:label>alcohol intake yesterday</rdfs:label>
     </owl:Class>
     
@@ -5151,6 +5607,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_82">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_80"/>
+        <oboInOwl:hasDbXref>UKB:100004</oboInOwl:hasDbXref>
         <rdfs:label>fat intake yesterday</rdfs:label>
     </owl:Class>
     
@@ -5161,6 +5618,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_83">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_80"/>
+        <oboInOwl:hasDbXref>UKB:100008</oboInOwl:hasDbXref>
         <rdfs:label>total sugars intake yesterday</rdfs:label>
     </owl:Class>
     
@@ -5251,6 +5709,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_91">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000311"/>
+        <oboInOwl:hasDbXref>UKB:22434</oboInOwl:hasDbXref>
         <rdfs:label>abdominal fat ratio</rdfs:label>
     </owl:Class>
     
@@ -5261,6 +5720,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_92">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000484"/>
+        <oboInOwl:hasDbXref>UKB:22408</oboInOwl:hasDbXref>
         <rdfs:label>abdominal subcutaneous adipose tissue volume (asat)</rdfs:label>
     </owl:Class>
     
@@ -5271,6 +5731,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_93">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_84"/>
+        <oboInOwl:hasDbXref>UKB:22405</oboInOwl:hasDbXref>
         <rdfs:label>anterior thigh lean muscle volume (left)</rdfs:label>
     </owl:Class>
     
@@ -5281,6 +5742,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_94">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_84"/>
+        <oboInOwl:hasDbXref>UKB:22403</oboInOwl:hasDbXref>
         <rdfs:label>anterior thigh lean muscle volume (right)</rdfs:label>
     </owl:Class>
     
@@ -5291,6 +5753,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_95">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000131"/>
+        <oboInOwl:hasDbXref>UKB:22435</oboInOwl:hasDbXref>
         <rdfs:label>muscle fat infiltration</rdfs:label>
     </owl:Class>
     
@@ -5301,6 +5764,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_96">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_84"/>
+        <oboInOwl:hasDbXref>UKB:22406</oboInOwl:hasDbXref>
         <rdfs:label>posterior thigh lean muscle volume (left)</rdfs:label>
     </owl:Class>
     
@@ -5311,6 +5775,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_97">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_84"/>
+        <oboInOwl:hasDbXref>UKB:22404</oboInOwl:hasDbXref>
         <rdfs:label>posterior thigh lean muscle volume (right)</rdfs:label>
     </owl:Class>
     
@@ -5321,6 +5786,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_98">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000484"/>
+        <oboInOwl:hasDbXref>UKB:22415</oboInOwl:hasDbXref>
         <rdfs:label>total adipose tissue volume</rdfs:label>
     </owl:Class>
     
@@ -5331,8 +5797,426 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_99">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000131"/>
+        <oboInOwl:hasDbXref>UKB:22409</oboInOwl:hasDbXref>
         <rdfs:label>total thigh muscle volume</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="NONE">
+        <oboInOwl:hasDbXref>UKB:10696</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:21001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:22410</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:22427</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:22436</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23039</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23105</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23200</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23202</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23304</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23305</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23307</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23309</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23311</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23313</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23314</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23315</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23316</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23317</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3064</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3083</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3144</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3147</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4101</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4104</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4119</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4123</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4139</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4141</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4144</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4146</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:77</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:90012</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:90013</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000002">
+        <oboInOwl:hasDbXref>UKB:12673</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:22426</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:5983</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000004">
+        <oboInOwl:hasDbXref>UKB:12677</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:12683</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:12684</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4080</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:93</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000005">
+        <oboInOwl:hasDbXref>UKB:4079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:94</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000009">
+        <oboInOwl:hasDbXref>UKB:12687</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000012">
+        <oboInOwl:hasDbXref>UKB:12143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:20022</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:21002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23098</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3160</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:41284</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000014">
+        <oboInOwl:hasDbXref>UKB:49</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000015">
+        <oboInOwl:hasDbXref>UKB:90192</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:90193</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:90194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:90195</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000025">
+        <oboInOwl:hasDbXref>UKB:30170</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000027">
+        <oboInOwl:hasDbXref>UKB:30000</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000029">
+        <oboInOwl:hasDbXref>UKB:30080</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:30090</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000030">
+        <oboInOwl:hasDbXref>UKB:30140</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000031">
+        <oboInOwl:hasDbXref>UKB:30120</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000032">
+        <oboInOwl:hasDbXref>UKB:30130</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000033">
+        <oboInOwl:hasDbXref>UKB:30150</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000034">
+        <oboInOwl:hasDbXref>UKB:30160</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000038">
+        <oboInOwl:hasDbXref>UKB:30040</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000046">
+        <oboInOwl:hasDbXref>UKB:30740</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000049">
+        <oboInOwl:hasDbXref>UKB:30670</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000054">
+        <oboInOwl:hasDbXref>UKB:30860</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000057">
+        <oboInOwl:hasDbXref>UKB:30700</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000105">
+        <oboInOwl:hasDbXref>UKB:23104</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000106">
+        <oboInOwl:hasDbXref>UKB:12144</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:20015</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23201</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:50</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:51</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000118">
+        <oboInOwl:hasDbXref>UKB:30870</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000119">
+        <oboInOwl:hasDbXref>UKB:30790</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000123">
+        <oboInOwl:hasDbXref>UKB:30660</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:30840</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000125">
+        <oboInOwl:hasDbXref>UKB:30510</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000128">
+        <oboInOwl:hasDbXref>UKB:30520</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000129">
+        <oboInOwl:hasDbXref>UKB:30530</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000180">
+        <oboInOwl:hasDbXref>UKB:22420</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000222">
+        <oboInOwl:hasDbXref>UKB:10694</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:20151</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:20257</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3062</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000223">
+        <oboInOwl:hasDbXref>UKB:12686</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000232">
+        <oboInOwl:hasDbXref>UKB:22333</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000235">
+        <oboInOwl:hasDbXref>UKB:22331</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000254">
+        <oboInOwl:hasDbXref>UKB:10695</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:20150</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:20153</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:20154</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:20256</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:20258</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3063</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000267">
+        <oboInOwl:hasDbXref>UKB:12340</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000269">
+        <oboInOwl:hasDbXref>UKB:22332</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000278">
+        <oboInOwl:hasDbXref>UKB:22334</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000290">
+        <oboInOwl:hasDbXref>UKB:30050</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000291">
+        <oboInOwl:hasDbXref>UKB:30060</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000292">
+        <oboInOwl:hasDbXref>UKB:12676</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:12678</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000294">
+        <oboInOwl:hasDbXref>UKB:102</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:21021</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4207</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:95</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000302">
+        <oboInOwl:hasDbXref>UKB:23099</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000363">
+        <oboInOwl:hasDbXref>UKB:30690</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:30760</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000501">
+        <oboInOwl:hasDbXref>UKB:30880</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000502">
+        <oboInOwl:hasDbXref>UKB:30680</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000504">
+        <oboInOwl:hasDbXref>UKB:30810</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000506">
+        <oboInOwl:hasDbXref>UKB:30020</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000512">
+        <oboInOwl:hasDbXref>UKB:30850</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000513">
+        <oboInOwl:hasDbXref>UKB:30800</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000518">
+        <oboInOwl:hasDbXref>UKB:30640</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000519">
+        <oboInOwl:hasDbXref>UKB:30630</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000549">
+        <oboInOwl:hasDbXref>UKB:30600</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000574">
+        <oboInOwl:hasDbXref>UKB:30620</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000576">
+        <oboInOwl:hasDbXref>UKB:30610</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000580">
+        <oboInOwl:hasDbXref>UKB:30650</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000647">
+        <oboInOwl:hasDbXref>UKB:30780</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001226">
+        <oboInOwl:hasDbXref>UKB:23204</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23205</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23206</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23207</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23208</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23209</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23210</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23211</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23212</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23213</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23214</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23215</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23216</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23217</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23218</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23219</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23221</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23223</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23225</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23226</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23227</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23229</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23231</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23232</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23233</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23234</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23236</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23237</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23238</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23239</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23241</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23242</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23243</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23244</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23261</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23290</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23291</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23292</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23293</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23294</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23295</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23296</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23297</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23298</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23299</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23300</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23301</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23302</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23303</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3084</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3148</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4105</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4106</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4124</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4125</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4138</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4140</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4145</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:78</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001297">
+        <oboInOwl:hasDbXref>UKB:30770</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001350">
+        <oboInOwl:hasDbXref>UKB:30110</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001554">
+        <oboInOwl:hasDbXref>UKB:23203</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23220</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23222</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23224</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23228</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23230</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23235</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23240</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23306</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23308</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23310</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23312</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23320</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0002185">
+        <oboInOwl:hasDbXref>UKB:22416</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0002239">
+        <oboInOwl:hasDbXref>UKB:30730</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0002777">
+        <oboInOwl:hasDbXref>UKB:30720</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0002786">
+        <oboInOwl:hasDbXref>UKB:30750</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0002881">
+        <oboInOwl:hasDbXref>UKB:12702</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:22425</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0003020">
+        <oboInOwl:hasDbXref>UKB:30250</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:30300</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_152">
+        <oboInOwl:hasDbXref>UKB:23249</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_153">
+        <oboInOwl:hasDbXref>UKB:23253</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_160">
+        <oboInOwl:hasDbXref>UKB:23266</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_161">
+        <oboInOwl:hasDbXref>UKB:23270</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_166">
+        <oboInOwl:hasDbXref>UKB:23278</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_167">
+        <oboInOwl:hasDbXref>UKB:23279</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_170">
+        <oboInOwl:hasDbXref>UKB:23284</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_263">
+        <oboInOwl:hasDbXref>UKB:20148</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_265">
+        <oboInOwl:hasDbXref>UKB:20147</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_267">
+        <oboInOwl:hasDbXref>UKB:20155</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_269">
+        <oboInOwl:hasDbXref>UKB:20149</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_271">
+        <oboInOwl:hasDbXref>UKB:20248</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_273">
+        <oboInOwl:hasDbXref>UKB:20247</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_276">
+        <oboInOwl:hasDbXref>UKB:20131</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_279">
+        <oboInOwl:hasDbXref>UKB:20132</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_284">
+        <oboInOwl:hasDbXref>UKB:20191</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_289">
+        <oboInOwl:hasDbXref>UKB:20240</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_42">
+        <oboInOwl:hasDbXref>UKB:22147</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://reality.rehab/ECMO_524">
+        <oboInOwl:hasDbXref>UKB:34</oboInOwl:hasDbXref>
+    </rdf:Description>
 </rdf:RDF>
 
 
