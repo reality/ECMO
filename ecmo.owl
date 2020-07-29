@@ -70,6 +70,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CMO_0000015 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000015">
+        <oboInOWL:hasExactSynonym xml:lang="en">Average body temperature</oboInOWL:hasExactSynonym>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CMO_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000023">
@@ -93,6 +101,14 @@
     <!-- http://purl.obolibrary.org/obo/CMO_0000089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000089"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000119 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000119">
+        <oboInOwl:hasDbXref>UKB:30790</oboInOwl:hasDbXref>
+    </rdf:Description>
     
 
 
@@ -317,6 +333,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CMO_0002169 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0002169">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000564"/>
+    </rdf:Description>
+    
+
+
     <!-- http://reality.rehab/ECMO_000540 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_000540">
@@ -360,6 +384,292 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595973866779</dc:date>
         <oboInOwl:hasDbXref xml:lang="en">UKBB:4207</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">pulse wave velocity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000544 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000119"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595978764343</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:30890</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">blood lipoprotein (a) level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000545 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000015"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595979612479</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:90192</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">maximum body temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000546 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000015"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595979656734</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:90194</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">minimum body temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000547 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000015"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595979699917</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:90192</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">average body temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000548 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000015"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595979753556</dc:date>
+        <rdfs:label xml:lang="en">calculated body temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000549 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000549">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000548"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595979769306</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:90193</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">temperature standard deviation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000550 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000550">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_122"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595981226977</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23124</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">arm fat mass (left) by impedence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000551 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000551">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_122"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595981249847</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23249</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">arm fat mass (left) by DXA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000552 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000552">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_123"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595981267359</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23120</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">arm fat mass (right) by impedence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000553 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000553">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_123"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595981287529</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23253</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">arm fat mass (right) by DXA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000554 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000554">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_135"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595981693898</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23266</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">leg fat mass( left) by DXA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000555 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000555">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_135"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595981712716</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23116</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">leg fat mass (left) by impedence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000556 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000556">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_136"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595981731135</dc:date>
+        <terms:contributor xml:lang="en">UKB:23270</terms:contributor>
+        <rdfs:label xml:lang="en">leg fat mass (right) by DXA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000557 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000557">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_136"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595981750777</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23112</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">leg fat mass (right) by impedence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000558 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000558">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_147"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595982434046</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23278</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">total fat mass by DXA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000559 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000559">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_147"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595982446970</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23100</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">total fat mass by impedence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000560 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000560">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_148"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595982610722</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23279</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">total fat free mass by DXA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000561 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000561">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_148"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595982627052</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23101</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">total fat free mass by impedence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000562 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000562">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_143"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595982776838</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23128</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">trunk fat mass by impedence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000563 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000563">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_143"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595982789051</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23284</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">trunk fat mass by DXA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000564 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000564">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595983728160</dc:date>
+        <rdfs:label xml:lang="en">metabolic function measurements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000565 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000565">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000564"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595983941003</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:23105</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">basal metabolic rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000566 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000022"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595984052895</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:21001</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">body mass index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000567 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1595984130344</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:22427</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">body surface area</rdfs:label>
     </owl:Class>
     
 
@@ -626,7 +936,6 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_122">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_86"/>
-        <oboInOwl:hasDbXref>UKB:23124</oboInOwl:hasDbXref>
         <rdfs:label>arm fat mass (left)</rdfs:label>
     </owl:Class>
     
@@ -765,7 +1074,6 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_135">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_88"/>
-        <oboInOwl:hasDbXref>UKB:23116</oboInOwl:hasDbXref>
         <rdfs:label>leg fat mass (left)</rdfs:label>
     </owl:Class>
     
@@ -895,7 +1203,6 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_147">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_90"/>
-        <oboInOwl:hasDbXref>UKB:23100</oboInOwl:hasDbXref>
         <rdfs:label>total fat mass</rdfs:label>
     </owl:Class>
     
@@ -1624,6 +1931,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_22">
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_21"/>
+        <obo:IAO_0000232 xml:lang="en">UKBB does not specify in this field if this is type 1 or 2 but from context is lilely to be Type 2 as it was gathered from patient questioannaire.</obo:IAO_0000232>
         <oboInOwl:hasDbXref>UKB:2976</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of diabetes</rdfs:label>
     </owl:Class>
@@ -5486,12 +5794,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000014">
         <oboInOwl:hasDbXref>UKB:49</oboInOwl:hasDbXref>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000015">
-        <oboInOwl:hasDbXref>UKB:90192</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:90193</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:90194</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:90195</oboInOwl:hasDbXref>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000025">
         <oboInOwl:hasDbXref>UKB:30170</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -5499,8 +5801,7 @@
         <oboInOwl:hasDbXref>UKB:30000</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000029">
-        <oboInOwl:hasDbXref>UKB:30080</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:30090</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:30080</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000030">
         <oboInOwl:hasDbXref>UKB:30140</oboInOwl:hasDbXref>
@@ -5544,9 +5845,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000118">
         <oboInOwl:hasDbXref>UKB:30870</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000119">
-        <oboInOwl:hasDbXref>UKB:30790</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000123">
         <oboInOwl:hasDbXref>UKB:30840</oboInOwl:hasDbXref>
@@ -5614,8 +5912,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000302">
         <oboInOwl:hasDbXref>UKB:23099</oboInOwl:hasDbXref>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000361">
+        <oboInOwl:hasDbXref xml:lang="en">UKB:30760</oboInOwl:hasDbXref>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000363">
-        <oboInOwl:hasDbXref>UKB:30760</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:30690</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000501">
@@ -5660,6 +5960,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001297">
         <oboInOwl:hasDbXref>UKB:30770</oboInOwl:hasDbXref>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001349">
+        <oboInOwl:hasDbXref xml:lang="en">UKB:30090</oboInOwl:hasDbXref>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001350">
         <oboInOwl:hasDbXref>UKB:30110</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -5677,6 +5980,10 @@
         <oboInOwl:hasDbXref>UKB:23320</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23308</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23306</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0002079">
+        <oboInOWL:hasExactSynonym xml:lang="en">Birth weight</oboInOWL:hasExactSynonym>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:20022</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0002185">
         <oboInOwl:hasDbXref>UKB:22416</oboInOwl:hasDbXref>
