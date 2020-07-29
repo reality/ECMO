@@ -232,73 +232,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CMO_0001226 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001226">
-        <oboInOwl:hasDbXref>UKB:23204</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23205</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23206</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23207</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23208</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23209</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23210</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23211</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23212</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23213</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23214</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23215</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23216</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23217</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23218</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23219</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23221</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23223</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23225</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23226</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23227</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23229</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23231</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23232</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23233</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23234</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23236</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23237</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23238</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23239</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23241</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23242</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23243</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23244</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23261</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23290</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23291</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23292</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23293</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23294</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23295</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23296</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23297</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23298</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23299</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23300</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23301</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23302</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23303</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:3084</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:3148</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4105</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4106</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4124</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4125</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4138</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4140</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4143</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4145</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:78</oboInOwl:hasDbXref>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CMO_0001356 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0001356"/>
@@ -5248,6 +5181,33 @@
     
 
 
+    <!-- http://reality.rehab/ECMO_537 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_537">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <rdfs:label>leg bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_538 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <rdfs:label>leg bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_539 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <rdfs:label>arm bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://reality.rehab/ECMO_54 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_54">
@@ -5258,11 +5218,206 @@
     
 
 
+    <!-- http://reality.rehab/ECMO_540 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <rdfs:label>arm bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_541 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <rdfs:label>femur bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_542 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <rdfs:label>femur bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_543 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <oboInOwl:hasDbXref>UKB:23306</oboInOwl:hasDbXref>
+        <rdfs:label>head bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_544 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23226</oboInOwl:hasDbXref>
+        <rdfs:label>head bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_545 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <oboInOwl:hasDbXref>UKB:23240</oboInOwl:hasDbXref>
+        <rdfs:label>trunk bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_546 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23241</oboInOwl:hasDbXref>
+        <rdfs:label>trunk bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_547 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <rdfs:label>heel bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_548 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <rdfs:label>heel bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_549 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <oboInOwl:hasDbXref>UKB:23312</oboInOwl:hasDbXref>
+        <rdfs:label>spine bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://reality.rehab/ECMO_55 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_55">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
         <rdfs:label>idiopathic pulmonary fibrosis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_550 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_550">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23234</oboInOwl:hasDbXref>
+        <rdfs:label>spine bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_551 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <oboInOwl:hasDbXref>UKB:23310</oboInOwl:hasDbXref>
+        <rdfs:label>ribs bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_552 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23233</oboInOwl:hasDbXref>
+        <rdfs:label>ribs bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_553 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_553">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_539"/>
+        <oboInOwl:hasDbXref>UKB:23220</oboInOwl:hasDbXref>
+        <rdfs:label>arm bone mineral content left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_554 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_554">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_539"/>
+        <oboInOwl:hasDbXref>UKB:23222</oboInOwl:hasDbXref>
+        <rdfs:label>arm bone mineral content right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_555 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_555">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_540"/>
+        <oboInOwl:hasDbXref>UKB:23221</oboInOwl:hasDbXref>
+        <rdfs:label>arm bone mineral density left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_556 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_556">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_540"/>
+        <oboInOwl:hasDbXref>UKB:23223</oboInOwl:hasDbXref>
+        <rdfs:label>arm bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_557 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <oboInOwl:hasDbXref>UKB:23224</oboInOwl:hasDbXref>
+        <rdfs:label>arms bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_558 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_558">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23225</oboInOwl:hasDbXref>
+        <rdfs:label>arms bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_559 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_559">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23302</oboInOwl:hasDbXref>
+        <rdfs:label>femur lower neck bone mineral density left</rdfs:label>
     </owl:Class>
     
 
@@ -5277,11 +5432,211 @@
     
 
 
+    <!-- http://reality.rehab/ECMO_560 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_560">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23206</oboInOwl:hasDbXref>
+        <rdfs:label>femur lower neck bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_561 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_561">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23294</oboInOwl:hasDbXref>
+        <rdfs:label>femur lower neck bone mineral density t-score left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_562 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_562">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23207</oboInOwl:hasDbXref>
+        <rdfs:label>femur lower neck bone mineral density t-score right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_563 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_563">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23299</oboInOwl:hasDbXref>
+        <rdfs:label>femur neck bone mineral density left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_564 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_564">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23208</oboInOwl:hasDbXref>
+        <rdfs:label>femur neck bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_565 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_565">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23300</oboInOwl:hasDbXref>
+        <rdfs:label>femur neck bone mineral density t-score left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_566 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_566">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23209</oboInOwl:hasDbXref>
+        <rdfs:label>femur neck bone mineral density t-score right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_567 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_567">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23290</oboInOwl:hasDbXref>
+        <rdfs:label>femur shaft bone mineral density left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_568 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_568">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23210</oboInOwl:hasDbXref>
+        <rdfs:label>femur shaft bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_569 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_569">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23303</oboInOwl:hasDbXref>
+        <rdfs:label>femur shaft bone mineral density t-score left</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://reality.rehab/ECMO_57 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_57">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
         <rdfs:label>lung cancer (not mesothelioma) onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_570 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_570">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23211</oboInOwl:hasDbXref>
+        <rdfs:label>femur shaft bone mineral density t-score right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_571 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_571">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23291</oboInOwl:hasDbXref>
+        <rdfs:label>femur total bone mineral density left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_572 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_572">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23212</oboInOwl:hasDbXref>
+        <rdfs:label>femur total bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_573 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_573">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23293</oboInOwl:hasDbXref>
+        <rdfs:label>femur total bone mineral density t-score left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_574 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_574">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23213</oboInOwl:hasDbXref>
+        <rdfs:label>femur total bone mineral density t-score right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_575 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_575">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23295</oboInOwl:hasDbXref>
+        <rdfs:label>femur troch bone mineral density left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_576 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_576">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23214</oboInOwl:hasDbXref>
+        <rdfs:label>femur troch bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_577 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_577">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23298</oboInOwl:hasDbXref>
+        <rdfs:label>femur troch bone mineral density t-score left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_578 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_578">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23215</oboInOwl:hasDbXref>
+        <rdfs:label>femur troch bone mineral density t-score right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_579 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_579">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23292</oboInOwl:hasDbXref>
+        <rdfs:label>femur upper neck bone mineral density left</rdfs:label>
     </owl:Class>
     
 
@@ -5296,11 +5651,191 @@
     
 
 
+    <!-- http://reality.rehab/ECMO_580 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_580">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23216</oboInOwl:hasDbXref>
+        <rdfs:label>femur upper neck bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_581 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_581">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23296</oboInOwl:hasDbXref>
+        <rdfs:label>femur upper neck bone mineral density t-score left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_582 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_582">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23217</oboInOwl:hasDbXref>
+        <rdfs:label>femur upper neck bone mineral density t-score right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_583 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_583">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23297</oboInOwl:hasDbXref>
+        <rdfs:label>femur wards bone mineral density left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_584 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_584">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23218</oboInOwl:hasDbXref>
+        <rdfs:label>femur wards bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_585 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_585">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23301</oboInOwl:hasDbXref>
+        <rdfs:label>femur wards bone mineral density t-score left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_586 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_586">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_542"/>
+        <oboInOwl:hasDbXref>UKB:23219</oboInOwl:hasDbXref>
+        <rdfs:label>femur wards bone mineral density t-score right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_589 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <oboInOwl:hasDbXref>UKB:23203</oboInOwl:hasDbXref>
+        <rdfs:label>l1-l4 bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://reality.rehab/ECMO_59 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_59">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
         <rdfs:label>mesothelioma of the lung onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_590 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23204</oboInOwl:hasDbXref>
+        <rdfs:label>l1-l4 bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_591 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23205</oboInOwl:hasDbXref>
+        <rdfs:label>l1-l4 bone mineral density t-score</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_592 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_592">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_537"/>
+        <oboInOwl:hasDbXref>UKB:23320</oboInOwl:hasDbXref>
+        <rdfs:label>leg bone mineral content left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_593 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_593">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_537"/>
+        <oboInOwl:hasDbXref>UKB:23228</oboInOwl:hasDbXref>
+        <rdfs:label>leg bone mineral content right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_594 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_594">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_538"/>
+        <oboInOwl:hasDbXref>UKB:23227</oboInOwl:hasDbXref>
+        <rdfs:label>leg bone mineral density left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_595 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_595">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_538"/>
+        <oboInOwl:hasDbXref>UKB:23229</oboInOwl:hasDbXref>
+        <rdfs:label>leg bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_596 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <oboInOwl:hasDbXref>UKB:23230</oboInOwl:hasDbXref>
+        <rdfs:label>legs bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_597 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23231</oboInOwl:hasDbXref>
+        <rdfs:label>legs bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_598 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <oboInOwl:hasDbXref>UKB:23308</oboInOwl:hasDbXref>
+        <rdfs:label>pelvis bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_599 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23232</oboInOwl:hasDbXref>
+        <rdfs:label>pelvis bone mineral density</rdfs:label>
     </owl:Class>
     
 
@@ -5325,11 +5860,151 @@
     
 
 
+    <!-- http://reality.rehab/ECMO_604 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001554"/>
+        <oboInOwl:hasDbXref>UKB:23235</oboInOwl:hasDbXref>
+        <rdfs:label>total bone mineral content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_605 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23236</oboInOwl:hasDbXref>
+        <rdfs:label>total bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_606 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23237</oboInOwl:hasDbXref>
+        <rdfs:label>total bone mineral density left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_607 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23238</oboInOwl:hasDbXref>
+        <rdfs:label>total bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_608 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001226"/>
+        <oboInOwl:hasDbXref>UKB:23239</oboInOwl:hasDbXref>
+        <rdfs:label>total bone mineral density t-score</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://reality.rehab/ECMO_61 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_61">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0001108"/>
         <rdfs:label>sarcoidosis onset/diagnosis measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_611 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_611">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_546"/>
+        <oboInOwl:hasDbXref>UKB:23242</oboInOwl:hasDbXref>
+        <rdfs:label>trunk bone mineral density left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_612 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_612">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_546"/>
+        <oboInOwl:hasDbXref>UKB:23243</oboInOwl:hasDbXref>
+        <rdfs:label>trunk bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_613 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_613">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:3148</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density bmd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_614 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_614">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:4105</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_615 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_615">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:4124</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_616 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_616">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:78</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density t-score, automated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_617 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_617">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:4106</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density t-score, automated left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_618 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_618">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:4125</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density t-score, automated right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_619 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_619">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:4138</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density t-score, manual entry left</rdfs:label>
     </owl:Class>
     
 
@@ -5340,6 +6015,46 @@
         <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_61"/>
         <oboInOwl:hasDbXref>UKB:22153</oboInOwl:hasDbXref>
         <rdfs:label>age at onset/diagnosis of sarcoidosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_620 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_620">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:4143</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density t-score, manual entry right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_621 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_621">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:3084</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density bmd, manual entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_622 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_622">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:4140</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density bmd, manual entry left</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_623 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_623">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_548"/>
+        <oboInOwl:hasDbXref>UKB:4145</oboInOwl:hasDbXref>
+        <rdfs:label>heel bone mineral density bmd, manual entry right</rdfs:label>
     </owl:Class>
     
 
@@ -5770,8 +6485,8 @@
         <oboInOwl:hasDbXref>UKB:5983</oboInOwl:hasDbXref>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000004">
-        <oboInOwl:hasDbXref>UKB:12683</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4080</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:12683</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:12684</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:12677</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:93</oboInOwl:hasDbXref>
@@ -5966,21 +6681,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001350">
         <oboInOwl:hasDbXref>UKB:30110</oboInOwl:hasDbXref>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001554">
-        <oboInOwl:hasDbXref>UKB:23220</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23230</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23240</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23228</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23203</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23224</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23312</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23235</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23310</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23222</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23320</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23308</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23306</oboInOwl:hasDbXref>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0002079">
         <oboInOWL:hasExactSynonym xml:lang="en">Birth weight</oboInOWL:hasExactSynonym>
         <oboInOwl:hasDbXref xml:lang="en">UKB:20022</oboInOwl:hasDbXref>
@@ -6064,40 +6764,40 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://reality.rehab/NONE">
         <oboInOwl:hasDbXref>UKB:3147</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:90012</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4101</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4123</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:90012</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:22427</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23318</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:3143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:22427</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23316</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:3064</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4141</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23304</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4141</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23039</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23314</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:10696</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:21001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4104</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:77</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:90013</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4146</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23309</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:90013</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:3144</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23307</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4100</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4144</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23317</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23305</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4120</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:22436</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23305</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23315</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:3085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23315</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23105</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:3083</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23313</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:22410</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3083</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23202</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:22410</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23311</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23200</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4119</oboInOwl:hasDbXref>

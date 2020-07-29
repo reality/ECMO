@@ -70,78 +70,78 @@ ukb id	ukb label	ecmo iri	ecmo label
 50	standing height	http://purl.obolibrary.org/obo/CMO_0000106	body height
 21002	weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
 3160	weight, manual entry	http://purl.obolibrary.org/obo/CMO_0000012	body weight
-23220	arm bmc (bone mineral content) (left)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23222	arm bmc (bone mineral content) (right)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23221	arm bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23223	arm bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23224	arms bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23225	arms bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23302	femur lower neck bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23206	femur lower neck bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23294	femur lower neck bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23207	femur lower neck bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23299	femur neck bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23208	femur neck bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23300	femur neck bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23209	femur neck bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23290	femur shaft bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23210	femur shaft bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23303	femur shaft bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23211	femur shaft bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23291	femur total bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23212	femur total bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23293	femur total bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23213	femur total bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23295	femur troch bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23214	femur troch bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23298	femur troch bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23215	femur troch bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23292	femur upper neck bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23216	femur upper neck bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23296	femur upper neck bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23217	femur upper neck bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23297	femur wards bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23218	femur wards bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23301	femur wards bmd (bone mineral density) t-score (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23219	femur wards bmd (bone mineral density) t-score (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23306	head bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23226	head bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23203	l1-l4 bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23204	l1-l4 bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23205	l1-l4 bmd (bone mineral density) t-score	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
+23220	arm bmc (bone mineral content) (left)	http://reality.rehab/ECMO_553	bone mineral content
+23222	arm bmc (bone mineral content) (right)	http://reality.rehab/ECMO_554	bone mineral content
+23221	arm bmd (bone mineral density) (left)	http://reality.rehab/ECMO_555	bone mineral density
+23223	arm bmd (bone mineral density) (right)	http://reality.rehab/ECMO_556	bone mineral density
+23224	arms bmc (bone mineral content)	http://reality.rehab/ECMO_557	bone mineral content
+23225	arms bmd (bone mineral density)	http://reality.rehab/ECMO_558	bone mineral density
+23302	femur lower neck bmd (bone mineral density) (left)	http://reality.rehab/ECMO_559	bone mineral density
+23206	femur lower neck bmd (bone mineral density) (right)	http://reality.rehab/ECMO_560	bone mineral density
+23294	femur lower neck bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_561	bone mineral density
+23207	femur lower neck bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_562	bone mineral density
+23299	femur neck bmd (bone mineral density) (left)	http://reality.rehab/ECMO_563	bone mineral density
+23208	femur neck bmd (bone mineral density) (right)	http://reality.rehab/ECMO_564	bone mineral density
+23300	femur neck bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_565	bone mineral density
+23209	femur neck bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_566	bone mineral density
+23290	femur shaft bmd (bone mineral density) (left)	http://reality.rehab/ECMO_567	bone mineral density
+23210	femur shaft bmd (bone mineral density) (right)	http://reality.rehab/ECMO_568	bone mineral density
+23303	femur shaft bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_569	bone mineral density
+23211	femur shaft bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_570	bone mineral density
+23291	femur total bmd (bone mineral density) (left)	http://reality.rehab/ECMO_571	bone mineral density
+23212	femur total bmd (bone mineral density) (right)	http://reality.rehab/ECMO_572	bone mineral density
+23293	femur total bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_573	bone mineral density
+23213	femur total bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_574	bone mineral density
+23295	femur troch bmd (bone mineral density) (left)	http://reality.rehab/ECMO_575	bone mineral density
+23214	femur troch bmd (bone mineral density) (right)	http://reality.rehab/ECMO_576	bone mineral density
+23298	femur troch bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_577	bone mineral density
+23215	femur troch bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_578	bone mineral density
+23292	femur upper neck bmd (bone mineral density) (left)	http://reality.rehab/ECMO_579	bone mineral density
+23216	femur upper neck bmd (bone mineral density) (right)	http://reality.rehab/ECMO_580	bone mineral density
+23296	femur upper neck bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_581	bone mineral density
+23217	femur upper neck bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_582	bone mineral density
+23297	femur wards bmd (bone mineral density) (left)	http://reality.rehab/ECMO_583	bone mineral density
+23218	femur wards bmd (bone mineral density) (right)	http://reality.rehab/ECMO_584	bone mineral density
+23301	femur wards bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_585	bone mineral density
+23219	femur wards bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_586	bone mineral density
+23306	head bmc (bone mineral content)	http://reality.rehab/ECMO_543	bone mineral content
+23226	head bmd (bone mineral density)	http://reality.rehab/ECMO_544	bone mineral density
+23203	l1-l4 bmc (bone mineral content)	http://reality.rehab/ECMO_589	bone mineral content
+23204	l1-l4 bmd (bone mineral density)	http://reality.rehab/ECMO_590	bone mineral density
+23205	l1-l4 bmd (bone mineral density) t-score	http://reality.rehab/ECMO_591	bone mineral density
+23320	leg bmc (bone mineral content) (left)	http://reality.rehab/ECMO_592	bone mineral content
+23228	leg bmc (bone mineral content) (right)	http://reality.rehab/ECMO_593	bone mineral content
+23227	leg bmd (bone mineral density) (left)	http://reality.rehab/ECMO_594	bone mineral density
+23229	leg bmd (bone mineral density) (right)	http://reality.rehab/ECMO_595	bone mineral density
+23230	legs bmc (bone mineral content)	http://reality.rehab/ECMO_596	bone mineral content
+23231	legs bmd (bone mineral density)	http://reality.rehab/ECMO_597	bone mineral density
+23308	pelvis bmc (bone mineral content)	http://reality.rehab/ECMO_598	bone mineral content
+23232	pelvis bmd (bone mineral density)	http://reality.rehab/ECMO_599	bone mineral density
+23310	ribs bmc (bone mineral content)	http://reality.rehab/ECMO_551	bone mineral content
+23233	ribs bmd (bone mineral density)	http://reality.rehab/ECMO_552	bone mineral density
+23312	spine bmc (bone mineral content)	http://reality.rehab/ECMO_549	bone mineral content
+23234	spine bmd (bone mineral density)	http://reality.rehab/ECMO_550	bone mineral density
+23235	total bmc (bone mineral content)	http://reality.rehab/ECMO_604	bone mineral content
+23236	total bmd (bone mineral density)	http://reality.rehab/ECMO_605	bone mineral density
+23237	total bmd (bone mineral density) (left)	http://reality.rehab/ECMO_606	bone mineral density
+23238	total bmd (bone mineral density) (right)	http://reality.rehab/ECMO_607	bone mineral density
+23239	total bmd (bone mineral density) t-score	http://reality.rehab/ECMO_608	bone mineral density
+23240	trunk bmc (bone mineral content)	http://reality.rehab/ECMO_545	bone mineral content
+23241	trunk bmd (bone mineral density)	http://reality.rehab/ECMO_546	bone mineral density
+23242	trunk bmd (bone mineral density) (left)	http://reality.rehab/ECMO_611	bone mineral density
+23243	trunk bmd (bone mineral density) (right)	http://reality.rehab/ECMO_612	bone mineral density
+3148	heel bone mineral density (bmd)	http://reality.rehab/ECMO_613	bone mineral density
+4105	heel bone mineral density (bmd) (left)	http://reality.rehab/ECMO_614	bone mineral density
+4124	heel bone mineral density (bmd) (right)	http://reality.rehab/ECMO_615	bone mineral density
+78	heel bone mineral density (bmd) t-score, automated	http://reality.rehab/ECMO_616	bone mineral density
+4106	heel bone mineral density (bmd) t-score, automated (left)	http://reality.rehab/ECMO_617	bone mineral density
+4125	heel bone mineral density (bmd) t-score, automated (right)	http://reality.rehab/ECMO_618	bone mineral density
+4138	heel bone mineral density (bmd) t-score, manual entry (left)	http://reality.rehab/ECMO_619	bone mineral density
+4143	heel bone mineral density (bmd) t-score, manual entry (right)	http://reality.rehab/ECMO_620	bone mineral density
+3084	heel bone mineral density (bmd), manual entry	http://reality.rehab/ECMO_621	bone mineral density
+4140	heel bone mineral density (bmd), manual entry (left)	http://reality.rehab/ECMO_622	bone mineral density
+4145	heel bone mineral density (bmd), manual entry (right)	http://reality.rehab/ECMO_623	bone mineral density
 23201	l1-l4 average height	http://purl.obolibrary.org/obo/CMO_0000106	body height
-23320	leg bmc (bone mineral content) (left)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23228	leg bmc (bone mineral content) (right)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23227	leg bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23229	leg bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23230	legs bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23231	legs bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23308	pelvis bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23232	pelvis bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23310	ribs bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23233	ribs bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23312	spine bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23234	spine bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23235	total bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23236	total bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23237	total bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23238	total bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23239	total bmd (bone mineral density) t-score	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23240	trunk bmc (bone mineral content)	http://purl.obolibrary.org/obo/CMO_0001554	bone mineral content
-23241	trunk bmd (bone mineral density)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23242	trunk bmd (bone mineral density) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-23243	trunk bmd (bone mineral density) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-3148	heel bone mineral density (bmd)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-4105	heel bone mineral density (bmd) (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-4124	heel bone mineral density (bmd) (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-78	heel bone mineral density (bmd) t-score, automated	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-4106	heel bone mineral density (bmd) t-score, automated (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-4125	heel bone mineral density (bmd) t-score, automated (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-4138	heel bone mineral density (bmd) t-score, manual entry (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-4143	heel bone mineral density (bmd) t-score, manual entry (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-3084	heel bone mineral density (bmd), manual entry	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-4140	heel bone mineral density (bmd), manual entry (left)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
-4145	heel bone mineral density (bmd), manual entry (right)	http://purl.obolibrary.org/obo/CMO_0001226	bone mineral density
 20022	birth weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
 23099	body fat percentage	http://purl.obolibrary.org/obo/CMO_0000302	body fat percentage
 23098	weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
