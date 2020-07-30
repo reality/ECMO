@@ -128,6 +128,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CMO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000114"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CMO_0000119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000119">
@@ -956,7 +962,7 @@
     <!-- http://reality.rehab/ECMO_000589 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_000589">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000068"/>
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000594"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596112576742</dc:date>
         <rdfs:label xml:lang="en">ankle morphological measurement</rdfs:label>
@@ -1009,6 +1015,229 @@
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596112762340</dc:date>
         <oboInOwl:hasDbXref xml:lang="en">UKB:4100</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">ankle spacing width (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000594 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000068"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113352230</dc:date>
+        <rdfs:label xml:lang="en">anatomical region morphological measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000595 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000595">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000594"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113380086</dc:date>
+        <rdfs:label xml:lang="en">heel morphological measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000596 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000596">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000595"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113490383</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:3085</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel broadband ultrasound attenuation (bua), manual entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000597 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000597">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000595"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113514216</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:3144</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel broadband ultrasound attenuation, direct entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000598 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000598">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000596"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113573302</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:4141</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel broadband ultrasound attenuation (bua), manual entry (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000599 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000599">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000596"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113586727</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:4146</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel broadband ultrasound attenuation (bua), manual entry (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000600 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000600">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000597"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113681349</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:4101</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel broadband ultrasound attenuation (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000601 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000601">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000597"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113694254</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:4120</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel broadband ultrasound attenuation (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000602 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000602">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000595"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113720790</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:3147</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel quantitative ultrasound index (qui), direct entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000603 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000603">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000602"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113739309</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:4104</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel quantitative ultrasound index (qui), direct entry (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000604 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000604">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000602"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113755337</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:4123</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel quantitative ultrasound index (qui), direct entry (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000605 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000605">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000595"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113785223</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:3083</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel quantitative ultrasound index (qui), manual entry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000606 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000606">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000605"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113800188</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:4139</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel quantitative ultrasound index (qui), manual entry (left)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000607 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000607">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000605"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596113813253</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:4144</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">heel quantitative ultrasound index (qui), manual entry (right)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000608 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000114"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596114423915</dc:date>
+        <rdfs:label xml:lang="en">respiratory flow measurements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000609 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000609">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000608"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596114508460</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:3064</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">peak expiratory flow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000610 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000610">
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000608"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596114522655</dc:date>
+        <oboInOwl:hasDbXref xml:lang="en">UKB:10696</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">peak expiratory flow (pilot)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000611 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596114629225</dc:date>
+        <rdfs:label xml:lang="en">environmental exposure measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://reality.rehab/ECMO_000612 -->
+
+    <owl:Class rdf:about="http://reality.rehab/ECMO_000612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-5111-7263"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1596115141944</dc:date>
+        <rdfs:label xml:lang="en">organ system measurement</rdfs:label>
     </owl:Class>
     
 
@@ -3000,7 +3229,7 @@
     <!-- http://reality.rehab/ECMO_297 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_297">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
         <rdfs:label>employment history measurement</rdfs:label>
     </owl:Class>
     
@@ -3773,7 +4002,7 @@
     <!-- http://reality.rehab/ECMO_367 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_367">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_521"/>
         <rdfs:label>family history measurement</rdfs:label>
     </owl:Class>
     
@@ -5119,7 +5348,7 @@
     <!-- http://reality.rehab/ECMO_491 -->
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_491">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://reality.rehab/ECMO_000611"/>
         <rdfs:label>sun exposure measurement</rdfs:label>
     </owl:Class>
     
@@ -5455,7 +5684,7 @@
 
     <owl:Class rdf:about="http://reality.rehab/ECMO_521">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
-        <rdfs:label>demographic measurement</rdfs:label>
+        <rdfs:label xml:lang="en">social and personal history observation</rdfs:label>
     </owl:Class>
     
 
@@ -7175,18 +7404,18 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://reality.rehab/NONE">
         <oboInOwl:hasDbXref>UKB:3147</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:90012</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4123</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4101</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:90012</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23318</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:3143</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:22427</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:3064</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23316</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4141</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:3064</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23304</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23314</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4141</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23039</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23314</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:10696</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:21001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4104</oboInOwl:hasDbXref>
@@ -7195,9 +7424,9 @@
         <oboInOwl:hasDbXref>UKB:90013</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23309</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:3144</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:4100</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UKB:23307</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4144</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:23307</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UKB:4100</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:23317</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:22436</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UKB:4120</oboInOwl:hasDbXref>
