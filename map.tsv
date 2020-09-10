@@ -18,7 +18,7 @@ ukb id	ukb label	ecmo iri	ecmo label
 22332	qtc interval	http://purl.obolibrary.org/obo/CMO_0000269	QTC interval
 22333	rr interval	http://purl.obolibrary.org/obo/CMO_0000232	RR interval
 5983	ecg, heart rate	http://purl.obolibrary.org/obo/CMO_0000002	heart rate
-6033	maximum heart rate during fitness test	http://purl.obolibrary.org/obo/CMO_0000023	blood chemistry measurement
+6033	maximum heart rate during fitness test	http://reality.rehab/ECMO_000540	maximum heart rate under fitness test
 2744	birth weight of first child	http://reality.rehab/ECMO_227	birth weight of first child
 22426	average heart rate	http://purl.obolibrary.org/obo/CMO_0000002	heart rate
 22420	lv ejection fraction	http://purl.obolibrary.org/obo/CMO_0000180	ejection fraction
@@ -32,8 +32,8 @@ ukb id	ukb label	ecmo iri	ecmo label
 41284	baby birth weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
 22416	total lean tissue volume	http://purl.obolibrary.org/obo/CMO_0002185	lean tissue volume
 90170	calibration coefficients - mean temperature	http://reality.rehab/ECMO_203	calibration coefficients - mean temperature
-21021	pulse wave arterial stiffness index	http://purl.obolibrary.org/obo/CMO_0000294	pulse
-4207	pulse wave velocity (manual entry)	http://purl.obolibrary.org/obo/CMO_0000294	pulse
+21021	pulse wave arterial stiffness index	http://reality.rehab/ECMO_000542	pulse wave arterial stiffness index
+4207	pulse wave velocity (manual entry)	http://reality.rehab/ECMO_000543	pulse wave velocity
 30600	albumin	http://purl.obolibrary.org/obo/CMO_0000549	blood albumin level
 30630	apolipoprotein a	http://purl.obolibrary.org/obo/CMO_0000519	blood apolipoprotein A level
 30640	apolipoprotein b	http://purl.obolibrary.org/obo/CMO_0000518	blood apolipoprotein level
@@ -44,7 +44,7 @@ ukb id	ukb label	ecmo iri	ecmo label
 30660	direct bilirubin	http://purl.obolibrary.org/obo/CMO_0000123	blood bilirubin level
 30740	glucose	http://purl.obolibrary.org/obo/CMO_0000046	blood glucose level
 30750	glycated haemoglobin (hba1c)	http://purl.obolibrary.org/obo/CMO_0002786	blood hemoglobin A1c level
-30760	hdl cholesterol	http://purl.obolibrary.org/obo/CMO_0000363	serum total cholesterol level
+30760	hdl cholesterol	http://purl.obolibrary.org/obo/CMO_0000361	serum high density lipoprotein cholesterol level
 30790	lipoprotein a	http://purl.obolibrary.org/obo/CMO_0000119	blood lipoprotein level
 30810	phosphate	http://purl.obolibrary.org/obo/CMO_0000504	blood phosphate level
 30850	testosterone	http://purl.obolibrary.org/obo/CMO_0000512	blood testosterone level
@@ -61,7 +61,7 @@ ukb id	ukb label	ecmo iri	ecmo label
 30140	neutrophill count	http://purl.obolibrary.org/obo/CMO_0000030	blood neutrophil count
 30170	nucleated red blood cell count	http://purl.obolibrary.org/obo/CMO_0000025	red blood cell count
 30080	platelet count	http://purl.obolibrary.org/obo/CMO_0000029	platelet count
-30090	platelet crit	http://purl.obolibrary.org/obo/CMO_0000029	platelet count
+30090	platelet crit	http://purl.obolibrary.org/obo/CMO_0001349	plateletcrit
 30110	platelet distribution width	http://purl.obolibrary.org/obo/CMO_0001350	platelet distribution width
 30250	reticulocyte count	http://purl.obolibrary.org/obo/CMO_0003020	total reticulocyte count
 49	hip circumference	http://purl.obolibrary.org/obo/CMO_0000014	hip circumference
@@ -70,89 +70,89 @@ ukb id	ukb label	ecmo iri	ecmo label
 50	standing height	http://purl.obolibrary.org/obo/CMO_0000106	body height
 21002	weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
 3160	weight, manual entry	http://purl.obolibrary.org/obo/CMO_0000012	body weight
-23220	arm bmc (bone mineral content) (left)	http://reality.rehab/ECMO_553	bone mineral content
-23222	arm bmc (bone mineral content) (right)	http://reality.rehab/ECMO_554	bone mineral content
-23221	arm bmd (bone mineral density) (left)	http://reality.rehab/ECMO_555	bone mineral density
-23223	arm bmd (bone mineral density) (right)	http://reality.rehab/ECMO_556	bone mineral density
-23224	arms bmc (bone mineral content)	http://reality.rehab/ECMO_557	bone mineral content
-23225	arms bmd (bone mineral density)	http://reality.rehab/ECMO_558	bone mineral density
-23302	femur lower neck bmd (bone mineral density) (left)	http://reality.rehab/ECMO_559	bone mineral density
-23206	femur lower neck bmd (bone mineral density) (right)	http://reality.rehab/ECMO_560	bone mineral density
-23294	femur lower neck bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_561	bone mineral density
-23207	femur lower neck bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_562	bone mineral density
-23299	femur neck bmd (bone mineral density) (left)	http://reality.rehab/ECMO_563	bone mineral density
-23208	femur neck bmd (bone mineral density) (right)	http://reality.rehab/ECMO_564	bone mineral density
-23300	femur neck bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_565	bone mineral density
-23209	femur neck bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_566	bone mineral density
-23290	femur shaft bmd (bone mineral density) (left)	http://reality.rehab/ECMO_567	bone mineral density
-23210	femur shaft bmd (bone mineral density) (right)	http://reality.rehab/ECMO_568	bone mineral density
-23303	femur shaft bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_569	bone mineral density
-23211	femur shaft bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_570	bone mineral density
-23291	femur total bmd (bone mineral density) (left)	http://reality.rehab/ECMO_571	bone mineral density
-23212	femur total bmd (bone mineral density) (right)	http://reality.rehab/ECMO_572	bone mineral density
-23293	femur total bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_573	bone mineral density
-23213	femur total bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_574	bone mineral density
-23295	femur troch bmd (bone mineral density) (left)	http://reality.rehab/ECMO_575	bone mineral density
-23214	femur troch bmd (bone mineral density) (right)	http://reality.rehab/ECMO_576	bone mineral density
-23298	femur troch bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_577	bone mineral density
-23215	femur troch bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_578	bone mineral density
-23292	femur upper neck bmd (bone mineral density) (left)	http://reality.rehab/ECMO_579	bone mineral density
-23216	femur upper neck bmd (bone mineral density) (right)	http://reality.rehab/ECMO_580	bone mineral density
-23296	femur upper neck bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_581	bone mineral density
-23217	femur upper neck bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_582	bone mineral density
-23297	femur wards bmd (bone mineral density) (left)	http://reality.rehab/ECMO_583	bone mineral density
-23218	femur wards bmd (bone mineral density) (right)	http://reality.rehab/ECMO_584	bone mineral density
-23301	femur wards bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_585	bone mineral density
-23219	femur wards bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_586	bone mineral density
-23306	head bmc (bone mineral content)	http://reality.rehab/ECMO_543	bone mineral content
-23226	head bmd (bone mineral density)	http://reality.rehab/ECMO_544	bone mineral density
-23203	l1-l4 bmc (bone mineral content)	http://reality.rehab/ECMO_589	bone mineral content
-23204	l1-l4 bmd (bone mineral density)	http://reality.rehab/ECMO_590	bone mineral density
-23205	l1-l4 bmd (bone mineral density) t-score	http://reality.rehab/ECMO_591	bone mineral density
-23320	leg bmc (bone mineral content) (left)	http://reality.rehab/ECMO_592	bone mineral content
-23228	leg bmc (bone mineral content) (right)	http://reality.rehab/ECMO_593	bone mineral content
-23227	leg bmd (bone mineral density) (left)	http://reality.rehab/ECMO_594	bone mineral density
-23229	leg bmd (bone mineral density) (right)	http://reality.rehab/ECMO_595	bone mineral density
-23230	legs bmc (bone mineral content)	http://reality.rehab/ECMO_596	bone mineral content
-23231	legs bmd (bone mineral density)	http://reality.rehab/ECMO_597	bone mineral density
-23308	pelvis bmc (bone mineral content)	http://reality.rehab/ECMO_598	bone mineral content
-23232	pelvis bmd (bone mineral density)	http://reality.rehab/ECMO_599	bone mineral density
-23310	ribs bmc (bone mineral content)	http://reality.rehab/ECMO_551	bone mineral content
-23233	ribs bmd (bone mineral density)	http://reality.rehab/ECMO_552	bone mineral density
-23312	spine bmc (bone mineral content)	http://reality.rehab/ECMO_549	bone mineral content
-23234	spine bmd (bone mineral density)	http://reality.rehab/ECMO_550	bone mineral density
-23235	total bmc (bone mineral content)	http://reality.rehab/ECMO_604	bone mineral content
-23236	total bmd (bone mineral density)	http://reality.rehab/ECMO_605	bone mineral density
-23237	total bmd (bone mineral density) (left)	http://reality.rehab/ECMO_606	bone mineral density
-23238	total bmd (bone mineral density) (right)	http://reality.rehab/ECMO_607	bone mineral density
-23239	total bmd (bone mineral density) t-score	http://reality.rehab/ECMO_608	bone mineral density
-23240	trunk bmc (bone mineral content)	http://reality.rehab/ECMO_545	bone mineral content
-23241	trunk bmd (bone mineral density)	http://reality.rehab/ECMO_546	bone mineral density
-23242	trunk bmd (bone mineral density) (left)	http://reality.rehab/ECMO_611	bone mineral density
-23243	trunk bmd (bone mineral density) (right)	http://reality.rehab/ECMO_612	bone mineral density
-3148	heel bone mineral density (bmd)	http://reality.rehab/ECMO_613	bone mineral density
-4105	heel bone mineral density (bmd) (left)	http://reality.rehab/ECMO_614	bone mineral density
-4124	heel bone mineral density (bmd) (right)	http://reality.rehab/ECMO_615	bone mineral density
-78	heel bone mineral density (bmd) t-score, automated	http://reality.rehab/ECMO_616	bone mineral density
-4106	heel bone mineral density (bmd) t-score, automated (left)	http://reality.rehab/ECMO_617	bone mineral density
-4125	heel bone mineral density (bmd) t-score, automated (right)	http://reality.rehab/ECMO_618	bone mineral density
-4138	heel bone mineral density (bmd) t-score, manual entry (left)	http://reality.rehab/ECMO_619	bone mineral density
-4143	heel bone mineral density (bmd) t-score, manual entry (right)	http://reality.rehab/ECMO_620	bone mineral density
-3084	heel bone mineral density (bmd), manual entry	http://reality.rehab/ECMO_621	bone mineral density
-4140	heel bone mineral density (bmd), manual entry (left)	http://reality.rehab/ECMO_622	bone mineral density
-4145	heel bone mineral density (bmd), manual entry (right)	http://reality.rehab/ECMO_623	bone mineral density
+23220	arm bmc (bone mineral content) (left)	http://reality.rehab/ECMO_553	arm bone mineral content left
+23222	arm bmc (bone mineral content) (right)	http://reality.rehab/ECMO_554	arm bone mineral content right
+23221	arm bmd (bone mineral density) (left)	http://reality.rehab/ECMO_555	arm bone mineral density left
+23223	arm bmd (bone mineral density) (right)	http://reality.rehab/ECMO_556	arm bone mineral density right
+23224	arms bmc (bone mineral content)	http://reality.rehab/ECMO_557	arms bone mineral content
+23225	arms bmd (bone mineral density)	http://reality.rehab/ECMO_558	arms bone mineral density
+23302	femur lower neck bmd (bone mineral density) (left)	http://reality.rehab/ECMO_559	femur lower neck bone mineral density left
+23206	femur lower neck bmd (bone mineral density) (right)	http://reality.rehab/ECMO_560	femur lower neck bone mineral density right
+23294	femur lower neck bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_561	femur lower neck bone mineral density t-score left
+23207	femur lower neck bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_562	femur lower neck bone mineral density t-score right
+23299	femur neck bmd (bone mineral density) (left)	http://reality.rehab/ECMO_563	femur neck bone mineral density left
+23208	femur neck bmd (bone mineral density) (right)	http://reality.rehab/ECMO_564	femur neck bone mineral density right
+23300	femur neck bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_565	femur neck bone mineral density t-score left
+23209	femur neck bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_566	femur neck bone mineral density t-score right
+23290	femur shaft bmd (bone mineral density) (left)	http://reality.rehab/ECMO_567	femur shaft bone mineral density left
+23210	femur shaft bmd (bone mineral density) (right)	http://reality.rehab/ECMO_568	femur shaft bone mineral density right
+23303	femur shaft bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_569	femur shaft bone mineral density t-score left
+23211	femur shaft bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_570	femur shaft bone mineral density t-score right
+23291	femur total bmd (bone mineral density) (left)	http://reality.rehab/ECMO_571	femur total bone mineral density left
+23212	femur total bmd (bone mineral density) (right)	http://reality.rehab/ECMO_572	femur total bone mineral density right
+23293	femur total bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_573	femur total bone mineral density t-score left
+23213	femur total bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_574	femur total bone mineral density t-score right
+23295	femur troch bmd (bone mineral density) (left)	http://reality.rehab/ECMO_575	femur troch bone mineral density left
+23214	femur troch bmd (bone mineral density) (right)	http://reality.rehab/ECMO_576	femur troch bone mineral density right
+23298	femur troch bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_577	femur troch bone mineral density t-score left
+23215	femur troch bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_578	femur troch bone mineral density t-score right
+23292	femur upper neck bmd (bone mineral density) (left)	http://reality.rehab/ECMO_579	femur upper neck bone mineral density left
+23216	femur upper neck bmd (bone mineral density) (right)	http://reality.rehab/ECMO_580	femur upper neck bone mineral density right
+23296	femur upper neck bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_581	femur upper neck bone mineral density t-score left
+23217	femur upper neck bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_582	femur upper neck bone mineral density t-score right
+23297	femur wards bmd (bone mineral density) (left)	http://reality.rehab/ECMO_583	femur wards bone mineral density left
+23218	femur wards bmd (bone mineral density) (right)	http://reality.rehab/ECMO_584	femur wards bone mineral density right
+23301	femur wards bmd (bone mineral density) t-score (left)	http://reality.rehab/ECMO_585	femur wards bone mineral density t-score left
+23219	femur wards bmd (bone mineral density) t-score (right)	http://reality.rehab/ECMO_586	femur wards bone mineral density t-score right
+23306	head bmc (bone mineral content)	http://reality.rehab/ECMO_543	head bone mineral content
+23226	head bmd (bone mineral density)	http://reality.rehab/ECMO_544	head bone mineral density
+23203	l1-l4 bmc (bone mineral content)	http://reality.rehab/ECMO_589	l1-l4 bone mineral content
+23204	l1-l4 bmd (bone mineral density)	http://reality.rehab/ECMO_590	l1-l4 bone mineral density
+23205	l1-l4 bmd (bone mineral density) t-score	http://reality.rehab/ECMO_591	l1-l4 bone mineral density t-score
+23320	leg bmc (bone mineral content) (left)	http://reality.rehab/ECMO_592	leg bone mineral content left
+23228	leg bmc (bone mineral content) (right)	http://reality.rehab/ECMO_593	leg bone mineral content right
+23227	leg bmd (bone mineral density) (left)	http://reality.rehab/ECMO_594	leg bone mineral density left
+23229	leg bmd (bone mineral density) (right)	http://reality.rehab/ECMO_595	leg bone mineral density right
+23230	legs bmc (bone mineral content)	http://reality.rehab/ECMO_596	legs bone mineral content
+23231	legs bmd (bone mineral density)	http://reality.rehab/ECMO_597	legs bone mineral density
+23308	pelvis bmc (bone mineral content)	http://reality.rehab/ECMO_598	pelvis bone mineral content
+23232	pelvis bmd (bone mineral density)	http://reality.rehab/ECMO_599	pelvis bone mineral density
+23310	ribs bmc (bone mineral content)	http://reality.rehab/ECMO_551	ribs bone mineral content
+23233	ribs bmd (bone mineral density)	http://reality.rehab/ECMO_552	ribs bone mineral density
+23312	spine bmc (bone mineral content)	http://reality.rehab/ECMO_549	spine bone mineral content
+23234	spine bmd (bone mineral density)	http://reality.rehab/ECMO_550	spine bone mineral density
+23235	total bmc (bone mineral content)	http://reality.rehab/ECMO_604	total bone mineral content
+23236	total bmd (bone mineral density)	http://reality.rehab/ECMO_605	total bone mineral density
+23237	total bmd (bone mineral density) (left)	http://reality.rehab/ECMO_606	total bone mineral density left
+23238	total bmd (bone mineral density) (right)	http://reality.rehab/ECMO_607	total bone mineral density right
+23239	total bmd (bone mineral density) t-score	http://reality.rehab/ECMO_608	total bone mineral density t-score
+23240	trunk bmc (bone mineral content)	http://reality.rehab/ECMO_545	trunk bone mineral content
+23241	trunk bmd (bone mineral density)	http://reality.rehab/ECMO_546	trunk bone mineral density
+23242	trunk bmd (bone mineral density) (left)	http://reality.rehab/ECMO_611	trunk bone mineral density left
+23243	trunk bmd (bone mineral density) (right)	http://reality.rehab/ECMO_612	trunk bone mineral density right
+3148	heel bone mineral density (bmd)	http://reality.rehab/ECMO_613	heel bone mineral density bmd
+4105	heel bone mineral density (bmd) (left)	http://reality.rehab/ECMO_614	heel bone mineral density left
+4124	heel bone mineral density (bmd) (right)	http://reality.rehab/ECMO_615	heel bone mineral density right
+78	heel bone mineral density (bmd) t-score, automated	http://reality.rehab/ECMO_616	heel bone mineral density t-score, automated
+4106	heel bone mineral density (bmd) t-score, automated (left)	http://reality.rehab/ECMO_617	heel bone mineral density t-score, automated left
+4125	heel bone mineral density (bmd) t-score, automated (right)	http://reality.rehab/ECMO_618	heel bone mineral density t-score, automated right
+4138	heel bone mineral density (bmd) t-score, manual entry (left)	http://reality.rehab/ECMO_619	heel bone mineral density t-score, manual entry left
+4143	heel bone mineral density (bmd) t-score, manual entry (right)	http://reality.rehab/ECMO_620	heel bone mineral density t-score, manual entry right
+3084	heel bone mineral density (bmd), manual entry	http://reality.rehab/ECMO_621	heel bone mineral density bmd, manual entry
+4140	heel bone mineral density (bmd), manual entry (left)	http://reality.rehab/ECMO_622	heel bone mineral density bmd, manual entry left
+4145	heel bone mineral density (bmd), manual entry (right)	http://reality.rehab/ECMO_623	heel bone mineral density bmd, manual entry right
 23201	l1-l4 average height	http://purl.obolibrary.org/obo/CMO_0000106	body height
-20022	birth weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
+20022	birth weight	http://purl.obolibrary.org/obo/CMO_0002079	neonatal body weight
 23099	body fat percentage	http://purl.obolibrary.org/obo/CMO_0000302	body fat percentage
 23098	weight	http://purl.obolibrary.org/obo/CMO_0000012	body weight
 22425	cardiac index	http://purl.obolibrary.org/obo/CMO_0002881	cardiac index
 12702	cardiac index during pwa	http://purl.obolibrary.org/obo/CMO_0002881	cardiac index
 12683	end systolic pressure during pwa	http://purl.obolibrary.org/obo/CMO_0000004	systolic blood pressure
 12684	end systolic pressure index during pwa	http://purl.obolibrary.org/obo/CMO_0000004	systolic blood pressure
-90192	temperature average	http://purl.obolibrary.org/obo/CMO_0000015	body temperature
+90192	temperature average	http://reality.rehab/ECMO_000547	average body temperature
 90195	temperature maximum	http://purl.obolibrary.org/obo/CMO_0000015	body temperature
-90194	temperature minimum	http://purl.obolibrary.org/obo/CMO_0000015	body temperature
-90193	temperature standard deviation	http://purl.obolibrary.org/obo/CMO_0000015	body temperature
+90194	temperature minimum	http://reality.rehab/ECMO_000546	minimum body temperature
+90193	temperature standard deviation	http://reality.rehab/ECMO_000549	temperature standard deviation
 20258	fev1/ fvc ratio z-score	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
 3063	forced expiratory volume in 1-second (fev1)	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
 10695	forced expiratory volume in 1-second (fev1) (pilot)	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
@@ -161,9 +161,9 @@ ukb id	ukb label	ecmo iri	ecmo label
 20153	forced expiratory volume in 1-second (fev1), predicted	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
 20154	forced expiratory volume in 1-second (fev1), predicted percentage	http://purl.obolibrary.org/obo/CMO_0000254	forced expiratory volume
 3062	forced vital capacity (fvc)	http://purl.obolibrary.org/obo/CMO_0000222	tidal volume
-10694	forced vital capacity (fvc) (pilot)	http://purl.obolibrary.org/obo/CMO_0000222	tidal volume
-20257	forced vital capacity (fvc) z-score	http://purl.obolibrary.org/obo/CMO_0000222	tidal volume
-20151	forced vital capacity (fvc), best measure	http://purl.obolibrary.org/obo/CMO_0000222	tidal volume
+10694	forced vital capacity (fvc) (pilot)	http://reality.rehab/ECMO_000569	forced vital capacity (fvc) (pilot)
+20257	forced vital capacity (fvc) z-score	http://reality.rehab/ECMO_000568	forced vital capacity (fvc) z-score
+20151	forced vital capacity (fvc), best measure	http://reality.rehab/ECMO_000570	forced vital capacity (fvc), best measure
 30510	creatinine (enzymatic) in urine	http://purl.obolibrary.org/obo/CMO_0000125	urine creatinine level
 30520	potassium in urine	http://purl.obolibrary.org/obo/CMO_0000128	urine potassium level
 30530	sodium in urine	http://purl.obolibrary.org/obo/CMO_0000129	urine sodium level
@@ -247,7 +247,7 @@ ukb id	ukb label	ecmo iri	ecmo label
 23281	total tissue fat percentage	http://reality.rehab/ECMO_119	total tissue fat percentage
 23286	trunk tissue fat percentage	http://reality.rehab/ECMO_120	trunk tissue fat percentage
 23287	trunk total mass	http://reality.rehab/ECMO_121	trunk total mass
-23124	arm fat mass (left)	http://reality.rehab/ECMO_122	arm fat mass (left)
+23124	arm fat mass (left)	http://reality.rehab/ECMO_000550	arm fat mass (left) by impedence
 23120	arm fat mass (right)	http://reality.rehab/ECMO_123	arm fat mass (right)
 23123	arm fat percentage (left)	http://reality.rehab/ECMO_124	arm fat percentage (left)
 23119	arm fat percentage (right)	http://reality.rehab/ECMO_125	arm fat percentage (right)
@@ -261,7 +261,7 @@ ukb id	ukb label	ecmo iri	ecmo label
 23108	impedance of leg (left)	http://reality.rehab/ECMO_132	impedance of leg (left)
 23107	impedance of leg (right)	http://reality.rehab/ECMO_133	impedance of leg (right)
 23106	impedance of total	http://reality.rehab/ECMO_134	impedance of total
-23116	leg fat mass (left)	http://reality.rehab/ECMO_135	leg fat mass (left)
+23116	leg fat mass (left)	http://reality.rehab/ECMO_000555	leg fat mass (left) by impedence
 23112	leg fat mass (right)	http://reality.rehab/ECMO_136	leg fat mass (right)
 23115	leg fat percentage (left)	http://reality.rehab/ECMO_137	leg fat percentage (left)
 23111	leg fat percentage (right)	http://reality.rehab/ECMO_138	leg fat percentage (right)
@@ -273,30 +273,30 @@ ukb id	ukb label	ecmo iri	ecmo label
 23127	trunk fat percentage	http://reality.rehab/ECMO_144	trunk fat percentage
 23129	trunk fat-free mass	http://reality.rehab/ECMO_145	trunk fat-free mass
 23130	trunk predicted mass	http://reality.rehab/ECMO_146	trunk predicted mass
-23100	total fat mass	http://reality.rehab/ECMO_147	total fat mass
+23100	total fat mass	http://reality.rehab/ECMO_000559	total fat mass by impedence
 23101	total fat-free mass	http://reality.rehab/ECMO_148	total fat-free mass
 23102	total water mass	http://reality.rehab/ECMO_149	total water mass
 23245	android fat mass	http://reality.rehab/ECMO_150	android fat mass
 23246	android lean mass	http://reality.rehab/ECMO_151	android lean mass
-23249	arm fat mass (left)	http://reality.rehab/ECMO_152	null
-23253	arm fat mass (right)	http://reality.rehab/ECMO_153	null
+23249	arm fat mass (left)	http://reality.rehab/ECMO_000551	arm fat mass (left) by DXA
+23253	arm fat mass (right)	http://reality.rehab/ECMO_000553	arm fat mass (right) by DXA
 23250	arm lean mass (left)	http://reality.rehab/ECMO_154	arm lean mass (left)
 23254	arm lean mass (right)	http://reality.rehab/ECMO_155	arm lean mass (right)
 23257	arms fat mass	http://reality.rehab/ECMO_156	arms fat mass
 23258	arms lean mass	http://reality.rehab/ECMO_157	arms lean mass
 23262	gynoid fat mass	http://reality.rehab/ECMO_158	gynoid fat mass
 23263	gynoid lean mass	http://reality.rehab/ECMO_159	gynoid lean mass
-23266	leg fat mass (left)	http://reality.rehab/ECMO_160	null
-23270	leg fat mass (right)	http://reality.rehab/ECMO_161	null
+23266	leg fat mass (left)	http://reality.rehab/ECMO_000554	leg fat mass( left) by DXA
+23270	leg fat mass (right)	http://reality.rehab/ECMO_000556	leg fat mass (right) by DXA
 23267	leg lean mass (left)	http://reality.rehab/ECMO_162	leg lean mass (left)
 23271	leg lean mass (right)	http://reality.rehab/ECMO_163	leg lean mass (right)
 23274	legs fat mass	http://reality.rehab/ECMO_164	legs fat mass
 23275	legs lean mass	http://reality.rehab/ECMO_165	legs lean mass
-23278	total fat mass	http://reality.rehab/ECMO_166	null
-23279	total fat-free mass	http://reality.rehab/ECMO_167	null
+23278	total fat mass	http://reality.rehab/ECMO_000558	total fat mass by DXA
+23279	total fat-free mass	http://reality.rehab/ECMO_000560	total fat free mass by DXA
 23280	total lean mass	http://reality.rehab/ECMO_168	total lean mass
 23282	total tissue mass	http://reality.rehab/ECMO_169	total tissue mass
-23284	trunk fat mass	http://reality.rehab/ECMO_170	null
+23284	trunk fat mass	http://reality.rehab/ECMO_000563	trunk fat mass by DXA
 23285	trunk lean mass	http://reality.rehab/ECMO_171	trunk lean mass
 23288	vat (visceral adipose tissue) mass	http://reality.rehab/ECMO_172	vat (visceral adipose tissue) mass
 23289	vat (visceral adipose tissue) volume	http://reality.rehab/ECMO_173	vat (visceral adipose tissue) volume
@@ -638,42 +638,43 @@ ukb id	ukb label	ecmo iri	ecmo label
 41235	spells in hospital	http://reality.rehab/ECMO_531	spells in hospital
 1160	sleep duration	http://reality.rehab/ECMO_533	sleep duration
 30500	microalbumin in urine	http://reality.rehab/ECMO_534	microalbumin in urine
-22436	liver proton density fat fraction (amra)	NONE	null
-22410	total trunk fat volume	NONE	null
+22436	liver proton density fat fraction (amra)	http://reality.rehab/ECMO_000571	liver proton density fat fraction (AMRA)
+22410	total trunk fat volume	http://reality.rehab/ECMO_000572	total trunk fat volume
 90012	overall acceleration average	NONE	null
 90013	standard deviation of acceleration	NONE	null
-21001	body mass index (bmi)	NONE	null
-23313	arm bone area (left)	NONE	null
-23314	arm bone area (right)	NONE	null
-23317	arms combined bone area	NONE	null
-23305	head bone area	NONE	null
+21001	body mass index (bmi)	http://reality.rehab/ECMO_000566	body mass index
+23313	arm bone area (left)	http://reality.rehab/ECMO_000581	arm bone area (left)
+23314	arm bone area (right)	http://reality.rehab/ECMO_000580	arm bone area (right)
+23317	arms combined bone area	http://reality.rehab/ECMO_000585	legs combined bone area
+23305	head bone area	http://reality.rehab/ECMO_000575	head bone area
 23200	l1-l4 area	NONE	null
-23202	l1-l4 average width	NONE	null
-23315	leg bone area (left)	NONE	null
-23316	leg bone area (right)	NONE	null
+23202	l1-l4 average width	http://reality.rehab/ECMO_000588	L1-L4 vertebrae average width
+23315	leg bone area (left)	http://reality.rehab/ECMO_000584	leg bone area (left)
+23316	leg bone area (right)	http://reality.rehab/ECMO_000583	leg bone area (right)
 23318	legs combined bone area	NONE	null
-23307	pelvis bone area	NONE	null
-23309	ribs bone area	NONE	null
-23311	spine bone area	NONE	null
-23304	trunk bone area	NONE	null
-3143	ankle spacing width	NONE	null
-4100	ankle spacing width (left)	NONE	null
-4119	ankle spacing width (right)	NONE	null
-3085	heel broadband ultrasound attenuation (bua), manual entry	NONE	null
-3144	heel broadband ultrasound attenuation, direct entry	NONE	null
+23307	pelvis bone area	http://reality.rehab/ECMO_000576	pelvis bone area
+23309	ribs bone area	http://reality.rehab/ECMO_000577	ribs bone area
+23311	spine bone area	http://reality.rehab/ECMO_000578	spine bone area
+23304	trunk bone area	http://reality.rehab/ECMO_000579	trunk bone area
+3143	ankle spacing width	http://reality.rehab/ECMO_000590	ankle spacing width
+4100	ankle spacing width (left)	http://reality.rehab/ECMO_000593	ankle spacing width (left)
+4119	ankle spacing width (right)	http://reality.rehab/ECMO_000592	ankle spacing width (right)
+3085	heel broadband ultrasound attenuation (bua), manual entry	http://reality.rehab/ECMO_000596	heel broadband ultrasound attenuation (bua), manual entry
+3144	heel broadband ultrasound attenuation, direct entry	http://reality.rehab/ECMO_000597	heel broadband ultrasound attenuation, direct entry
 77	heel bone ultrasound t-score, manual entry	NONE	null
-4141	heel broadband ultrasound attenuation (bua), manual entry (left)	NONE	null
-4146	heel broadband ultrasound attenuation (bua), manual entry (right)	NONE	null
-4101	heel broadband ultrasound attenuation (left)	NONE	null
-4120	heel broadband ultrasound attenuation (right)	NONE	null
-3147	heel quantitative ultrasound index (qui), direct entry	NONE	null
-4104	heel quantitative ultrasound index (qui), direct entry (left)	NONE	null
-4123	heel quantitative ultrasound index (qui), direct entry (right)	NONE	null
-3083	heel quantitative ultrasound index (qui), manual entry	NONE	null
-4139	heel quantitative ultrasound index (qui), manual entry (left)	NONE	null
-4144	heel quantitative ultrasound index (qui), manual entry (right)	NONE	null
-23105	basal metabolic rate	NONE	null
-22427	body surface area	NONE	null
+4141	heel broadband ultrasound attenuation (bua), manual entry (left)	http://reality.rehab/ECMO_000598	heel broadband ultrasound attenuation (bua), manual entry (left)
+4146	heel broadband ultrasound attenuation (bua), manual entry (right)	http://reality.rehab/ECMO_000599	heel broadband ultrasound attenuation (bua), manual entry (right)
+4101	heel broadband ultrasound attenuation (left)	http://reality.rehab/ECMO_000600	heel broadband ultrasound attenuation (left)
+4120	heel broadband ultrasound attenuation (right)	http://reality.rehab/ECMO_000601	heel broadband ultrasound attenuation (right)
+3147	heel quantitative ultrasound index (qui), direct entry	http://reality.rehab/ECMO_000602	heel quantitative ultrasound index (qui), direct entry
+4104	heel quantitative ultrasound index (qui), direct entry (left)	http://reality.rehab/ECMO_000603	heel quantitative ultrasound index (qui), direct entry (left)
+4123	heel quantitative ultrasound index (qui), direct entry (right)	http://reality.rehab/ECMO_000604	heel quantitative ultrasound index (qui), direct entry (right)
+3083	heel quantitative ultrasound index (qui), manual entry	http://reality.rehab/ECMO_000605	heel quantitative ultrasound index (qui), manual entry
+4139	heel quantitative ultrasound index (qui), manual entry (left)	http://reality.rehab/ECMO_000606	heel quantitative ultrasound index (qui), manual entry (left)
+4144	heel quantitative ultrasound index (qui), manual entry (right)	http://reality.rehab/ECMO_000607	heel quantitative ultrasound index (qui), manual entry (right)
+23105	basal metabolic rate	http://reality.rehab/ECMO_000565	basal metabolic rate
+22427	body surface area	http://reality.rehab/ECMO_000567	body surface area
 23039	caga antigen for helicobacter pylori	NONE	null
-3064	peak expiratory flow (pef)	NONE	null
-10696	peak expiratory flow (pef) (pilot)	NONE	null
+3064	peak expiratory flow (pef)	http://reality.rehab/ECMO_000609	peak expiratory flow
+10696	peak expiratory flow (pef) (pilot)	http://reality.rehab/ECMO_000610	peak expiratory flow (pilot)
+2300	?	http://reality.rehab/ECMO_000586	L1-L4 area
